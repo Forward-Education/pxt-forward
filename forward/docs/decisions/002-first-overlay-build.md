@@ -40,4 +40,10 @@ and was compared with a pristine `staticpkg` of the same tag.
 1. **Region lookup (M1).** The console shows `Unable to determine region: Failed to construct 'URL': Invalid base URL` from `initRegionAsync`. It is caught and harmless, and probably comes from the relative `cloud.apiRoot`. Decide in M1 whether to stub the region lookup or set an absolute `apiRoot` per deployment.
 2. **Theme image 404 (M2).** `/static/logo_texture.png` returns 404. It's referenced by upstream's `microbit-light` override CSS and is missing from pristine builds too. It goes away when M2 replaces the colour themes.
 3. **Logos (M2).** The header still shows upstream's micro:bit logo files (`docs/static/logo.*.svg`).
-4. **CI timing.** A clean CI runner has no pxt cache, so its first build compiles every native image in Microsoft's cloud. Set `timeout-minutes` with that in mind until `fwd-compile` replaces it.
+4. **CI timing (updated after the first CI run).** The first run on `main` (`fa595e3`) took 1m 56s on a clean runner.
+   - Each native image came back in about a second. Forward's C++ inputs are byte-identical to upstream's, so the image fingerprints match ones Microsoft's cloud had already built, and the CLI downloads them instead of compiling.
+   - It logged the same 18 native-image lines as the local build.
+   - This is still a build-time dependency on Microsoft's compile service until `fwd-compile` replaces it (plan M1).
+5. **CI annotations.** The translation-scan TypeScript errors above became error annotations through setup-node's `tsc` problem matcher. The workflow now removes that matcher, so they stay in the log only.
+   - The same change moves the actions to their pinned v6 releases (Node 24 runtime), pins `ubuntu-24.04`, and builds with Node 24 LTS.
+   - Upstream builds with Node 20, which reached end of life in April 2026.

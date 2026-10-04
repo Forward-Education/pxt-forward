@@ -92,7 +92,7 @@ These are rough estimates in person-weeks (pw), refined after M0.
 - **Fork setup** (Brian creates the fork; Claude never creates remote repos):
   - Delete the upstream workflows; `pxt-buildpush.yml` has `contents: write`.
   - Add `forward/upstream.json` = `{line: stable9.0, tagGlob: v9.0.*, current: v9.0.12}`.
-  - Add `.github/workflows/fwd-build.yml` (Node 20; Node 26 is untested with pxt 13) deploying to a Cloudflare Pages staging project behind Cloudflare Access.
+  - Add `.github/workflows/fwd-build.yml` (Node 24 LTS on a pinned ubuntu-24.04 runner; upstream still uses the end-of-life Node 20, and the first local build ran fine on Node 26) deploying to a Cloudflare Pages staging project behind Cloudflare Access.
 - **Spikes**, each ending in `forward/docs/decisions/NNN-*.md`:
   1. **Extension delivery.**
      - *Primary option:* a static GitHub-proxy snapshot at `/api/gh/**`. It has to answer:
