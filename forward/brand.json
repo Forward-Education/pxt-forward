@@ -1,0 +1,17 @@
+{
+    "$comment": [
+        "Single source of truth for the product name, domain and URLs. apply-overlay.js fills ${brand.<key>} placeholders in forward/overlay/*.json from this file.",
+        "Launch on code.forwardedu.com. Switch to makecode.forwardedu.com and a MakeCode product name only once Microsoft's permission is in writing (plan M4b).",
+        "Never put 'micro:bit' in the product name or domain. 'Works with BBC micro:bit' is fine in descriptions."
+    ],
+    "productName": "Forward Code",
+    "domain": "code.forwardedu.com",
+    "description": "A Blocks, JavaScript and Python code editor from Forward Education. Works with BBC micro:bit.",
+    "organization": "Forward Education",
+    "organizationUrl": "https://forwardedu.com/",
+    "homeUrl": "https://code.forwardedu.com/",
+    "privacyUrl": "https://forwardedu.com/policies/privacy-policy",
+    "termsOfUseUrl": "https://forwardedu.com/pages/terms-conditions",
+    "supportUrl": "https://help.forwardedu.com/",
+    "githubUrl": "https://github.com/Forward-Education/pxt-forward"
+}

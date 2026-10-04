@@ -1,0 +1,46 @@
+{
+    "$comment": [
+        "Forward's own targetconfig.json. Upstream's version changes almost weekly (extension approvals), so Forward keeps its own and copies only what it wants.",
+        "$inherit: JSON pointers (RFC 6901; a '/' inside a key is written ~1) whose values are copied from upstream targetconfig.json, in this order. A pointer that no longer exists upstream fails the build.",
+        "M0: inherits the micro:bit galleries minus video, microbit-org (licence review pending) and course galleries. M2 replaces them with Forward galleries.",
+        "Forward extensions approved upstream after v9.0.12 (fwd-fifa, ai-vision, ai-voice) are listed here directly."
+    ],
+    "$inherit": [
+        "/packages/approvedRepoLib/jacdac~1pxt-jacdac",
+        "/packages/approvedRepoLib/microsoft~1pxt-jacdac",
+        "/packages/approvedRepoLib/microsoft~1pxt-ws2812b",
+        "/packages/approvedRepoLib/forward-education~1pxt-all-fwd-blocks",
+        "/packages/approvedRepoLib/forward-education~1pxt-fwd-ubit",
+        "/packages/approvedRepoLib/forward-education~1pxt-ceibal-ubit",
+        "/packages/approvedRepoLib/forward-education~1pxt-smart-soldering",
+        "/packages/approvedRepoLib/forward-education~1pxt-smart-solar",
+        "/packages/approvedRepoLib/forward-education~1pxt-smart-hydroponics",
+        "/packages/approvedRepoLib/forward-education~1pxt-climate-action",
+        "/packages/approvedRepoLib/forward-education~1pxt-coding-for-good",
+        "/packages/approvedRepoLib/forward-education~1pxt-openscied",
+        "/packages/approvedRepoLib/climate-action-kits~1pxt-fwd-edu",
+        "/packages/approvedRepoLib/climate-action-kits~1pxt-climate-action-kit-land",
+        "/packages/approvedRepoLib/climate-action-kits~1pxt-climate-action-kit-energy",
+        "/galleries/Tutorials",
+        "/galleries/Tutorials for the new micro:bit (V2)",
+        "/galleries/Games",
+        "/galleries/Radio Games",
+        "/galleries/Fashion",
+        "/galleries/Music",
+        "/galleries/Toys",
+        "/galleries/Science",
+        "/galleries/Tools",
+        "/galleries/Turtle",
+        "/galleries/Blocks to JavaScript",
+        "/galleries/Jacdac",
+        "/galleries/Coding Cards"
+    ],
+    "packages": {
+        "approvedRepoLib": {
+            "forward-education/pxt-fwd-fifa": { "tags": ["Robotics"] },
+            "forward-education/pxt-ai-vision": { "tags": ["Science"] },
+            "forward-education/pxt-ai-voice": { "tags": ["Science"] }
+        },
+        "extensionsToolboxDisallowDelete": []
+    }
+}

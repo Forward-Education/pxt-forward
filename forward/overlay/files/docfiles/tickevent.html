@@ -1,0 +1,5 @@
+<!-- Forward override of pxt-core docfiles/tickevent.html. Upstream queues events and polls every
+     second for Application Insights; with analytics removed that loop would run forever. -->
+<script type="text/javascript">
+    window.pxtTickEvent = window.pxtTickEvent || function () {};
+</script>

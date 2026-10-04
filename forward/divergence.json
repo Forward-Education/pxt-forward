@@ -1,0 +1,32 @@
+{
+    "$comment": [
+        "Ledger of every place Forward's build differs from upstream file content.",
+        "replaced: upstream pxt-microbit files that forward/overlay/files replaces. apply-overlay.js fails if the upstream file's SHA-256 no longer matches, so someone re-checks the replacement.",
+        "overridden: pxt-core files (from the npm package) that a same-named file in the target's docfiles/ overrides. check-invariants.js checks them after npm install.",
+        "Hashes are for pxt-microbit v9.0.12 and pxt-core 13.0.9."
+    ],
+    "replaced": {
+        "docfiles/apptrackingweb.html": {
+            "source": "pxt-microbit",
+            "upstreamSha256": "e9d792f883601edb755c938ebd3fc0bbceadbf754e47e85d8a39ac66acf6b230",
+            "why": "Drops the Usabilla survey embed; keeps the pxtweb.js script the editor needs."
+        }
+    },
+    "overridden": {
+        "docfiles/tracking.html": {
+            "source": "pxt-core",
+            "upstreamSha256": "e08a0e05bbebbc6e115161ac5e081a90a51ee43191b431e5a2eb9c7161463407",
+            "why": "Removes Application Insights from documentation pages; keeps pxtweb.js."
+        },
+        "docfiles/apptracking.html": {
+            "source": "pxt-core",
+            "upstreamSha256": "1b8c29708e18f33de1bedb391d58b5f723ae45c6d9e21359d3fd58d81aaa6aaa",
+            "why": "Removes Application Insights from the editor."
+        },
+        "docfiles/tickevent.html": {
+            "source": "pxt-core",
+            "upstreamSha256": "1b99193c55be268e24f8ea2f90feba6a5100bca8178ff68dfe23bc5b100207fe",
+            "why": "Stops the once-a-second poll for Application Insights."
+        }
+    }
+}

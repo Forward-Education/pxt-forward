@@ -1,0 +1,14 @@
+<!-- Forward override of pxt-core docfiles/apptracking.html (the editor). No analytics.
+     pxtweb.js is loaded by apptrackingweb.html; this gives pxt a telemetry sink that does nothing. -->
+<script type="text/javascript">
+    window.appInsights = window.appInsights || {
+        trackEvent: function () {},
+        trackException: function () {},
+        trackPageView: function () {},
+        trackMetric: function () {},
+        trackTrace: function () {},
+        flush: function () {}
+    };
+    window.loadAppInsights = function () { return false; };
+    pxt.initAnalyticsAsync();
+</script>

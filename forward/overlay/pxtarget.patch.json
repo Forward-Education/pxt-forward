@@ -1,0 +1,52 @@
+{
+    "$comment": "RFC 7386 merge patch over upstream pxtarget.json: null deletes a key, objects merge, arrays replace. ${brand.*} comes from forward/brand.json. Plan M1 lists why each key is set. The micro:bit logos are still upstream's until M2 replaces them.",
+    "name": "${brand.domain}",
+    "title": "${brand.productName}",
+    "description": "${brand.description}",
+    "cloud": {
+        "apiRoot": "/api/",
+        "sharing": false,
+        "publishing": false,
+        "importing": false,
+        "thumbnails": false,
+        "preferredPackages": [],
+        "cloudProviders": null
+    },
+    "simulator": {
+        "messageSimulators": {
+            "robot": null
+        }
+    },
+    "appTheme": {
+        "organization": "${brand.organization}",
+        "organizationUrl": "${brand.organizationUrl}",
+        "organizationLogo": null,
+        "organizationWideLogo": null,
+        "homeUrl": "${brand.homeUrl}",
+        "embedUrl": "${brand.homeUrl}",
+        "shareUrl": null,
+        "privacyUrl": "${brand.privacyUrl}",
+        "termsOfUseUrl": "${brand.termsOfUseUrl}",
+        "logoUrl": "${brand.organizationUrl}",
+        "githubUrl": "${brand.githubUrl}",
+        "docMenu": [
+            { "name": "Support", "path": "${brand.supportUrl}" },
+            { "name": "Reference", "path": "/reference" },
+            { "name": "Hardware", "path": "/device" },
+            { "name": "Forward Education", "path": "${brand.organizationUrl}" }
+        ],
+        "crowdinProject": null,
+        "socialOptions": null,
+        "homeScreenHero": null,
+        "homeScreenHeroGallery": null,
+        "disableLiveTranslations": true,
+        "githubEditor": false,
+        "enabledFeatures": {
+            "aiErrorHelp": null
+        },
+        "immersiveReader": false,
+        "supportedExperiences": [],
+        "qrCode": false,
+        "shareHomepageContent": false
+    }
+}

@@ -1,0 +1,3 @@
+.build/
+# Upstream's root .gitignore ignores every folder named "build"; forward/build/ holds our scripts.
+!build/

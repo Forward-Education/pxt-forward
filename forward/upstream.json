@@ -1,0 +1,7 @@
+{
+    "$comment": "The upstream line this branch tracks. check-pristine.js compares the repo against refs/upstream-tags/<current> (or refs/tags/<current>). Change 'current' only through the upstream-sync PR.",
+    "repo": "https://github.com/microsoft/pxt-microbit",
+    "line": "stable9.0",
+    "tagGlob": "v9.0.*",
+    "current": "v9.0.12"
+}

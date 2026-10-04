@@ -1,0 +1,9 @@
+# Upstream paths left out of the Forward build. One path per line, relative to the repo root.
+# apply-overlay.js fails if a listed path no longer exists upstream, so stale lines get noticed.
+
+# Licence: CC BY-NC-SA 4.0 (NonCommercial). Forward is a commercial publisher.
+docs/courses/ucp-science
+docs/courses/ucp-science.md
+
+# Microsoft's Google Search Console verification file.
+docs/google3d219bbbeb8dbd2f.html
