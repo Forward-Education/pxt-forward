@@ -34,7 +34,8 @@ The plan behind this layout is [docs/PLAN.md](docs/PLAN.md).
 | `scripts/check-pristine.js` | enforces rule 1 |
 | `scripts/build.sh` | pristine check, overlay, npm install, invariants, then `pxt staticpkg` |
 | `scripts/init-fork.sh` | one-time local setup after cloning the fork |
-| `docs/` | the plan and the decision records |
+| `scripts/prepare-pages.sh` | adds Cloudflare Pages control files (`_headers`, `_redirects`, `404.html`) before a deploy |
+| `docs/` | the plan, the deploy runbook (`deploy.md`) and the decision records |
 
 ## Building locally
 

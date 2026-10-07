@@ -1,6 +1,5 @@
 # Forward build: pristine check, overlay, invariants and pxt staticpkg on every push and PR.
-# The staging deploy to Cloudflare Pages is added in M0, once the Pages project and its API
-# token exist.
+# Pushes to main also deploy to the Cloudflare Pages staging project (forward/docs/deploy.md).
 name: fwd-build
 
 on:
@@ -50,3 +49,45 @@ jobs:
           name: forward-editor-${{ github.sha }}
           path: ${{ runner.temp }}/fwd-build/built/packaged
           retention-days: 14
+
+  # Deploys main to the staging Pages project (code-staging.forwardedu.com, behind Cloudflare
+  # Access). Skipped until the repository variable CF_PAGES_PROJECT_STAGING is set, so the build
+  # stays green before Cloudflare is configured. The API token lives only in the staging
+  # environment, which only this job can read.
+  deploy-staging:
+    needs: build
+    if: (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && github.ref == 'refs/heads/main' && vars.CF_PAGES_PROJECT_STAGING != ''
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    environment:
+      name: staging
+      url: https://code-staging.forwardedu.com
+    concurrency:
+      group: deploy-staging
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - uses: actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53 # v6
+        with:
+          name: forward-editor-${{ github.sha }}
+          path: site
+
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: 24
+
+      - name: Add Pages control files
+        run: bash forward/scripts/prepare-pages.sh site staging
+
+      - name: Deploy to Cloudflare Pages
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          WRANGLER_SEND_METRICS: "false"
+        run: >-
+          npx --yes wrangler@4.147.0 pages deploy site
+          --project-name "${{ vars.CF_PAGES_PROJECT_STAGING }}"
+          --branch main
+          --commit-hash "${{ github.sha }}"
+          --commit-dirty=true
