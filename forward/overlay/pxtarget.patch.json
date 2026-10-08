@@ -1,5 +1,5 @@
 {
-    "$comment": "RFC 7386 merge patch over upstream pxtarget.json: null deletes a key, objects merge, arrays replace. ${brand.*} comes from forward/brand.json. Plan M1 lists why each key is set. The micro:bit logos are still upstream's until M2 replaces them.",
+    "$comment": "RFC 7386 merge patch over upstream pxtarget.json: null deletes a key, objects merge, arrays replace. ${brand.*} comes from forward/brand.json. Plan M1 lists why each key is set. The header shows the product name as text (useTextLogo) on the forward-light theme; the micro:bit header logo is removed.",
     "name": "${brand.domain}",
     "title": "${brand.productName}",
     "description": "${brand.description}",
@@ -30,10 +30,22 @@
         "logoUrl": "${brand.organizationUrl}",
         "githubUrl": "${brand.githubUrl}",
         "docMenu": [
-            { "name": "Support", "path": "${brand.supportUrl}" },
-            { "name": "Reference", "path": "/reference" },
-            { "name": "Hardware", "path": "/device" },
-            { "name": "Forward Education", "path": "${brand.organizationUrl}" }
+            {
+                "name": "Support",
+                "path": "${brand.supportUrl}"
+            },
+            {
+                "name": "Reference",
+                "path": "/reference"
+            },
+            {
+                "name": "Hardware",
+                "path": "/device"
+            },
+            {
+                "name": "Forward Education",
+                "path": "${brand.organizationUrl}"
+            }
         ],
         "crowdinProject": null,
         "socialOptions": null,
@@ -47,6 +59,12 @@
         "immersiveReader": false,
         "supportedExperiences": [],
         "qrCode": false,
-        "shareHomepageContent": false
+        "shareHomepageContent": false,
+        "useTextLogo": true,
+        "organizationText": "${brand.productName}",
+        "organizationShortText": "${brand.productName}",
+        "logo": null,
+        "portraitLogo": null,
+        "defaultColorTheme": "forward-light"
     }
 }

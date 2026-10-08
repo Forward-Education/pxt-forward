@@ -42,6 +42,8 @@ jobs:
       - name: Build
         env:
           FWD_BUILD_DIR: ${{ runner.temp }}/fwd-build
+          # Read-only access to public repos for the extension snapshot (gh-snapshot.js).
+          GITHUB_TOKEN: ${{ github.token }}
         run: bash forward/scripts/build.sh
 
       - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6

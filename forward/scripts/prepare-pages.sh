@@ -36,6 +36,10 @@ if [ ! -f "$SITE/404.html" ]; then
 EOF
 fi
 
-echo "/static/*  /docs/static/:splat  200" > "$SITE/_redirects"
+{
+    echo "/static/*  /docs/static/:splat  200"
+    # Extension snapshot rewrites from forward/build/gh-snapshot.js, when present.
+    if [ -f "$SITE/api/redirects.txt" ]; then cat "$SITE/api/redirects.txt"; fi
+} > "$SITE/_redirects"
 
 echo "prepare-pages: wrote _headers ($ENVIRONMENT), _redirects and 404.html in $SITE"

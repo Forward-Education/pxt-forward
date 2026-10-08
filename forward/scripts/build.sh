@@ -24,4 +24,7 @@ node "$ROOT/forward/build/check-invariants.js" --build "$OUT" ${STRICT[@]+"${STR
 # Always the target's own pxt-core, never a globally installed pxt.
 (cd "$OUT" && node node_modules/pxt-core/built/pxt.js staticpkg "$@")
 
+# Forward's extensions as a static GitHub-proxy snapshot under /api/gh (forward/extensions.json).
+node "$ROOT/forward/build/gh-snapshot.js" "$OUT/built/packaged"
+
 echo "build.sh: static editor at $OUT/built/packaged"

@@ -1,10 +1,10 @@
 {
     "$comment": [
         "Single source of truth for the product name, domain and URLs. apply-overlay.js fills ${brand.<key>} placeholders in forward/overlay/*.json from this file.",
-        "Launch on code.forwardedu.com. Switch to makecode.forwardedu.com and a MakeCode product name only once Microsoft's permission is in writing (plan M4b).",
+        "Staging uses \"Forward Make Code\" (Brian, 2026-10-07). Microsoft treats MakeCode as its trademark, so confirm the name with Microsoft (plan M0) before production. Switch the domain to makecode.forwardedu.com only once permission is in writing (plan M4b).",
         "Never put 'micro:bit' in the product name or domain. 'Works with BBC micro:bit' is fine in descriptions."
     ],
-    "productName": "Forward Code",
+    "productName": "Forward Make Code",
     "domain": "code.forwardedu.com",
     "description": "A Blocks, JavaScript and Python code editor from Forward Education. Works with BBC micro:bit.",
     "organization": "Forward Education",

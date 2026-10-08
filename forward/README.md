@@ -30,6 +30,8 @@ The plan behind this layout is [docs/PLAN.md](docs/PLAN.md).
 | `overlay/exclude.txt` | upstream paths left out of the build (licence or Microsoft-only content) |
 | `divergence.json` | ledger of replaced and overridden files, with the upstream SHA-256 each was written against |
 | `build/apply-overlay.js` | writes the effective target into a separate build copy (default `forward/.build/`) |
+| `extensions.json` | extensions served from the editor's origin, pinned by tag |
+| `build/gh-snapshot.js` | writes the static GitHub-proxy snapshot of those extensions under `/api/gh` |
 | `build/check-invariants.js` | checks the effective target: id, cloud features off, hosts still referenced |
 | `scripts/check-pristine.js` | enforces rule 1 |
 | `scripts/build.sh` | pristine check, overlay, npm install, invariants, then `pxt staticpkg` |

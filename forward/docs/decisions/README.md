@@ -18,7 +18,7 @@ Date: YYYY-MM-DD. Status: proposed | accepted | superseded by NNN.
 
 ## Open in M0 (from ../PLAN.md)
 
-1. **Extension delivery.** A static GitHub-proxy snapshot at `/api/gh/**`, or bundling.
+1. **Extension delivery.** A static GitHub-proxy snapshot at `/api/gh/**`, or bundling. **Settled:** [004](004-extension-delivery-static-snapshot.md), the static snapshot.
 2. **Build images.** `fwd-codal` (V2) and `fwd-yotta` (V1): offline, reproducible builds.
 3. **Simulator on a separate origin.** A post-build rewrite of `simUrl`.
 4. **Translations.** A `--locs-src` snapshot, with live translations off.

@@ -1,0 +1,72 @@
+/* Forward Light: based on upstream microbit-light-overrides.css (v9.0.12), without its
+   textured toolbar background, plus the Forward header rule at the end. */
+
+#simulator .editor-sidebar .filemenu {
+    --pxt-focus-border: yellow;
+}
+
+/* Lots of specificity to override another !important rule */
+#simulator #editorSidebar .simtoolbar .ui.icon.tiny.buttons .ui.button.play-button.play .icon.play {
+    color: var(--pxt-colors-green-background) !important;
+}
+
+.theme-preview-forward-light .theme-preview-sim-button {
+    background-color: var(--pxt-neutral-background2) !important;
+}
+
+/*
+ * Adjustments to match the original micro:bit theme
+ */
+path.blocklyFlyoutBackground {
+    fill: #4b4949 !important;
+}
+
+.monacoFlyout {
+    background: #4b4949 !important;
+}
+
+#simulator .editor-sidebar .filemenu {
+    background: var(--pxt-secondary-background);
+    color: var(--pxt-secondary-foreground);
+}
+
+#simulator .editor-sidebar .filemenu .item:hover, #simulator .editor-sidebar .filemenu .link.item:hover {
+    background: var(--pxt-secondary-background-hover) !important;
+    color: var(--pxt-secondary-foreground-hover) !important;
+}
+
+#simulator .ui.button.play-button .icon.play {
+    color: var(--pxt-colors-green-background) !important;
+}
+
+.simtoolbar .ui.button.icon {
+    background-color: #e0e1e2;
+    color: rgba(0,0,0,.6);
+}
+
+.simtoolbar .ui.button.icon:hover {
+    filter: none;
+    background-color: rgb(224, 225, 226);
+}
+
+#serialPreview .label {
+    border-color: var(--pxt-primary-background);
+}
+
+.ui.dimmer {
+    /* Matches color specified in dimmer.variables, but with partial transparency */
+    background-color: rgba(52, 84, 209, 0.4) !important;
+}
+
+/*
+ * Forward: the header shows only the product name (appTheme.useTextLogo + organizationText).
+ * The organization block would repeat it, so hide it.
+ */
+#mainmenu .ui.item.logo.organization {
+    display: none !important;
+}
+
+/* ...and the divider pxt draws between the organization block and the name. */
+#mainmenu .ui.item.logo.brand::before {
+    display: none !important;
+}

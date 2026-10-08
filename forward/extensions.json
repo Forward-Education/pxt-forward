@@ -1,0 +1,16 @@
+{
+    "$comment": [
+        "Extensions served from the editor's own origin as a static GitHub-proxy snapshot (/api/gh/...).",
+        "forward/build/gh-snapshot.js fetches each root at its pinned tag, follows every github: dependency, and writes what the editor would otherwise ask makecode.com for.",
+        "Pin tags, never branches. 'unpinned' gives the tag to use when a dependency names a repo without one (pxt-jacdac's service packages do this)."
+    ],
+    "roots": [
+        "github:Forward-Education/pxt-all-fwd-blocks#v2.1.2",
+        "github:Forward-Education/pxt-fwd-fifa#v0.1.7",
+        "github:Forward-Education/pxt-fwd-ubit#v1.0.1",
+        "github:Forward-Education/pxt-ceibal-ubit#v1.4.0"
+    ],
+    "unpinned": {
+        "jacdac/pxt-jacdac": "v1.9.42"
+    }
+}

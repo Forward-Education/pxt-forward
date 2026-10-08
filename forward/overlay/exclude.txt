@@ -7,3 +7,7 @@ docs/courses/ucp-science.md
 
 # Microsoft's Google Search Console verification file.
 docs/google3d219bbbeb8dbd2f.html
+
+# Replaced by forward-light (forward/overlay/files/theme/color-themes/).
+theme/color-themes/microbit-light.json
+theme/color-themes/overrides/microbit-light-overrides.css
