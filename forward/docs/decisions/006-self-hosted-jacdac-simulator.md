@@ -44,3 +44,4 @@ Step 2 (plan M3) replaces the pinned commit with a build of jacdac-docs' `makeco
   - The workflow uses Node 14 on x86, as upstream does. jacdac-docs' Gatsby 4 dependencies have no prebuilt native binaries for newer Node.
   - It can't be reproduced on Apple silicon: an arm64 container can't build `@parcel/watcher`, and under x86 emulation Gatsby segfaults.
   - Not yet run in CI.
+- **Part 2 (product ids): parked.** Real hardware compatibility comes first, and simulated devices keep the generic widgets. The analysis, jacdac-ts patch and test are kept in `forward/docs/upstream/jacdac-simulated-product-ids.md`.

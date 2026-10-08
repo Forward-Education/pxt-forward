@@ -1,0 +1,128 @@
+diff --git a/src/jdom/clients/rolemanagerclient.ts b/src/jdom/clients/rolemanagerclient.ts
+index cb081e8b..929ce4ab 100644
+--- a/src/jdom/clients/rolemanagerclient.ts
++++ b/src/jdom/clients/rolemanagerclient.ts
+@@ -6,12 +6,14 @@ import {
+ import { JDBus } from "../bus"
+ import {
+     CHANGE,
++    ControlReg,
+     DEVICE_ANNOUNCE,
+     ERROR,
+     EVENT,
+     RoleManagerCmd,
+     ROLE_MANAGER_POLL,
+     ROLE_QUERY_DEVICE,
++    ROLE_QUERY_PRODUCT,
+     ROLE_QUERY_SELF_DEVICE,
+     ROLE_QUERY_SERVICE_INDEX,
+     ROLE_QUERY_SERVICE_OFFSET,
+@@ -24,6 +26,8 @@ import { Packet } from "../packet"
+ import { InPipeReader } from "../pipes"
+ import { JDService } from "../service"
+ import { JDServiceClient } from "../serviceclient"
++import type { JDServerServiceProvider } from "../servers/serverserviceprovider"
++import type { JDServiceProvider } from "../servers/serviceprovider"
+ import {
+     isConstRegister,
+     isInfrastructure,
+@@ -83,16 +87,46 @@ export function resolveRoleService(bus: JDBus, role: Role) {
+     return service
+ }
+ 
++function roleQueryArg(role: Role, key: string) {
++    return role.query
++        ?.split("&")
++        .map(a => a.split("=", 2))
++        .find(a => a[0]?.trim().toLowerCase() === key)?.[1]
++}
++
+ function parentName(bus: JDBus, role: Role) {
+-    if (role.query) {
+-        const args = role.query.split("&").map(a => a.split("=", 2))
+-        const deviceId = args.find(a => a[0] === ROLE_QUERY_DEVICE)?.[1]
+-        if (deviceId === ROLE_QUERY_SELF_DEVICE) return bus.selfDeviceId
+-        return deviceId
+-    }
++    const deviceId = roleQueryArg(role, ROLE_QUERY_DEVICE)
++    if (deviceId === ROLE_QUERY_SELF_DEVICE) return bus.selfDeviceId
++    if (deviceId) return deviceId
++    // roles named "parent/child" share a device, with or without a query (e.g. ?srvo=0)
+     return role.name.split("/", 1)[0]
+ }
+ 
++/**
++ * Product identifier hint of a role (?prod=0x...), or undefined.
++ * @param role
++ */
++export function roleProductIdentifier(role: Role): number | undefined {
++    const value = roleQueryArg(role, ROLE_QUERY_PRODUCT)
++    if (!value) return undefined
++    const id = parseInt(value)
++    return isNaN(id) || id <= 0 ? undefined : id >>> 0
++}
++
++function setSimulatorProductIdentifier(
++    provider: JDServiceProvider,
++    roles: Role[],
++) {
++    const productIdentifier = roles
++        .map(roleProductIdentifier)
++        .find(id => id !== undefined)
++    if (productIdentifier === undefined) return
++    const control = (provider as JDServerServiceProvider).controlService
++    control
++        ?.register(ControlReg.ProductIdentifier)
++        ?.setValues([productIdentifier])
++}
++
+ function parseRole(role: Role): ServiceProviderOptions {
+     const specification = serviceSpecificationFromClassIdentifier(
+         role.serviceClass
+@@ -393,15 +427,16 @@ export class RoleManagerClient extends JDServiceClient {
+             if (!parent) {
+                 todo.forEach(t => {
+                     const serviceOptions = parseRole(t.role)
+-                    addServiceProvider(
++                    const provider = addServiceProvider(
+                         this.bus,
+                         t.hostDefinition,
+                         serviceOptions ? [serviceOptions] : undefined
+                     )
++                    setSimulatorProductIdentifier(provider, [t.role])
+                 })
+             } else {
+                 // spawn all services into 1
+-                addServiceProvider(
++                const provider = addServiceProvider(
+                     this.bus,
+                     {
+                         name: "",
+@@ -413,6 +448,10 @@ export class RoleManagerClient extends JDServiceClient {
+                     },
+                     todo.map(t => parseRole(t.role)).filter(q => !!q)
+                 )
++                setSimulatorProductIdentifier(
++                    provider,
++                    todo.map(t => t.role)
++                )
+             }
+         })
+     }
+diff --git a/src/jdom/constants.ts b/src/jdom/constants.ts
+index 32beded7..2c98be6a 100644
+--- a/src/jdom/constants.ts
++++ b/src/jdom/constants.ts
+@@ -247,6 +247,12 @@ export const ERROR_NO_ACK = "no-ack"
+ export const ROLE_QUERY_SERVICE_OFFSET = "srvo"
+ export const ROLE_QUERY_SERVICE_INDEX = "srvi"
+ export const ROLE_QUERY_DEVICE = "dev"
++/**
++ * Role query key giving the product identifier of the device the role expects, e.g. ?prod=0x378f7673.
++ * Simulators started for the role report it, so dashboards can show product-specific widgets.
++ * Device-side role binding ignores it.
++ */
++export const ROLE_QUERY_PRODUCT = "prod"
+ export const ROLE_QUERY_SELF_DEVICE = "self"
+ 
+ // eslint-disable-next-line prefer-const

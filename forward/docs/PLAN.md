@@ -77,7 +77,7 @@ These are rough estimates in person-weeks (pw), refined after M0.
 | M0 | Foundations and spikes | ~4 pw | Fork builds v9.0.12 on staging; five decision records written |
 | M1 | Independent editor on staging | 8-10 pw | Zero off-host requests in scripted flows; uncached C++ compiles through `fwd-compile` |
 | M2 | Reskin and content | 2-3 pw + design | Brand sign-off; screenshot baselines; trademark checklist passes |
-| M3 | Jacdac simulator with Forward widgets | 4.5-7 pw | Each Forward module shows its Forward widget when simulated |
+| M3 | Jacdac simulator with Forward widgets | 4.5-7 pw | Each connected Forward module shows its Forward widget |
 | M4 | **Public launch** | 2.5-3.5 pw | Staging green 7 days; hardware bench passes; go-live checklist |
 | (M4b) | Domain move to `makecode.forwardedu.com`, only if launch comes before Microsoft's permission | 1-1.5 pw | Projects move across in one click; old domain redirects after a term |
 | M5 | Forward simulators (UBit, FIFA, custom services) | 8-11 pw | UBit sim speaks Spanish; "drive 20 cm" within 5% |
@@ -197,7 +197,7 @@ These are rough estimates in person-weeks (pw), refined after M0.
   - CI checks out that SHA with submodules (fixing an ordering bug in upstream's `buildsim.yml`), builds on Node 18 (`builddocsts`, `distdocs`), and prunes videos, originals, source maps and device pages: 142 MB → about 30 MB.
   - Turn off the `gatsby-plugin-offline` service worker, scan for external references, and run a Playwright smoke test.
   - Output lands at `/simx/jacdac/pxt-jacdac/-/` on the simulator origin; the targetconfig key stays `jacdac/pxt-jacdac`.
-- **Forward widgets for simulated devices.** Today simulated devices report product id 0, so students see the generic widgets.
+- **Forward widgets for simulated devices (parked 2026-10-08; hardware first).** Today simulated devices report product id 0, so students see the generic widgets. Analysis and patch: `forward/docs/upstream/jacdac-simulated-product-ids.md`.
   - Tag simulated devices bound to Forward roles with their product id (`src/components/dashboard/DashboardFwdEduWidgets.tsx`).
   - Register a FIFA brain provider (3 servos, relay and DC voltage, `0x37a2f1fb`; its catalog entry merged 2026-09-28) so its roles group into one device.
 - **Upstream PRs:**
