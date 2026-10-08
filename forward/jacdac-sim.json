@@ -1,0 +1,9 @@
+{
+    "$comment": [
+        "The Jacdac simulator the editor shows next to the board, served at /simx/jacdac/pxt-jacdac/-/ (forward/build/jacdac-sim.js).",
+        "Now: the build Microsoft's makecode.microbit.org pins (pxt-jacdac gh-pages at 1804c0b3, October 2025), self-hosted.",
+        "Next (plan M3): a build from jacdac-docs' makecodesim branch that includes Forward's device widgets; only this file changes."
+    ],
+    "repo": "https://github.com/jacdac/pxt-jacdac",
+    "sha": "1804c0b3d2976935c476f3b6d425b554a20fa814"
+}

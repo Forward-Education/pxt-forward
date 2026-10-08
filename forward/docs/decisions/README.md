@@ -28,3 +28,4 @@ Also recorded:
 - [002](002-first-overlay-build.md): results and follow-ups from the first overlay build.
 - [003](003-cloudflare-pages-hosting.md): Cloudflare Pages hosting, with one project per environment, real 404s and the `/static` rewrite.
 - [005](005-prebuilt-jacdac-native-images.md): pre-built native images so Download works for projects using Jacdac.
+- [006](006-self-hosted-jacdac-simulator.md): the Jacdac simulator served from our origin, ahead of the Forward-widget build.

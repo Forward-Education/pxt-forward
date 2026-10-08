@@ -28,6 +28,9 @@ node "$ROOT/forward/build/check-invariants.js" --build "$OUT" ${STRICT[@]+"${STR
 # works for projects using Jacdac.
 node "$ROOT/forward/build/prebuild-natives.js" "$OUT" "$OUT/built/packaged"
 
+# The Jacdac simulator, self-hosted at /simx/jacdac/pxt-jacdac/-/ (forward/jacdac-sim.json).
+node "$ROOT/forward/build/jacdac-sim.js" "$OUT/built/packaged"
+
 # Forward's extensions as a static GitHub-proxy snapshot under /api/gh (forward/extensions.json).
 node "$ROOT/forward/build/gh-snapshot.js" "$OUT/built/packaged"
 
