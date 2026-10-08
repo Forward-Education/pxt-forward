@@ -32,6 +32,8 @@ The plan behind this layout is [docs/PLAN.md](docs/PLAN.md).
 | `build/apply-overlay.js` | writes the effective target into a separate build copy (default `forward/.build/`) |
 | `extensions.json` | extensions served from the editor's origin, pinned by tag |
 | `build/gh-snapshot.js` | writes the static GitHub-proxy snapshot of those extensions under `/api/gh` |
+| `native-combos.json` | dependency sets whose native images are pre-built into `/hexcache` |
+| `build/prebuild-natives.js` | pre-builds those images so Download works without a compile service |
 | `build/check-invariants.js` | checks the effective target: id, cloud features off, hosts still referenced |
 | `scripts/check-pristine.js` | enforces rule 1 |
 | `scripts/build.sh` | pristine check, overlay, npm install, invariants, then `pxt staticpkg` |

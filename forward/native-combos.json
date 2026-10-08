@@ -1,0 +1,31 @@
+{
+    "$comment": [
+        "Dependency sets whose native images are pre-built into /hexcache (forward/build/prebuild-natives.js).",
+        "Only packages with C/C++ or build settings change the image: core, jacdac and some bundled libraries (datalogger via flashlog, audio-recording, bitmap). TypeScript-only extensions (all fwd-* packages, jacdac-* services, ws2812b) don't.",
+        "Every new project starts with core, radio and microphone. Forward's released extensions use pxt-jacdac v1.9.41 and v1.9.42, so both are built."
+    ],
+    "combos": {
+        "jacdac-1.9.42": {
+            "radio": "*",
+            "microphone": "*",
+            "jacdac": "github:jacdac/pxt-jacdac#v1.9.42"
+        },
+        "jacdac-1.9.41": {
+            "radio": "*",
+            "microphone": "*",
+            "jacdac": "github:jacdac/pxt-jacdac#v1.9.41"
+        },
+        "jacdac-1.9.42-datalogger": {
+            "radio": "*",
+            "microphone": "*",
+            "datalogger": "*",
+            "jacdac": "github:jacdac/pxt-jacdac#v1.9.42"
+        },
+        "jacdac-1.9.41-datalogger": {
+            "radio": "*",
+            "microphone": "*",
+            "datalogger": "*",
+            "jacdac": "github:jacdac/pxt-jacdac#v1.9.41"
+        }
+    }
+}
