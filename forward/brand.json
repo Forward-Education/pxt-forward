@@ -13,5 +13,7 @@
     "privacyUrl": "https://forwardedu.com/policies/privacy-policy",
     "termsOfUseUrl": "https://forwardedu.com/pages/terms-conditions",
     "supportUrl": "https://help.forwardedu.com/",
-    "githubUrl": "https://github.com/Forward-Education/pxt-forward"
+    "githubUrl": "https://github.com/Forward-Education/pxt-forward",
+    "headerName": "MakeCode",
+    "headerLogo": "./static/forward/forward-logo-white.png"
 }

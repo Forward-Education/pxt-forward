@@ -1,5 +1,5 @@
 {
-    "$comment": "RFC 7386 merge patch over upstream pxtarget.json: null deletes a key, objects merge, arrays replace. ${brand.*} comes from forward/brand.json. Plan M1 lists why each key is set. The header shows the product name as text (useTextLogo) on the forward-light theme; the micro:bit header logo is removed.",
+    "$comment": "RFC 7386 merge patch over upstream pxtarget.json: null deletes a key, objects merge, arrays replace. ${brand.*} comes from forward/brand.json. Plan M1 lists why each key is set. Header: the Forward logo in the organization slot, then the header name as text (useTextLogo) in Poppins, on the forward-light theme. The micro:bit logo is removed.",
     "name": "${brand.domain}",
     "title": "${brand.productName}",
     "description": "${brand.description}",
@@ -20,8 +20,8 @@
     "appTheme": {
         "organization": "${brand.organization}",
         "organizationUrl": "${brand.organizationUrl}",
-        "organizationLogo": null,
-        "organizationWideLogo": null,
+        "organizationLogo": "${brand.headerLogo}",
+        "organizationWideLogo": "${brand.headerLogo}",
         "homeUrl": "${brand.homeUrl}",
         "embedUrl": "${brand.homeUrl}",
         "shareUrl": null,
@@ -61,8 +61,8 @@
         "qrCode": false,
         "shareHomepageContent": false,
         "useTextLogo": true,
-        "organizationText": "${brand.productName}",
-        "organizationShortText": "${brand.productName}",
+        "organizationText": "${brand.headerName}",
+        "organizationShortText": "${brand.headerName}",
         "logo": null,
         "portraitLogo": null,
         "defaultColorTheme": "forward-light"

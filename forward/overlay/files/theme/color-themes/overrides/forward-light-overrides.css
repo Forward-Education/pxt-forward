@@ -59,14 +59,33 @@ path.blocklyFlyoutBackground {
 }
 
 /*
- * Forward: the header shows only the product name (appTheme.useTextLogo + organizationText).
- * The organization block would repeat it, so hide it.
+ * Forward header: the Forward logo (organization slot), then the header name in Poppins.
+ * Poppins is self-hosted (SIL Open Font License, docs/static/forward/fonts/Poppins-OFL.txt).
  */
-#mainmenu .ui.item.logo.organization {
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("/docs/static/forward/fonts/poppins-latin-600-normal.woff2") format("woff2");
+}
+
+#mainmenu .ui.item.logo.brand .name,
+#mainmenu .ui.item.logo.brand .name-short {
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 600 !important;
+}
+
+/* The divider pxt draws between the organization logo and the name. */
+#mainmenu .ui.item.logo.brand::before {
     display: none !important;
 }
 
-/* ...and the divider pxt draws between the organization block and the name. */
-#mainmenu .ui.item.logo.brand::before {
-    display: none !important;
+/* Keep "MakeCode" 16px from the logo on every screen (pxt leaves room for the divider:
+   a margin on the home screen, button padding in the editor). */
+#mainmenu .ui.item.logo.brand .name {
+    margin-left: 0 !important;
+}
+#mainmenu .ui.item.logo.brand .name.menu-button {
+    padding-left: 0 !important;
 }
