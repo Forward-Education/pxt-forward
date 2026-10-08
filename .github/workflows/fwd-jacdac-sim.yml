@@ -1,0 +1,65 @@
+# Builds the Jacdac simulator from a pinned jacdac-docs commit (makecodesim branch, which carries
+# Forward's device widgets) and publishes it as a release asset on this repo. The editor build
+# downloads it by the URL and SHA-256 recorded in forward/jacdac-sim.json.
+#
+# Run it from the Actions tab with a jacdac-docs commit, then copy the URL and hash it prints into
+# forward/jacdac-sim.json in a PR.
+name: fwd-jacdac-sim
+
+on:
+  workflow_dispatch:
+    inputs:
+      jacdac_docs_sha:
+        description: "jacdac-docs commit to build (full SHA, makecodesim branch)"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      # Node 14, as upstream's buildsim.yml uses: jacdac-docs' Gatsby 4 dependencies (an old
+      # @parcel/watcher) only have prebuilt binaries for it. On Node 18 they need Python 2 to compile.
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: 14
+
+      - name: Check the input
+        env:
+          SHA: ${{ inputs.jacdac_docs_sha }}
+        run: |
+          [[ "$SHA" =~ ^[0-9a-f]{40}$ ]] || { echo "jacdac_docs_sha must be a full 40-character SHA"; exit 1; }
+
+      - name: Build the simulator
+        env:
+          SHA: ${{ inputs.jacdac_docs_sha }}
+        run: |
+          npm install -g yarn@1
+          bash forward/build/build-jacdac-sim.sh "$SHA" "$RUNNER_TEMP/jacdac-sim.tgz"
+
+      - name: Publish as a release asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SHA: ${{ inputs.jacdac_docs_sha }}
+        run: |
+          TAG="jacdac-sim-${SHA:0:12}"
+          HASH="$(sha256sum "$RUNNER_TEMP/jacdac-sim.tgz" | cut -d' ' -f1)"
+          gh release create "$TAG" "$RUNNER_TEMP/jacdac-sim.tgz" \
+            --title "Jacdac simulator (jacdac-docs ${SHA:0:12})" \
+            --notes "Built from jacdac/jacdac-docs@${SHA} by fwd-jacdac-sim.yml. SHA-256 ${HASH}." \
+            --target "${GITHUB_SHA}" --prerelease
+          URL="https://github.com/${GITHUB_REPOSITORY}/releases/download/${TAG}/jacdac-sim.tgz"
+          {
+            echo "### Jacdac simulator built"
+            echo
+            echo "Put this in forward/jacdac-sim.json:"
+            echo
+            echo '```json'
+            echo "\"tarball\": { \"url\": \"${URL}\", \"sha256\": \"${HASH}\", \"jacdacDocs\": \"${SHA}\" }"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

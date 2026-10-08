@@ -1,9 +1,9 @@
 {
     "$comment": [
         "The Jacdac simulator the editor shows next to the board, served at /simx/jacdac/pxt-jacdac/-/ (forward/build/jacdac-sim.js).",
-        "Now: the build Microsoft's makecode.microbit.org pins (pxt-jacdac gh-pages at 1804c0b3, October 2025), self-hosted.",
-        "Next (plan M3): a build from jacdac-docs' makecodesim branch that includes Forward's device widgets; only this file changes."
+        "Now: pxt-jacdac gh-pages at 2c550e0e, built upstream on 2026-10-06 from jacdac-docs' makecodesim branch. It includes Forward's device widgets (makecode.microbit.org still pins 1804c0b3, October 2025).",
+        "To ship a build that is ahead of upstream (e.g. from a Forward branch), run .github/workflows/fwd-jacdac-sim.yml and replace repo/sha with the \"tarball\" entry it prints."
     ],
     "repo": "https://github.com/jacdac/pxt-jacdac",
-    "sha": "1804c0b3d2976935c476f3b6d425b554a20fa814"
+    "sha": "2c550e0e80734c57eec5e37808d4103df3b3bd43"
 }
