@@ -1,0 +1,2247 @@
+{
+  "https://github.com/Jessica-forwardedu/pxt-fwd-edu/assets/136100569/d25249a4-4f21-41ff-8e30-f4d36f6e7288": {
+    "file": "/static/forward/learn/e55e5aa6de042b3d.webp",
+    "bytes": 39752
+  },
+  "https://i0.wp.com/learn.forwardedu.com/wp-content/uploads/2024/09/project-step-counter.webp?resize=1170%2C780&ssl=1": {
+    "file": "/static/forward/learn/d1a49049f7cc981a.webp",
+    "bytes": 14628
+  },
+  "https://latex.codecogs.com/svg.image?\\frac{1.5\\;seconds}{1\\;\\cancel{loop}}\\times\\frac{1\\;\\cancel{loop}}{1\\;seed}=\\frac{1.5\\;seconds}{seed}": {
+    "file": "/static/forward/learn/078c805bb771c384.svg",
+    "bytes": 9754
+  },
+  "https://latex.codecogs.com/svg.image?1000\\;\\cancel{seeds}\\times\\frac{1.5\\;seconds}{1\\;\\cancel{seed}}=1500\\;seconds": {
+    "file": "/static/forward/learn/c6de5a5cf6f18380.svg",
+    "bytes": 8504
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2024/06/moisture-sensor-thumbnail.webp": {
+    "file": "/static/forward/learn/06f6aa907612f6f4.webp",
+    "bytes": 8120
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2024/11/dial-sensor-thumbnail.webp": {
+    "file": "/static/forward/learn/3ac172abf6abcfba.webp",
+    "bytes": 8178
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2024/11/line-sensor-thumbnail.webp": {
+    "file": "/static/forward/learn/64a409d5cac13b15.webp",
+    "bytes": 6704
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2024/11/project-compass-thumbnail.webp": {
+    "file": "/static/forward/learn/603d71184a610613.webp",
+    "bytes": 12672
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2024/11/project-hot-cold-game-thumbnail-1.webp": {
+    "file": "/static/forward/learn/cad265373db34092.webp",
+    "bytes": 14828
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2024/11/project-hydration-alert-thumbnail.webp": {
+    "file": "/static/forward/learn/e4a3d6beb2ad1a65.webp",
+    "bytes": 12660
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2024/11/project-kick-power-thumbnail.webp": {
+    "file": "/static/forward/learn/02311837dc238f3f.webp",
+    "bytes": 21370
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2024/11/project-RPS-thumbnail.webp": {
+    "file": "/static/forward/learn/806e567c18cbd41c.webp",
+    "bytes": 14010
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2024/11/project-step-counter-thumbnail.webp": {
+    "file": "/static/forward/learn/a56cec89cd174ac6.webp",
+    "bytes": 9462
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2024/11/project-thermometer-thumbnail-1.webp": {
+    "file": "/static/forward/learn/a4de7f7936a413f2.webp",
+    "bytes": 20486
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2024/11/project-waterbottle-alert-thumbnail.webp": {
+    "file": "/static/forward/learn/b70daedcecd0cf16.webp",
+    "bytes": 8376
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2024/11/water-pump-thumbnail.webp": {
+    "file": "/static/forward/learn/0da3ec6d409d8d47.webp",
+    "bytes": 11024
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2025/05/Temp-Probe-Tutorial-Thumbnail.jpg": {
+    "file": "/static/forward/learn/f079a22fe20609e0.webp",
+    "bytes": 5784
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2025/06/Coding-Smart-Soldering-Component-Tutorial-Thumbnail_compressed-scaled.jpg": {
+    "file": "/static/forward/learn/995168cbf19704c6.webp",
+    "bytes": 9092
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2025/06/Components-Thumbnails-EnergySensor-scaled.jpg": {
+    "file": "/static/forward/learn/c8e6c3f1e3fbf50a.webp",
+    "bytes": 7796
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2025/06/Crosswalk-Project-Thumbnail_compressed.jpg": {
+    "file": "/static/forward/learn/e2e465a11f14f54c.webp",
+    "bytes": 9270
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2025/06/Guitar-Project-Thumbnail-copy_compressed.jpg": {
+    "file": "/static/forward/learn/facce26c338de0ab.webp",
+    "bytes": 11076
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2025/06/monitoring-hashan-project-thumbnail-FIIRE.jpg": {
+    "file": "/static/forward/learn/e527c3eea5a4710d.webp",
+    "bytes": 12102
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2025/06/TrafficLight-Project-Thumbnail-1-scaled.jpg": {
+    "file": "/static/forward/learn/c07027e21e51d842.webp",
+    "bytes": 10660
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2025/06/Trubine-Speed-Indicator-Project-Thumbnail-1-scaled.jpg": {
+    "file": "/static/forward/learn/cb034bc597f7948c.webp",
+    "bytes": 11646
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2025/07/Solar-Data-Logger-Project-Thumbnail-scaled.jpg": {
+    "file": "/static/forward/learn/0e5e3727ddac4eb0.webp",
+    "bytes": 12102
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2025/07/Visualizing-Electricity-Flow-Project-Thumbnail-copy-2.jpg": {
+    "file": "/static/forward/learn/245b9e0ccb518fd2.webp",
+    "bytes": 11848
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2025/07/wampum-belt-project-thumbnail-FIIRE.jpg": {
+    "file": "/static/forward/learn/8c61ec254a912269.webp",
+    "bytes": 26998
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2025/08/auto-refill-project-thumbnail.jpg": {
+    "file": "/static/forward/learn/f6c1adcfbc0a8157.webp",
+    "bytes": 11960
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2025/08/plant-stakes-project-thumbnail.jpg": {
+    "file": "/static/forward/learn/176bac1b4ef4a0c7.webp",
+    "bytes": 15588
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2025/08/robot-tour-project-thumbnail.jpg": {
+    "file": "/static/forward/learn/bf6ac11cc16b834f.webp",
+    "bytes": 12052
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2025/08/water-alarm-project-thumbnail.jpg": {
+    "file": "/static/forward/learn/119001e6aa1e4302.webp",
+    "bytes": 9436
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2025/08/water-recirculation-project-thumbnail.jpg": {
+    "file": "/static/forward/learn/50d4305559b849e7.webp",
+    "bytes": 8410
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2025/09/float-switch-tutorial-thumbnail-1.jpg": {
+    "file": "/static/forward/learn/9356ccd09a75483d.webp",
+    "bytes": 5218
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2025/09/LED-light-tutorial-thumbnail.jpg": {
+    "file": "/static/forward/learn/c1686ed440ecbb1a.webp",
+    "bytes": 5514
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2025/09/peristaltic-pump-tutorial-thumbnail.jpg": {
+    "file": "/static/forward/learn/5b2633147d668787.webp",
+    "bytes": 4740
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2026/02/Calibrate-Log-pH-06.jpg": {
+    "file": "/static/forward/learn/8dfab710e7ba34f5.webp",
+    "bytes": 12156
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2026/02/Chuck-a-Duck-Thumbnail-04.jpg": {
+    "file": "/static/forward/learn/1dd5757a964732bf.webp",
+    "bytes": 7012
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2026/02/Project-Automatic-Light-Timer-for-Hydroponics-05.jpg": {
+    "file": "/static/forward/learn/6fdeb5ae4a982e5b.webp",
+    "bytes": 8764
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2026/02/Simple-pH-Monitoring-07.jpg": {
+    "file": "/static/forward/learn/4893f802a7c71213.webp",
+    "bytes": 11906
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2026/02/Tutorials-PH-Probe.jpg": {
+    "file": "/static/forward/learn/f6a02cc76ad804e0.webp",
+    "bytes": 13728
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2026/04/artemis-ii-hello-moon-thumbnail-outlined.jpg": {
+    "file": "/static/forward/learn/0dadc57093c4482e.webp",
+    "bytes": 10906
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2026/04/artemis-ii-lunar-rover-exploration-thumbnail-outlined.jpg": {
+    "file": "/static/forward/learn/8cbd133f064f9818.webp",
+    "bytes": 11726
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2026/04/artemis-ii-mission-to-the-moon-thumbnail-1.jpg": {
+    "file": "/static/forward/learn/b8ef3efd06000122.webp",
+    "bytes": 12602
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2026/05/Auto-Lights.webp": {
+    "file": "/static/forward/learn/0d50f214721348b3.webp",
+    "bytes": 13134
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2026/05/Color-Sensor-Tutorial-Thumbnail.jpg": {
+    "file": "/static/forward/learn/586c39e8b511d9fc.webp",
+    "bytes": 6234
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2026/05/Entry-Alert.webp": {
+    "file": "/static/forward/learn/eb063eb4c64fd386.webp",
+    "bytes": 19142
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2026/05/LCD-Tutorial-Thumbnail.jpg": {
+    "file": "/static/forward/learn/d75e6c60545b2e05.webp",
+    "bytes": 6894
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2026/05/PIR-Tutorial-Thumbnail.jpg": {
+    "file": "/static/forward/learn/d7496e0916d75568.webp",
+    "bytes": 8988
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2026/05/Soil-Monitoring.webp": {
+    "file": "/static/forward/learn/ffea88e54b086025.webp",
+    "bytes": 17994
+  },
+  "https://learn.forwardedu.com/wp-content/uploads/2026/10/cfg-hero-open-kit.jpg": {
+    "file": "/static/forward/learn/4d3324135a40a639.webp",
+    "bytes": 16114
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/DownloadButtonGIF.webp": {
+    "file": "/static/forward/learn/d027079afd5f6a96.webp",
+    "bytes": 442352,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/DownloadButtonGIF.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-compost-render.webp": {
+    "file": "/static/forward/learn/1e9b9af836325d28.webp",
+    "bytes": 28342,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-compost-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-compost-sbs01.webp": {
+    "file": "/static/forward/learn/df6c70a8deb1306b.webp",
+    "bytes": 8066,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-compost-sbs01.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-compost-sbs02.webp": {
+    "file": "/static/forward/learn/37c9a4e99c69bac0.webp",
+    "bytes": 3960,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-compost-sbs02.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-compost-sbs03.webp": {
+    "file": "/static/forward/learn/130915235f80bab4.webp",
+    "bytes": 13790,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-compost-sbs03.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-compost-sbs04.webp": {
+    "file": "/static/forward/learn/3c08655878de6819.webp",
+    "bytes": 5824,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-compost-sbs04.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-compost-sbs05.webp": {
+    "file": "/static/forward/learn/79fdcf6fd4b65bd4.webp",
+    "bytes": 6776,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-compost-sbs05.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-compost-sbs06.webp": {
+    "file": "/static/forward/learn/343e2d9a01c129b9.webp",
+    "bytes": 8774,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-compost-sbs06.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-compost-sbs07.webp": {
+    "file": "/static/forward/learn/1b05bf169fac0693.webp",
+    "bytes": 16690,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-compost-sbs07.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-compost-sbs08.webp": {
+    "file": "/static/forward/learn/e36c7144909f1311.webp",
+    "bytes": 17358,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-compost-sbs08.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-compost-sbs09.webp": {
+    "file": "/static/forward/learn/6cff1ddc792dfcbe.webp",
+    "bytes": 15238,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-compost-sbs09.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-compost-sbs10.webp": {
+    "file": "/static/forward/learn/c4117bd2db4a8d6e.webp",
+    "bytes": 13970,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-compost-sbs10.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-compost-sbs11.webp": {
+    "file": "/static/forward/learn/de4bcbea5c64a4ce.webp",
+    "bytes": 9550,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-compost-sbs11.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-compost-sbs12.webp": {
+    "file": "/static/forward/learn/5ea3506e3aafc99f.webp",
+    "bytes": 15046,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-compost-sbs12.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-render.webp": {
+    "file": "/static/forward/learn/32186b1db8993eeb.webp",
+    "bytes": 23848,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-coralreef-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-sbs01.webp": {
+    "file": "/static/forward/learn/a85af41efea0a46e.webp",
+    "bytes": 10710,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-coralreef-sbs01.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-sbs02.webp": {
+    "file": "/static/forward/learn/85bf1cf99a829107.webp",
+    "bytes": 4136,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-coralreef-sbs02.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-sbs03.webp": {
+    "file": "/static/forward/learn/016edd6fe35e244a.webp",
+    "bytes": 6276,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-coralreef-sbs03.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-sbs04.webp": {
+    "file": "/static/forward/learn/8351df3c3d6ca28d.webp",
+    "bytes": 16936,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-coralreef-sbs04.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-sbs05.webp": {
+    "file": "/static/forward/learn/d3dd76a5b2d0471d.webp",
+    "bytes": 16874,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-coralreef-sbs05.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-sbs06.webp": {
+    "file": "/static/forward/learn/5e8f5e8116553aad.webp",
+    "bytes": 16566,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-coralreef-sbs06.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-sbs07.webp": {
+    "file": "/static/forward/learn/338f9b3a70af3956.webp",
+    "bytes": 15876,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-coralreef-sbs07.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-sbs08.webp": {
+    "file": "/static/forward/learn/118c7361ca6425cd.webp",
+    "bytes": 10586,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-coralreef-sbs08.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-sbs09.webp": {
+    "file": "/static/forward/learn/7273ab0c3ab1a425.webp",
+    "bytes": 12312,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-coralreef-sbs09.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-sbs10.webp": {
+    "file": "/static/forward/learn/01f057e65663b420.webp",
+    "bytes": 12300,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-coralreef-sbs10.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-sbs11.webp": {
+    "file": "/static/forward/learn/52c9024c11128002.webp",
+    "bytes": 9386,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-coralreef-sbs11.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-sbs12.webp": {
+    "file": "/static/forward/learn/ffd690cd85308bb0.webp",
+    "bytes": 12228,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-coralreef-sbs12.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-landbridge-render.webp": {
+    "file": "/static/forward/learn/3bbb8a9d2d4b7963.webp",
+    "bytes": 28050,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-landbridge-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-landbridge-sbs01.webp": {
+    "file": "/static/forward/learn/094de45bdfca1aa3.webp",
+    "bytes": 16590,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-landbridge-sbs01.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-landbridge-sbs02.webp": {
+    "file": "/static/forward/learn/1b717a0168b036fb.webp",
+    "bytes": 4204,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-landbridge-sbs02.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-landbridge-sbs03.webp": {
+    "file": "/static/forward/learn/4fdb8f011033e6d1.webp",
+    "bytes": 5346,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-landbridge-sbs03.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-landbridge-sbs04.webp": {
+    "file": "/static/forward/learn/b1f2cb486aa62724.webp",
+    "bytes": 8984,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-landbridge-sbs04.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-landbridge-sbs05.webp": {
+    "file": "/static/forward/learn/662afa8b2b65821d.webp",
+    "bytes": 10148,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-landbridge-sbs05.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-landbridge-sbs06.webp": {
+    "file": "/static/forward/learn/59281a8b1df5e505.webp",
+    "bytes": 8562,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-landbridge-sbs06.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-landbridge-sbs07.webp": {
+    "file": "/static/forward/learn/2dcc510bf65c436d.webp",
+    "bytes": 8780,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-landbridge-sbs07.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-landbridge-sbs08.webp": {
+    "file": "/static/forward/learn/f5514ca5a95bc2d2.webp",
+    "bytes": 12986,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-landbridge-sbs08.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-landbridge-sbs09.webp": {
+    "file": "/static/forward/learn/ac791730f309428f.webp",
+    "bytes": 14990,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-landbridge-sbs09.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-landbridge-sbs10.webp": {
+    "file": "/static/forward/learn/b647c6373224d13f.webp",
+    "bytes": 6260,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-landbridge-sbs10.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-landbridge-sbs11.webp": {
+    "file": "/static/forward/learn/86b3b8963396eaac.webp",
+    "bytes": 4898,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-landbridge-sbs11.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-landbridge-sbs12.webp": {
+    "file": "/static/forward/learn/ce1674f1457c598c.webp",
+    "bytes": 5530,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-landbridge-sbs12.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-landbridge-sbs13.webp": {
+    "file": "/static/forward/learn/093adc30ce2f4500.webp",
+    "bytes": 9476,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-landbridge-sbs13.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-landbridge-sbs14.webp": {
+    "file": "/static/forward/learn/3c2d8e9fed57571a.webp",
+    "bytes": 7514,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-landbridge-sbs14.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-landbridge-sbs15.webp": {
+    "file": "/static/forward/learn/531c856c917ac89d.webp",
+    "bytes": 8646,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-landbridge-sbs15.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-landbridge-sbs16.webp": {
+    "file": "/static/forward/learn/53a78823faaa3c1c.webp",
+    "bytes": 15012,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-landbridge-sbs16.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-landbridge-sbs17.webp": {
+    "file": "/static/forward/learn/4ea92b4f87ddc07c.webp",
+    "bytes": 19444,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-landbridge-sbs17.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-landbridge-sbs18.webp": {
+    "file": "/static/forward/learn/0da5cfcffc68536f.webp",
+    "bytes": 5118,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-landbridge-sbs18.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-landbridge-sbs19.webp": {
+    "file": "/static/forward/learn/ffb5431ddbb82135.webp",
+    "bytes": 4632,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-landbridge-sbs19.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-landbridge-sbs20.webp": {
+    "file": "/static/forward/learn/eee699b94860e02c.webp",
+    "bytes": 9262,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-landbridge-sbs20.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-landbridge-sbs21.webp": {
+    "file": "/static/forward/learn/5f76780beff5999c.webp",
+    "bytes": 23602,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-landbridge-sbs21.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-landbridge-sbs22.webp": {
+    "file": "/static/forward/learn/fd706599a6d1ea5a.webp",
+    "bytes": 9670,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-landbridge-sbs22.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-landbridge-sbs23.webp": {
+    "file": "/static/forward/learn/859b0a02cf79fb7d.webp",
+    "bytes": 12614,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-landbridge-sbs23.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-risingfloodalarm-render.webp": {
+    "file": "/static/forward/learn/0a9a94f794538653.webp",
+    "bytes": 21732,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-risingfloodalarm-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-risingfloodalarm-sbs01.webp": {
+    "file": "/static/forward/learn/303e95a375b1ee83.webp",
+    "bytes": 3410,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-risingfloodalarm-sbs01.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-risingfloodalarm-sbs02.webp": {
+    "file": "/static/forward/learn/17be0b2739e15b15.webp",
+    "bytes": 4520,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-risingfloodalarm-sbs02.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-risingfloodalarm-sbs03.webp": {
+    "file": "/static/forward/learn/34552e76ea47dc44.webp",
+    "bytes": 17360,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-risingfloodalarm-sbs03.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-risingfloodalarm-sbs04.webp": {
+    "file": "/static/forward/learn/2c472a4a9ad0a704.webp",
+    "bytes": 11792,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-risingfloodalarm-sbs04.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-risingfloodalarm-sbs05.webp": {
+    "file": "/static/forward/learn/a421ac15fe6acbf2.webp",
+    "bytes": 11344,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-risingfloodalarm-sbs05.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-risingfloodalarm-sbs06.webp": {
+    "file": "/static/forward/learn/87f5d49e0b48f917.webp",
+    "bytes": 11834,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-risingfloodalarm-sbs06.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-risingfloodalarm-sbs07.webp": {
+    "file": "/static/forward/learn/843dd9e4fed95115.webp",
+    "bytes": 10986,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-risingfloodalarm-sbs07.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-risingfloodalarm-sbs08.webp": {
+    "file": "/static/forward/learn/3faf2d51e1625ea0.webp",
+    "bytes": 13438,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-risingfloodalarm-sbs08.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-risingfloodalarm-sbs09.webp": {
+    "file": "/static/forward/learn/41517df5754c25c0.webp",
+    "bytes": 17562,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-risingfloodalarm-sbs09.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-risingfloodalarm-sbs0A.webp": {
+    "file": "/static/forward/learn/06cd5dee83f57501.webp",
+    "bytes": 13126,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-risingfloodalarm-sbs0A.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-risingfloodalarm-sbs0B.webp": {
+    "file": "/static/forward/learn/980ed488146fc47c.webp",
+    "bytes": 13674,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-risingfloodalarm-sbs0B.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-risingfloodalarm-sbs10.webp": {
+    "file": "/static/forward/learn/f6af0c0396894878.webp",
+    "bytes": 19976,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-risingfloodalarm-sbs10.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-risingfloodalarm-sbs11.webp": {
+    "file": "/static/forward/learn/52c9024c11128002.webp",
+    "bytes": 9386,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-risingfloodalarm-sbs11.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-risingfloodalarm-sbs12.webp": {
+    "file": "/static/forward/learn/1a9a41838aa85bd0.webp",
+    "bytes": 11238,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-risingfloodalarm-sbs12.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-risingfloodalarm-sbs13.webp": {
+    "file": "/static/forward/learn/f03df7dbeb2e1137.webp",
+    "bytes": 11306,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-risingfloodalarm-sbs13.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-seaweedfarming-render.webp": {
+    "file": "/static/forward/learn/149524f519c15f21.webp",
+    "bytes": 33244,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-seaweedfarming-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-seaweedfarming-sbs01.webp": {
+    "file": "/static/forward/learn/ff05d7caf75a2f11.webp",
+    "bytes": 14292,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-seaweedfarming-sbs01.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-seaweedfarming-sbs02.webp": {
+    "file": "/static/forward/learn/65318f0cb336b943.webp",
+    "bytes": 13526,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-seaweedfarming-sbs02.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-seaweedfarming-sbs03.webp": {
+    "file": "/static/forward/learn/e90dac5a4d8c083e.webp",
+    "bytes": 14224,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-seaweedfarming-sbs03.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-seaweedfarming-sbs04.webp": {
+    "file": "/static/forward/learn/560a48def196649f.webp",
+    "bytes": 9370,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-seaweedfarming-sbs04.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-seaweedfarming-sbs05.webp": {
+    "file": "/static/forward/learn/89a5af9474faccae.webp",
+    "bytes": 6538,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-seaweedfarming-sbs05.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-seaweedfarming-sbs06.webp": {
+    "file": "/static/forward/learn/086092c8345486cb.webp",
+    "bytes": 10850,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-seaweedfarming-sbs06.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-seaweedfarming-sbs07.webp": {
+    "file": "/static/forward/learn/951bc1b827421f16.webp",
+    "bytes": 13446,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-seaweedfarming-sbs07.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-seaweedfarming-sbs08.webp": {
+    "file": "/static/forward/learn/e0c41637d11f6b45.webp",
+    "bytes": 9420,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-seaweedfarming-sbs08.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-seaweedfarming-sbs09.webp": {
+    "file": "/static/forward/learn/6aa5850dcde24691.webp",
+    "bytes": 13656,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-seaweedfarming-sbs09.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-seaweedfarming-sbs0A.webp": {
+    "file": "/static/forward/learn/db4774afa1dd3fa8.webp",
+    "bytes": 19392,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-seaweedfarming-sbs0A.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-seaweedfarming-sbs0B.webp": {
+    "file": "/static/forward/learn/a05b35fcff005514.webp",
+    "bytes": 21716,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-seaweedfarming-sbs0B.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-seaweedfarming-sbs10.webp": {
+    "file": "/static/forward/learn/09907d6ef4b0777e.webp",
+    "bytes": 13558,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-seaweedfarming-sbs10.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-simplewind-render.webp": {
+    "file": "/static/forward/learn/ba7f4be98a4976f1.webp",
+    "bytes": 20662,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-simplewind-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-simplewind-sbs01.webp": {
+    "file": "/static/forward/learn/b063015a638e105c.webp",
+    "bytes": 8058,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-simplewind-sbs01.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-simplewind-sbs02.webp": {
+    "file": "/static/forward/learn/2738eb5d35c1b181.webp",
+    "bytes": 14582,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-simplewind-sbs02.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-simplewind-sbs03.webp": {
+    "file": "/static/forward/learn/431476842f5e1aa5.webp",
+    "bytes": 8218,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-simplewind-sbs03.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-simplewind-sbs04.webp": {
+    "file": "/static/forward/learn/14b064e5a00a185b.webp",
+    "bytes": 12140,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-simplewind-sbs04.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-simplewind-sbs05.webp": {
+    "file": "/static/forward/learn/98022abcaa4825aa.webp",
+    "bytes": 17550,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-simplewind-sbs05.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-simplewind-sbs06.webp": {
+    "file": "/static/forward/learn/5f3d89b2714b47e6.webp",
+    "bytes": 12854,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-simplewind-sbs06.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-simplewind-sbs07.webp": {
+    "file": "/static/forward/learn/8602683395e6d149.webp",
+    "bytes": 9540,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-simplewind-sbs07.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-simplewind-sbs08.webp": {
+    "file": "/static/forward/learn/c078642e91291fd7.webp",
+    "bytes": 8766,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-simplewind-sbs08.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-smartstreetlight-render.webp": {
+    "file": "/static/forward/learn/52519ff5b18f176a.webp",
+    "bytes": 11456,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/es-smartstreetlight-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr11-electriccar-render.png": {
+    "file": "/static/forward/learn/7225a647094fd634.webp",
+    "bytes": 32688,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr11-electriccar-render.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr11-electriccar-sbs10.png": {
+    "file": "/static/forward/learn/627ea371b01f8e68.webp",
+    "bytes": 6684,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr11-electriccar-sbs10.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr11-electriccar-sbs11.png": {
+    "file": "/static/forward/learn/1f00fbd698faa3d0.webp",
+    "bytes": 23058,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr11-electriccar-sbs11.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr11-electriccar-sbs12.png": {
+    "file": "/static/forward/learn/5ee6df94beccbe67.webp",
+    "bytes": 22818,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr11-electriccar-sbs12.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr11-electriccar-sbs13.png": {
+    "file": "/static/forward/learn/3711157a380feb4a.webp",
+    "bytes": 23782,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr11-electriccar-sbs13.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr11-electriccar-sbs14.png": {
+    "file": "/static/forward/learn/364e0b05722f241d.webp",
+    "bytes": 22802,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr11-electriccar-sbs14.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr11-electriccar-sbs15.png": {
+    "file": "/static/forward/learn/0880065b10ce30c9.webp",
+    "bytes": 10010,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr11-electriccar-sbs15.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr11-electriccar-sbs16.png": {
+    "file": "/static/forward/learn/ae1f4846007cd48d.webp",
+    "bytes": 21574,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr11-electriccar-sbs16.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr11-electriccar-sbs1edit.png": {
+    "file": "/static/forward/learn/9cc8f92db9e0bddd.webp",
+    "bytes": 19400,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr11-electriccar-sbs1edit.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr11-electriccar-sbs2.png": {
+    "file": "/static/forward/learn/0696cd70aca6cde2.webp",
+    "bytes": 8310,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr11-electriccar-sbs2.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr11-electriccar-sbs3.png": {
+    "file": "/static/forward/learn/5db482b3ebde8c9e.webp",
+    "bytes": 9846,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr11-electriccar-sbs3.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr11-electriccar-sbs3b.png": {
+    "file": "/static/forward/learn/7cc1e5feb6d3b129.webp",
+    "bytes": 9306,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr11-electriccar-sbs3b.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr11-electriccar-sbs4.png": {
+    "file": "/static/forward/learn/26225dd1a9515fe9.webp",
+    "bytes": 21422,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr11-electriccar-sbs4.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr11-electriccar-sbs5.png": {
+    "file": "/static/forward/learn/75457766095c9c2a.webp",
+    "bytes": 21164,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr11-electriccar-sbs5.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr11-electriccar-sbs6.png": {
+    "file": "/static/forward/learn/16561673478357a9.webp",
+    "bytes": 22412,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr11-electriccar-sbs6.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr11-electriccar-sbs7.png": {
+    "file": "/static/forward/learn/bd8a027bd2132654.webp",
+    "bytes": 3824,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr11-electriccar-sbs7.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr11-electriccar-sbs8.png": {
+    "file": "/static/forward/learn/255b75a09823a603.webp",
+    "bytes": 25608,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr11-electriccar-sbs8.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr11-electriccar-sbs9.png": {
+    "file": "/static/forward/learn/6b0d7eba6c02bb51.webp",
+    "bytes": 8186,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr11-electriccar-sbs9.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/Gr4-bee-sbs1.png": {
+    "file": "/static/forward/learn/18a7a1905d65c298.webp",
+    "bytes": 7358,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/Gr4-bee-sbs1.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr4-bees-projectrender.webp": {
+    "file": "/static/forward/learn/cf6facbd6bf7cc6f.webp",
+    "bytes": 39770,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr4-bees-projectrender.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/Gr4-bees-sbs10.png": {
+    "file": "/static/forward/learn/9010a8e1f558d06e.webp",
+    "bytes": 14602,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/Gr4-bees-sbs10.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/Gr4-bees-sbs11.png": {
+    "file": "/static/forward/learn/5621392eeae057dd.webp",
+    "bytes": 18522,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/Gr4-bees-sbs11.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/Gr4-bees-sbs12.png": {
+    "file": "/static/forward/learn/32f17a4c8c1d4c8f.webp",
+    "bytes": 22484,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/Gr4-bees-sbs12.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/Gr4-bees-sbs13.png": {
+    "file": "/static/forward/learn/e564e6f0b26f558c.webp",
+    "bytes": 16008,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/Gr4-bees-sbs13.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/Gr4-bees-sbs14.png": {
+    "file": "/static/forward/learn/5114434bd33a5464.webp",
+    "bytes": 10008,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/Gr4-bees-sbs14.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/Gr4-bees-sbs15.png": {
+    "file": "/static/forward/learn/8fda0a3a1a06ac20.webp",
+    "bytes": 14512,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/Gr4-bees-sbs15.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/Gr4-bees-sbs2.png": {
+    "file": "/static/forward/learn/dbe991f5f10e5669.webp",
+    "bytes": 8188,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/Gr4-bees-sbs2.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/Gr4-bees-sbs3.png": {
+    "file": "/static/forward/learn/c7b3c3dc8e7aff22.webp",
+    "bytes": 9462,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/Gr4-bees-sbs3.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/Gr4-bees-sbs4.png": {
+    "file": "/static/forward/learn/2c223d38945f6ae2.webp",
+    "bytes": 13754,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/Gr4-bees-sbs4.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/Gr4-bees-sbs5.png": {
+    "file": "/static/forward/learn/fcd29abefcf76420.webp",
+    "bytes": 7382,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/Gr4-bees-sbs5.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/Gr4-bees-sbs6.png": {
+    "file": "/static/forward/learn/8462430413ec25c0.webp",
+    "bytes": 7774,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/Gr4-bees-sbs6.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/Gr4-bees-sbs7.png": {
+    "file": "/static/forward/learn/6301d28515f0b540.webp",
+    "bytes": 7714,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/Gr4-bees-sbs7.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/Gr4-bees-sbs8.png": {
+    "file": "/static/forward/learn/0fc0d04f8fc57b61.webp",
+    "bytes": 4522,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/Gr4-bees-sbs8.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/Gr4-bees-sbs9.png": {
+    "file": "/static/forward/learn/9558288096ce1e89.webp",
+    "bytes": 5192,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/Gr4-bees-sbs9.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr6-glacier-sbs1.webp": {
+    "file": "/static/forward/learn/27240037e5e81854.webp",
+    "bytes": 2334,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr6-glacier-sbs1.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr6-glacier-sbs10.webp": {
+    "file": "/static/forward/learn/291ba37f7c3219cf.webp",
+    "bytes": 9798,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr6-glacier-sbs10.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr6-glacier-sbs11.webp": {
+    "file": "/static/forward/learn/089a83df4601f4fc.webp",
+    "bytes": 17202,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr6-glacier-sbs11.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr6-glacier-sbs2.webp": {
+    "file": "/static/forward/learn/0ab3bd5a04235c67.webp",
+    "bytes": 4676,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr6-glacier-sbs2.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr6-glacier-sbs3.webp": {
+    "file": "/static/forward/learn/217cd877c4658198.webp",
+    "bytes": 4278,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr6-glacier-sbs3.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr6-glacier-sbs4.webp": {
+    "file": "/static/forward/learn/a091cf0bed7e338f.webp",
+    "bytes": 7018,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr6-glacier-sbs4.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr6-glacier-sbs5.webp": {
+    "file": "/static/forward/learn/2b2bffd522567608.webp",
+    "bytes": 5898,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr6-glacier-sbs5.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr6-glacier-sbs6.webp": {
+    "file": "/static/forward/learn/bba4635d886a9750.webp",
+    "bytes": 6774,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr6-glacier-sbs6.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr6-glacier-sbs7.webp": {
+    "file": "/static/forward/learn/df85a8c56f000aca.webp",
+    "bytes": 6688,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr6-glacier-sbs7.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr6-glacier-sbs8.webp": {
+    "file": "/static/forward/learn/9b812a6635bf5733.webp",
+    "bytes": 18354,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr6-glacier-sbs8.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr6-glacier-sbs9.webp": {
+    "file": "/static/forward/learn/8ec15f4c54008445.webp",
+    "bytes": 19408,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr6-glacier-sbs9.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr6-glacier-thumbnail-render.webp": {
+    "file": "/static/forward/learn/064862303ae76263.webp",
+    "bytes": 20904,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr6-glacier-thumbnail-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr68-turtles-projectrender.webp": {
+    "file": "/static/forward/learn/b7762d5d7c20994b.webp",
+    "bytes": 45500,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr68-turtles-projectrender.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr68-turtles-sbs01.webp": {
+    "file": "/static/forward/learn/5b7d29184d0e21ae.webp",
+    "bytes": 4078,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr68-turtles-sbs01.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr68-turtles-sbs02.webp": {
+    "file": "/static/forward/learn/138d6c7c69028e91.webp",
+    "bytes": 4430,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr68-turtles-sbs02.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr68-turtles-sbs03.webp": {
+    "file": "/static/forward/learn/ea32938b401b9097.webp",
+    "bytes": 7960,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr68-turtles-sbs03.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr68-turtles-sbs04.webp": {
+    "file": "/static/forward/learn/66e24bb417cddb78.webp",
+    "bytes": 7872,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr68-turtles-sbs04.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr68-turtles-sbs05.webp": {
+    "file": "/static/forward/learn/91f296ca72a353b4.webp",
+    "bytes": 5038,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr68-turtles-sbs05.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr68-turtles-sbs06.webp": {
+    "file": "/static/forward/learn/fb747e8eca0e29eb.webp",
+    "bytes": 6768,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr68-turtles-sbs06.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr68-turtles-sbs07.webp": {
+    "file": "/static/forward/learn/a28dc38ef1e9f799.webp",
+    "bytes": 6158,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr68-turtles-sbs07.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr68-turtles-sbs08.webp": {
+    "file": "/static/forward/learn/8bbb962d2b330cf9.webp",
+    "bytes": 5880,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr68-turtles-sbs08.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr68-turtles-sbs09.webp": {
+    "file": "/static/forward/learn/890a294af574d7a0.webp",
+    "bytes": 13974,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr68-turtles-sbs09.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr68-turtles-sbs10.webp": {
+    "file": "/static/forward/learn/52ffdbb15b071cc1.webp",
+    "bytes": 15286,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr68-turtles-sbs10.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr68-turtles-sbs11.webp": {
+    "file": "/static/forward/learn/efea37d7aac847d2.webp",
+    "bytes": 9478,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr68-turtles-sbs11.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr68-turtles-sbs12.webp": {
+    "file": "/static/forward/learn/b771431a38977363.webp",
+    "bytes": 16316,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr68-turtles-sbs12.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-smartfarm-projectrender.webp": {
+    "file": "/static/forward/learn/b9e615c6c063449e.webp",
+    "bytes": 38202,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-smartfarm-projectrender.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-smartfarm-sbs01.webp": {
+    "file": "/static/forward/learn/671ac433bf05925a.webp",
+    "bytes": 5986,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-smartfarm-sbs01.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-smartfarm-sbs02.webp": {
+    "file": "/static/forward/learn/1e18882d31c6ecba.webp",
+    "bytes": 5840,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-smartfarm-sbs02.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-smartfarm-sbs03.webp": {
+    "file": "/static/forward/learn/ca04e7cbedb135e8.webp",
+    "bytes": 10726,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-smartfarm-sbs03.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-smartfarm-sbs04.webp": {
+    "file": "/static/forward/learn/c7b898e7b55f9dfc.webp",
+    "bytes": 9396,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-smartfarm-sbs04.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-smartfarm-sbs05.webp": {
+    "file": "/static/forward/learn/b09bbd700ecb04e3.webp",
+    "bytes": 7444,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-smartfarm-sbs05.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-smartfarm-sbs06.webp": {
+    "file": "/static/forward/learn/cbabb8e0278c75a3.webp",
+    "bytes": 10494,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-smartfarm-sbs06.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-smartfarm-sbs07.webp": {
+    "file": "/static/forward/learn/63b5987eb831a3e7.webp",
+    "bytes": 11138,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-smartfarm-sbs07.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-smartfarm-sbs08.webp": {
+    "file": "/static/forward/learn/4cbc4e4f9f9f84a5.webp",
+    "bytes": 18272,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-smartfarm-sbs08.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-smartfarm-sbs09.webp": {
+    "file": "/static/forward/learn/721b43f685bd3d35.webp",
+    "bytes": 14906,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-smartfarm-sbs09.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-smartfarm-sbs10.webp": {
+    "file": "/static/forward/learn/d12d666fd0ae7d44.webp",
+    "bytes": 16944,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-smartfarm-sbs10.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-smartfarm-sbs11.webp": {
+    "file": "/static/forward/learn/4b25660a1e14a335.webp",
+    "bytes": 14654,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-smartfarm-sbs11.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-smartfarm-sbs12.webp": {
+    "file": "/static/forward/learn/9e763bbdd69846e7.webp",
+    "bytes": 9916,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-smartfarm-sbs12.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-smartfarm-sbs13.webp": {
+    "file": "/static/forward/learn/cf4795f1dc481e53.webp",
+    "bytes": 15202,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-smartfarm-sbs13.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-wildfires-sbs1.png": {
+    "file": "/static/forward/learn/99616fa8e76c26ef.webp",
+    "bytes": 6280,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-wildfires-sbs1.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-wildfires-sbs10.png": {
+    "file": "/static/forward/learn/3a39987495550f5d.webp",
+    "bytes": 23764,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-wildfires-sbs10.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-wildfires-sbs11.png": {
+    "file": "/static/forward/learn/864f90fa8ff5a3ed.webp",
+    "bytes": 20878,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-wildfires-sbs11.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-wildfires-sbs12.png": {
+    "file": "/static/forward/learn/845053c1777d9a79.webp",
+    "bytes": 15746,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-wildfires-sbs12.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-wildfires-sbs13.png": {
+    "file": "/static/forward/learn/9e21ffb2b447d94e.webp",
+    "bytes": 20618,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-wildfires-sbs13.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-wildfires-sbs14.png": {
+    "file": "/static/forward/learn/7575b3e573641e52.webp",
+    "bytes": 9686,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-wildfires-sbs14.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-wildfires-sbs15.png": {
+    "file": "/static/forward/learn/4dfae6be521fd60c.webp",
+    "bytes": 18674,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-wildfires-sbs15.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-wildfires-sbs17.png": {
+    "file": "/static/forward/learn/c8cb9528eaabe885.webp",
+    "bytes": 21360,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-wildfires-sbs17.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-wildfires-sbs18.png": {
+    "file": "/static/forward/learn/12a1cc305b45f13f.webp",
+    "bytes": 9818,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-wildfires-sbs18.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-wildfires-sbs19.png": {
+    "file": "/static/forward/learn/c6cf6e2b2192d46a.webp",
+    "bytes": 17294,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-wildfires-sbs19.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-wildfires-sbs2.png": {
+    "file": "/static/forward/learn/871d5c1dea7a5e3a.webp",
+    "bytes": 6622,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-wildfires-sbs2.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-wildfires-sbs3.png": {
+    "file": "/static/forward/learn/b9d86808bdbedef3.webp",
+    "bytes": 7146,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-wildfires-sbs3.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-wildfires-sbs4.png": {
+    "file": "/static/forward/learn/34ee522b9a39f209.webp",
+    "bytes": 7934,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-wildfires-sbs4.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-wildfires-sbs5.png": {
+    "file": "/static/forward/learn/fdfa0978a11f2804.webp",
+    "bytes": 9370,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-wildfires-sbs5.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-wildfires-sbs6.png": {
+    "file": "/static/forward/learn/1e392abe1754d6b2.webp",
+    "bytes": 17296,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-wildfires-sbs6.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-wildfires-sbs7.png": {
+    "file": "/static/forward/learn/0187fa4aca7ee11f.webp",
+    "bytes": 16610,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-wildfires-sbs7.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-wildfires-sbs8.png": {
+    "file": "/static/forward/learn/04a317fd839dd995.webp",
+    "bytes": 7432,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-wildfires-sbs8.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr8-wildfires-sbs9.png": {
+    "file": "/static/forward/learn/393f35ef37fc72a9.webp",
+    "bytes": 21138,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr8-wildfires-sbs9.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-treeseeder-sbs01.webp": {
+    "file": "/static/forward/learn/c06936c4c00532a6.webp",
+    "bytes": 18232,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-treeseeder-sbs01.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-treeseeder-sbs02.webp": {
+    "file": "/static/forward/learn/510e741dd3b4e52d.webp",
+    "bytes": 16810,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-treeseeder-sbs02.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-treeseeder-sbs03.webp": {
+    "file": "/static/forward/learn/052a243787050960.webp",
+    "bytes": 17624,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-treeseeder-sbs03.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-treeseeder-sbs04.webp": {
+    "file": "/static/forward/learn/8ee03d5bd1ddd1ab.webp",
+    "bytes": 8100,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-treeseeder-sbs04.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-treeseeder-sbs05.webp": {
+    "file": "/static/forward/learn/9bf9c21abe9879ce.webp",
+    "bytes": 9606,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-treeseeder-sbs05.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-treeseeder-sbs06.webp": {
+    "file": "/static/forward/learn/e2b23b5a5a805043.webp",
+    "bytes": 19184,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-treeseeder-sbs06.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-treeseeder-sbs07.webp": {
+    "file": "/static/forward/learn/5cf9bba4c2dba2bb.webp",
+    "bytes": 19996,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-treeseeder-sbs07.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-treeseeder-sbs08.webp": {
+    "file": "/static/forward/learn/26db4559f87eb4dc.webp",
+    "bytes": 20798,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-treeseeder-sbs08.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-treeseeder-sbs09.webp": {
+    "file": "/static/forward/learn/09f387f0fe4fc923.webp",
+    "bytes": 23236,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-treeseeder-sbs09.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-treeseeder-sbs10.webp": {
+    "file": "/static/forward/learn/703815e3090b14ac.webp",
+    "bytes": 28152,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-treeseeder-sbs10.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-treeseeder-sbs11.webp": {
+    "file": "/static/forward/learn/aef37212434a2d28.webp",
+    "bytes": 5300,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-treeseeder-sbs11.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-treeseeder-sbs12.webp": {
+    "file": "/static/forward/learn/de6be6949be512ca.webp",
+    "bytes": 7928,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-treeseeder-sbs12.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-treeseeder-sbs13.webp": {
+    "file": "/static/forward/learn/4c4daad2c960eddf.webp",
+    "bytes": 5256,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-treeseeder-sbs13.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-treeseeder-sbs14.webp": {
+    "file": "/static/forward/learn/174062176dd67015.webp",
+    "bytes": 13200,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-treeseeder-sbs14.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-treeseeder-sbs15.webp": {
+    "file": "/static/forward/learn/98cab4ac57d62035.webp",
+    "bytes": 20174,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-treeseeder-sbs15.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-treeseeder-sbs16.webp": {
+    "file": "/static/forward/learn/ed097d283f9ea990.webp",
+    "bytes": 14348,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-treeseeder-sbs16.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-treeseeder-sbs17.webp": {
+    "file": "/static/forward/learn/3ed3e1a9e8eaf4eb.webp",
+    "bytes": 9602,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-treeseeder-sbs17.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-treeseeder-sbs18.webp": {
+    "file": "/static/forward/learn/d0b7f9422a7311b3.webp",
+    "bytes": 21294,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-treeseeder-sbs18.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-treeseeder-thumbnail-render.webp": {
+    "file": "/static/forward/learn/7bb4ca7c3379b0cc.webp",
+    "bytes": 14142,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-treeseeder-thumbnail-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs01.webp": {
+    "file": "/static/forward/learn/7bca057021bcb83f.webp",
+    "bytes": 7958,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-verticalfarm-sbs01.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs02.webp": {
+    "file": "/static/forward/learn/4818ad904dad348a.webp",
+    "bytes": 7192,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-verticalfarm-sbs02.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs03.webp": {
+    "file": "/static/forward/learn/85438056b9a6254e.webp",
+    "bytes": 6814,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-verticalfarm-sbs03.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs04.webp": {
+    "file": "/static/forward/learn/5974c065b45e1aaa.webp",
+    "bytes": 11398,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-verticalfarm-sbs04.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs05.webp": {
+    "file": "/static/forward/learn/1154511d288fdb16.webp",
+    "bytes": 3462,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-verticalfarm-sbs05.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs06.webp": {
+    "file": "/static/forward/learn/6301117948f7f565.webp",
+    "bytes": 4704,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-verticalfarm-sbs06.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs07.webp": {
+    "file": "/static/forward/learn/aa034c7ad01dccbb.webp",
+    "bytes": 5814,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-verticalfarm-sbs07.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs08.webp": {
+    "file": "/static/forward/learn/1fd24718463d4a60.webp",
+    "bytes": 9820,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-verticalfarm-sbs08.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs09.webp": {
+    "file": "/static/forward/learn/f019a012b9d98fff.webp",
+    "bytes": 13790,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-verticalfarm-sbs09.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs10.webp": {
+    "file": "/static/forward/learn/9a995348368d543d.webp",
+    "bytes": 3042,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-verticalfarm-sbs10.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs11.webp": {
+    "file": "/static/forward/learn/9242920aeedc2b15.webp",
+    "bytes": 3994,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-verticalfarm-sbs11.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs12.webp": {
+    "file": "/static/forward/learn/03a8700848c29eba.webp",
+    "bytes": 4208,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-verticalfarm-sbs12.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs13.webp": {
+    "file": "/static/forward/learn/3804af5bbc748054.webp",
+    "bytes": 6394,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-verticalfarm-sbs13.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs15.webp": {
+    "file": "/static/forward/learn/d6bba6eec191d832.webp",
+    "bytes": 5338,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-verticalfarm-sbs15.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs16.webp": {
+    "file": "/static/forward/learn/5d99b8fcc53063ee.webp",
+    "bytes": 12892,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-verticalfarm-sbs16.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs17.webp": {
+    "file": "/static/forward/learn/77896113db3ed616.webp",
+    "bytes": 12826,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-verticalfarm-sbs17.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs18.webp": {
+    "file": "/static/forward/learn/7f01437e91380973.webp",
+    "bytes": 14142,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-verticalfarm-sbs18.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs19.webp": {
+    "file": "/static/forward/learn/aec3c21abda0cb1f.webp",
+    "bytes": 12152,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-verticalfarm-sbs19.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs20.webp": {
+    "file": "/static/forward/learn/60c3b10b3169d5bf.webp",
+    "bytes": 9750,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-verticalfarm-sbs20.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs21.webp": {
+    "file": "/static/forward/learn/187d0fdb743df265.webp",
+    "bytes": 11958,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-verticalfarm-sbs21.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-thumbnail-render.webp": {
+    "file": "/static/forward/learn/a1c9d118278d1547.webp",
+    "bytes": 23674,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/gr9-verticalfarm-thumbnail-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-autodelivery-render.webp": {
+    "file": "/static/forward/learn/339a9d58223e83ff.webp",
+    "bytes": 18118,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-autodelivery-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-autodelivery-sbs01.webp": {
+    "file": "/static/forward/learn/9c98ff83ef1ac1d5.webp",
+    "bytes": 13664,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-autodelivery-sbs01.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-autodelivery-sbs02.webp": {
+    "file": "/static/forward/learn/d3024d64eda576c5.webp",
+    "bytes": 7870,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-autodelivery-sbs02.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-autodelivery-sbs03.webp": {
+    "file": "/static/forward/learn/207a7d39fa87ff08.webp",
+    "bytes": 12004,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-autodelivery-sbs03.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-autodelivery-sbs04.webp": {
+    "file": "/static/forward/learn/6363455436ef7356.webp",
+    "bytes": 16662,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-autodelivery-sbs04.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-autodelivery-sbs05.webp": {
+    "file": "/static/forward/learn/be014dce4236f504.webp",
+    "bytes": 14388,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-autodelivery-sbs05.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-autodelivery-sbs06.webp": {
+    "file": "/static/forward/learn/f350960ee78536ab.webp",
+    "bytes": 14524,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-autodelivery-sbs06.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-autodelivery-sbs07.webp": {
+    "file": "/static/forward/learn/67d75f6df1e2ce99.webp",
+    "bytes": 18860,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-autodelivery-sbs07.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-autodelivery-sbs08.webp": {
+    "file": "/static/forward/learn/ac9f5245795a6d13.webp",
+    "bytes": 6972,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-autodelivery-sbs08.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-autodelivery-sbs09.webp": {
+    "file": "/static/forward/learn/ee71cee7082afbe8.webp",
+    "bytes": 6384,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-autodelivery-sbs09.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-autodelivery-sbs10.webp": {
+    "file": "/static/forward/learn/9d6eb39c9781776b.webp",
+    "bytes": 10138,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-autodelivery-sbs10.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-autodelivery-sbs11.webp": {
+    "file": "/static/forward/learn/201a96835f522abe.webp",
+    "bytes": 5834,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-autodelivery-sbs11.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-autodelivery-sbs12.webp": {
+    "file": "/static/forward/learn/07b4c3d77c0ac499.webp",
+    "bytes": 19522,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-autodelivery-sbs12.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-autodelivery-sbs13.webp": {
+    "file": "/static/forward/learn/3b6fb4dfe320b2b1.webp",
+    "bytes": 20534,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-autodelivery-sbs13.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-autodelivery-sbs14.webp": {
+    "file": "/static/forward/learn/3ec912ca1d567115.webp",
+    "bytes": 20024,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-autodelivery-sbs14.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-autodelivery-sbs15.webp": {
+    "file": "/static/forward/learn/78fbb0f6a2ed319e.webp",
+    "bytes": 19054,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-autodelivery-sbs15.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-autodelivery-sbs16.webp": {
+    "file": "/static/forward/learn/9c9726240e36d2e4.webp",
+    "bytes": 22808,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-autodelivery-sbs16.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-autodelivery-sbs17.webp": {
+    "file": "/static/forward/learn/99e74757e9b38c1c.webp",
+    "bytes": 9416,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-autodelivery-sbs17.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-autodelivery-sbs18.webp": {
+    "file": "/static/forward/learn/f6b8e94ed52fa1b6.webp",
+    "bytes": 19298,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-autodelivery-sbs18.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-render.webp": {
+    "file": "/static/forward/learn/beb12e7fe1cf5309.webp",
+    "bytes": 43340,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-sbs01.webp": {
+    "file": "/static/forward/learn/896144dbdf872cd3.webp",
+    "bytes": 10712,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-sbs01.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-sbs02.webp": {
+    "file": "/static/forward/learn/329448298e9befb9.webp",
+    "bytes": 11966,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-sbs02.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-sbs03.webp": {
+    "file": "/static/forward/learn/06efaeab3b411b9e.webp",
+    "bytes": 12266,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-sbs03.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-sbs04.webp": {
+    "file": "/static/forward/learn/79bdf28dbf5dfeaf.webp",
+    "bytes": 11038,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-sbs04.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-sbs05.webp": {
+    "file": "/static/forward/learn/a747f49150e7b52e.webp",
+    "bytes": 10238,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-sbs05.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-sbs06.webp": {
+    "file": "/static/forward/learn/eda0d8a754ba2698.webp",
+    "bytes": 8590,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-sbs06.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-sbs07.webp": {
+    "file": "/static/forward/learn/12602ff6932882cb.webp",
+    "bytes": 17904,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-sbs07.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-sbs08.webp": {
+    "file": "/static/forward/learn/0e4db381d8c0b691.webp",
+    "bytes": 15788,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-sbs08.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-sbs09.webp": {
+    "file": "/static/forward/learn/b0147a0596267ef9.webp",
+    "bytes": 17258,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-sbs09.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-sbs0A.webp": {
+    "file": "/static/forward/learn/8e489ae908813bd2.webp",
+    "bytes": 13772,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-sbs0A.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-sbs0B.webp": {
+    "file": "/static/forward/learn/36f2bc0c2c7c6ffd.webp",
+    "bytes": 20398,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-sbs0B.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-sbs10.webp": {
+    "file": "/static/forward/learn/03d6e3d9d483679e.webp",
+    "bytes": 5628,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-sbs10.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-sbs11.webp": {
+    "file": "/static/forward/learn/fd5f49f792eea67c.webp",
+    "bytes": 5322,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-sbs11.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-sbs12.webp": {
+    "file": "/static/forward/learn/458df870c992a6ea.webp",
+    "bytes": 5474,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-sbs12.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-sbs13.webp": {
+    "file": "/static/forward/learn/595ae8d22adcdcce.webp",
+    "bytes": 9168,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-sbs13.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-sbs14.webp": {
+    "file": "/static/forward/learn/b0dd9fb7b3a6d420.webp",
+    "bytes": 9764,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-sbs14.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-sbs15.webp": {
+    "file": "/static/forward/learn/bc4afbd6c095e16a.webp",
+    "bytes": 7790,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-sbs15.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-sbs16.webp": {
+    "file": "/static/forward/learn/2cb22f4f028a691b.webp",
+    "bytes": 7828,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-sbs16.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-sbs17.webp": {
+    "file": "/static/forward/learn/9b305388a15e4e21.webp",
+    "bytes": 8524,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-sbs17.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-sbs18.webp": {
+    "file": "/static/forward/learn/415757f8b4c8e401.webp",
+    "bytes": 12250,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-sbs18.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-sbs19.webp": {
+    "file": "/static/forward/learn/d45aa4bcdaf08168.webp",
+    "bytes": 11060,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-sbs19.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-sbs20.webp": {
+    "file": "/static/forward/learn/84b2efb39c59dbf2.webp",
+    "bytes": 12918,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-sbs20.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-sbs21.webp": {
+    "file": "/static/forward/learn/d53d1b5800cf314f.webp",
+    "bytes": 12240,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-sbs21.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-sbs22.webp": {
+    "file": "/static/forward/learn/04c5fe09af5786ff.webp",
+    "bytes": 9680,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-sbs22.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-fishways-sbs23.webp": {
+    "file": "/static/forward/learn/ab07cad1c54283fc.webp",
+    "bytes": 12674,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-fishways-sbs23.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-hopespots-render.webp": {
+    "file": "/static/forward/learn/da32a4c432a71496.webp",
+    "bytes": 24586,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-hopespots-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-hopespots-sbs01.webp": {
+    "file": "/static/forward/learn/013c2b98e6dea64d.webp",
+    "bytes": 13534,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-hopespots-sbs01.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-hopespots-sbs02.webp": {
+    "file": "/static/forward/learn/83c5c6695cedfd06.webp",
+    "bytes": 14252,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-hopespots-sbs02.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-hopespots-sbs03.webp": {
+    "file": "/static/forward/learn/197539f93e9becd5.webp",
+    "bytes": 8592,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-hopespots-sbs03.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-hopespots-sbs04.webp": {
+    "file": "/static/forward/learn/efd104dd4d38b35d.webp",
+    "bytes": 14742,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-hopespots-sbs04.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-hopespots-sbs05.webp": {
+    "file": "/static/forward/learn/bb133b085dfca632.webp",
+    "bytes": 23318,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-hopespots-sbs05.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-hopespots-sbs06.webp": {
+    "file": "/static/forward/learn/95ee0fdbcf6ee4bc.webp",
+    "bytes": 7532,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-hopespots-sbs06.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-hopespots-sbs07.webp": {
+    "file": "/static/forward/learn/a08b895307fc3be4.webp",
+    "bytes": 15590,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-hopespots-sbs07.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-hopespots-sbs08.webp": {
+    "file": "/static/forward/learn/bc05ac23be3671de.webp",
+    "bytes": 19972,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-hopespots-sbs08.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-hopespots-sbs09.webp": {
+    "file": "/static/forward/learn/b7012fb1af42adab.webp",
+    "bytes": 15370,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-hopespots-sbs09.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-hopespots-sbs10.webp": {
+    "file": "/static/forward/learn/2a0cd2085215b6ed.webp",
+    "bytes": 8794,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-hopespots-sbs10.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-hopespots-sbs11.webp": {
+    "file": "/static/forward/learn/26b10d799da89c88.webp",
+    "bytes": 9648,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-hopespots-sbs11.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-hopespots-sbs12.webp": {
+    "file": "/static/forward/learn/757d1a2a7364d8ad.webp",
+    "bytes": 9810,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-hopespots-sbs12.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-hopespots-sbs13.webp": {
+    "file": "/static/forward/learn/4394274caa2bc3fe.webp",
+    "bytes": 9948,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-hopespots-sbs13.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-hopespots-sbs14.webp": {
+    "file": "/static/forward/learn/74ba3ca03037592d.webp",
+    "bytes": 7078,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-hopespots-sbs14.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-hopespots-sbs15.webp": {
+    "file": "/static/forward/learn/41fd58d33c57c87e.webp",
+    "bytes": 9154,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-hopespots-sbs15.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-hopespots-sbs16.webp": {
+    "file": "/static/forward/learn/e9c4183741d999da.webp",
+    "bytes": 9526,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-hopespots-sbs16.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-hopespots-sbs17.webp": {
+    "file": "/static/forward/learn/ef101ea4b65e9e67.webp",
+    "bytes": 9092,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-hopespots-sbs17.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-render.webp": {
+    "file": "/static/forward/learn/77e1d9317c25a9e9.webp",
+    "bytes": 26916,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-mobileirrigation-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs01.webp": {
+    "file": "/static/forward/learn/ecba5a0dc256fe21.webp",
+    "bytes": 9468,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-mobileirrigation-sbs01.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs02.webp": {
+    "file": "/static/forward/learn/04fea3ebb175635a.webp",
+    "bytes": 11828,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-mobileirrigation-sbs02.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs03.webp": {
+    "file": "/static/forward/learn/29836af7e40f0320.webp",
+    "bytes": 5000,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-mobileirrigation-sbs03.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs04.webp": {
+    "file": "/static/forward/learn/7a2eed890e211720.webp",
+    "bytes": 11884,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-mobileirrigation-sbs04.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs05.webp": {
+    "file": "/static/forward/learn/5aaa389cb9facfae.webp",
+    "bytes": 8602,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-mobileirrigation-sbs05.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs06.webp": {
+    "file": "/static/forward/learn/717940c2dc34c6f1.webp",
+    "bytes": 9214,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-mobileirrigation-sbs06.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs07.webp": {
+    "file": "/static/forward/learn/cb3fa691546eb2a5.webp",
+    "bytes": 10890,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-mobileirrigation-sbs07.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs08.webp": {
+    "file": "/static/forward/learn/4e1f93f0bfdf4f3f.webp",
+    "bytes": 14760,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-mobileirrigation-sbs08.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs09.webp": {
+    "file": "/static/forward/learn/8a21af0d7a7da5ae.webp",
+    "bytes": 19968,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-mobileirrigation-sbs09.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs10.webp": {
+    "file": "/static/forward/learn/d754783cd65e8047.webp",
+    "bytes": 10826,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-mobileirrigation-sbs10.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs11.webp": {
+    "file": "/static/forward/learn/19d79a133d814b99.webp",
+    "bytes": 15612,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-mobileirrigation-sbs11.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs12.webp": {
+    "file": "/static/forward/learn/62b7314194c11fca.webp",
+    "bytes": 14978,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-mobileirrigation-sbs12.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs13.webp": {
+    "file": "/static/forward/learn/5ee71a652bfcb6f1.webp",
+    "bytes": 14432,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-mobileirrigation-sbs13.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs14.webp": {
+    "file": "/static/forward/learn/b952f28ae8316cb4.webp",
+    "bytes": 13356,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-mobileirrigation-sbs14.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs15.webp": {
+    "file": "/static/forward/learn/1c9bb2ced5dfbba9.webp",
+    "bytes": 14296,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-mobileirrigation-sbs15.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs16.webp": {
+    "file": "/static/forward/learn/145525a524457cb7.webp",
+    "bytes": 15880,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-mobileirrigation-sbs16.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs17.webp": {
+    "file": "/static/forward/learn/374ec73d1a093828.webp",
+    "bytes": 16158,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-mobileirrigation-sbs17.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs18.webp": {
+    "file": "/static/forward/learn/a7203babb7fc6427.webp",
+    "bytes": 14138,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-mobileirrigation-sbs18.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs19.webp": {
+    "file": "/static/forward/learn/926506fdfb59c43a.webp",
+    "bytes": 9672,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-mobileirrigation-sbs19.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs20.webp": {
+    "file": "/static/forward/learn/fdbfc384894eb43d.webp",
+    "bytes": 15872,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/hs-mobileirrigation-sbs20.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-aquaticgarbage-render.webp": {
+    "file": "/static/forward/learn/5134f4ae6e333625.webp",
+    "bytes": 28872,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-aquaticgarbage-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-aquaticgarbage-sbs01.webp": {
+    "file": "/static/forward/learn/44fd21f835232d3e.webp",
+    "bytes": 2788,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-aquaticgarbage-sbs01.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-aquaticgarbage-sbs02.webp": {
+    "file": "/static/forward/learn/b21f286b706e24d0.webp",
+    "bytes": 3960,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-aquaticgarbage-sbs02.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-aquaticgarbage-sbs03.webp": {
+    "file": "/static/forward/learn/1cc4a1caf933be0c.webp",
+    "bytes": 4198,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-aquaticgarbage-sbs03.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-aquaticgarbage-sbs04.webp": {
+    "file": "/static/forward/learn/0866e87cde2b9b91.webp",
+    "bytes": 7534,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-aquaticgarbage-sbs04.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-aquaticgarbage-sbs05.webp": {
+    "file": "/static/forward/learn/5c3dacdae7ff55ce.webp",
+    "bytes": 7124,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-aquaticgarbage-sbs05.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-aquaticgarbage-sbs06.webp": {
+    "file": "/static/forward/learn/899b352eb41e62d2.webp",
+    "bytes": 6112,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-aquaticgarbage-sbs06.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-aquaticgarbage-sbs07.webp": {
+    "file": "/static/forward/learn/0dd2db1132243cb4.webp",
+    "bytes": 7716,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-aquaticgarbage-sbs07.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-aquaticgarbage-sbs08.webp": {
+    "file": "/static/forward/learn/0373b005ebc28b96.webp",
+    "bytes": 7892,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-aquaticgarbage-sbs08.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-aquaticgarbage-sbs09.webp": {
+    "file": "/static/forward/learn/a02786b3ee2bd756.webp",
+    "bytes": 12080,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-aquaticgarbage-sbs09.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-aquaticgarbage-sbs0A.webp": {
+    "file": "/static/forward/learn/16ba662659b39bbf.webp",
+    "bytes": 10670,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-aquaticgarbage-sbs0A.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-aquaticgarbage-sbs0B.webp": {
+    "file": "/static/forward/learn/098fce49700aabfd.webp",
+    "bytes": 13558,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-aquaticgarbage-sbs0B.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-aquaticgarbage-sbs10.webp": {
+    "file": "/static/forward/learn/f43093c0061eb8d4.webp",
+    "bytes": 14768,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-aquaticgarbage-sbs10.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-aquaticgarbage-sbs11.webp": {
+    "file": "/static/forward/learn/022e8d0405f0b27c.webp",
+    "bytes": 10690,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-aquaticgarbage-sbs11.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-aquaticgarbage-sbs12.webp": {
+    "file": "/static/forward/learn/ef7b573dbb7b28b4.webp",
+    "bytes": 9116,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-aquaticgarbage-sbs12.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-aquaticgarbage-sbs13.webp": {
+    "file": "/static/forward/learn/d5d39f7140a232ca.webp",
+    "bytes": 11192,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-aquaticgarbage-sbs13.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-aquaticgarbage-sbs14.webp": {
+    "file": "/static/forward/learn/9c0630f85948dff1.webp",
+    "bytes": 4918,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-aquaticgarbage-sbs14.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-aquaticgarbage-sbs15.webp": {
+    "file": "/static/forward/learn/f6596682bbf4d776.webp",
+    "bytes": 3908,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-aquaticgarbage-sbs15.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-aquaticgarbage-sbs16.webp": {
+    "file": "/static/forward/learn/34b1effc37b05300.webp",
+    "bytes": 7098,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-aquaticgarbage-sbs16.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-aquaticgarbage-sbs17.webp": {
+    "file": "/static/forward/learn/1f3266fa2039e528.webp",
+    "bytes": 14482,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-aquaticgarbage-sbs17.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-aquaticgarbage-sbs18.webp": {
+    "file": "/static/forward/learn/5a9f9fa68f0d00ec.webp",
+    "bytes": 9950,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-aquaticgarbage-sbs18.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-aquaticgarbage-sbs19.webp": {
+    "file": "/static/forward/learn/f8495552141c17d3.webp",
+    "bytes": 10404,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-aquaticgarbage-sbs19.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-aquaticgarbage-sbs20.webp": {
+    "file": "/static/forward/learn/582fad271fdac705.webp",
+    "bytes": 18904,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-aquaticgarbage-sbs20.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-aquaticgarbage-sbs21.webp": {
+    "file": "/static/forward/learn/97fb05da9b1ea462.webp",
+    "bytes": 9474,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-aquaticgarbage-sbs21.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-aquaticgarbage-sbs22.webp": {
+    "file": "/static/forward/learn/78fbd20b489bdac7.webp",
+    "bytes": 10406,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-aquaticgarbage-sbs22.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-habitatmonitoring-render.webp": {
+    "file": "/static/forward/learn/fb85141826b8f211.webp",
+    "bytes": 28476,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-habitatmonitoring-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-heatislands-black-render.webp": {
+    "file": "/static/forward/learn/7fd469927400de23.webp",
+    "bytes": 8508,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-heatislands-black-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-heatislands-render.webp": {
+    "file": "/static/forward/learn/24cba054b58b5813.webp",
+    "bytes": 20724,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-heatislands-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-heatislands-white-render.webp": {
+    "file": "/static/forward/learn/b578f873ff270991.webp",
+    "bytes": 9292,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-heatislands-white-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-risingsea-render.webp": {
+    "file": "/static/forward/learn/c0752ebab6e773b8.webp",
+    "bytes": 34746,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-risingsea-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-risingsea-sbs01.webp": {
+    "file": "/static/forward/learn/173f9143b6d51040.webp",
+    "bytes": 14542,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-risingsea-sbs01.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-risingsea-sbs02.webp": {
+    "file": "/static/forward/learn/8f63b730b385b4ee.webp",
+    "bytes": 13388,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-risingsea-sbs02.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-risingsea-sbs03.webp": {
+    "file": "/static/forward/learn/89b0db2bfde424f9.webp",
+    "bytes": 13700,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-risingsea-sbs03.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-risingsea-sbs04.webp": {
+    "file": "/static/forward/learn/a28ed33e38f060be.webp",
+    "bytes": 14296,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-risingsea-sbs04.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-risingsea-sbs05.webp": {
+    "file": "/static/forward/learn/7f557b0ad3347b17.webp",
+    "bytes": 14982,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-risingsea-sbs05.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-risingsea-sbs06.webp": {
+    "file": "/static/forward/learn/7adf97261a227eca.webp",
+    "bytes": 15750,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-risingsea-sbs06.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-risingsea-sbs07.webp": {
+    "file": "/static/forward/learn/4b0070afe3517cc6.webp",
+    "bytes": 13376,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-risingsea-sbs07.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-risingsea-sbs08.webp": {
+    "file": "/static/forward/learn/257b397263be26b6.webp",
+    "bytes": 9818,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-risingsea-sbs08.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-risingsea-sbs09.webp": {
+    "file": "/static/forward/learn/48fba5be0a4df587.webp",
+    "bytes": 10066,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-risingsea-sbs09.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-risingsea-sbs0A.webp": {
+    "file": "/static/forward/learn/2d8e4b6b7347e150.webp",
+    "bytes": 12432,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-risingsea-sbs0A.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-risingsea-sbs0B.webp": {
+    "file": "/static/forward/learn/c3728190adef1df2.webp",
+    "bytes": 16048,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-risingsea-sbs0B.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-risingsea-sbs0C.webp": {
+    "file": "/static/forward/learn/02d76dc76bd5086e.webp",
+    "bytes": 7890,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-risingsea-sbs0C.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-risingsea-sbs10.webp": {
+    "file": "/static/forward/learn/225e0ca4bf6bda11.webp",
+    "bytes": 10520,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-risingsea-sbs10.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-risingsea-sbs11.webp": {
+    "file": "/static/forward/learn/ff190fb8364edff3.webp",
+    "bytes": 10924,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-risingsea-sbs11.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-risingsea-sbs12.webp": {
+    "file": "/static/forward/learn/5e915b213cac8cf0.webp",
+    "bytes": 17434,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-risingsea-sbs12.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-risingsea-sbs13.webp": {
+    "file": "/static/forward/learn/9634711619e33021.webp",
+    "bytes": 12044,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-risingsea-sbs13.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-risingsea-sbs14.webp": {
+    "file": "/static/forward/learn/eea439de95223fab.webp",
+    "bytes": 12086,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-risingsea-sbs14.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-risingsea-sbs15.webp": {
+    "file": "/static/forward/learn/6c1811ab5cc74558.webp",
+    "bytes": 9470,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-risingsea-sbs15.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-risingsea-sbs16.webp": {
+    "file": "/static/forward/learn/92fa02275cd9dbe7.webp",
+    "bytes": 13158,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-risingsea-sbs16.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-risingsea-sbs17.webp": {
+    "file": "/static/forward/learn/6a976d74b6dce110.webp",
+    "bytes": 11024,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-risingsea-sbs17.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-risingsea-sbs18.webp": {
+    "file": "/static/forward/learn/0cb2ab71cd449fb6.webp",
+    "bytes": 11856,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-risingsea-sbs18.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-risingsea-sbs19.webp": {
+    "file": "/static/forward/learn/1a3478d4b24275af.webp",
+    "bytes": 13070,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-risingsea-sbs19.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-risingsea-sbs20.webp": {
+    "file": "/static/forward/learn/2bfef3ff83d7d9c3.webp",
+    "bytes": 13380,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-risingsea-sbs20.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-smartbin-net.webp": {
+    "file": "/static/forward/learn/189b0476d09b8388.webp",
+    "bytes": 23390,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-smartbin-net.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-smartbin-render.webp": {
+    "file": "/static/forward/learn/6d61396fd6b37fed.webp",
+    "bytes": 22656,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-smartbin-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-smarthome-render.webp": {
+    "file": "/static/forward/learn/ed1bd41e6094c2f7.webp",
+    "bytes": 21672,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-smarthome-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-solarpanel-render.webp": {
+    "file": "/static/forward/learn/2391379a6998877b.webp",
+    "bytes": 24356,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-solarpanel-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-solarpanel-sbs01.webp": {
+    "file": "/static/forward/learn/e2c77ebac092e541.webp",
+    "bytes": 8162,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-solarpanel-sbs01.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-solarpanel-sbs02.webp": {
+    "file": "/static/forward/learn/89dcbea04d831efe.webp",
+    "bytes": 4792,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-solarpanel-sbs02.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-solarpanel-sbs03.webp": {
+    "file": "/static/forward/learn/6a04a49186050b13.webp",
+    "bytes": 15616,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-solarpanel-sbs03.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-solarpanel-sbs04.webp": {
+    "file": "/static/forward/learn/760f23e9d47310ea.webp",
+    "bytes": 4878,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-solarpanel-sbs04.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-solarpanel-sbs05.webp": {
+    "file": "/static/forward/learn/246c12ffe4234a3c.webp",
+    "bytes": 7684,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-solarpanel-sbs05.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-solarpanel-sbs06.webp": {
+    "file": "/static/forward/learn/9cb3eef9bc6c1e0b.webp",
+    "bytes": 4670,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-solarpanel-sbs06.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-solarpanel-sbs07.webp": {
+    "file": "/static/forward/learn/adbaf50c266762b9.webp",
+    "bytes": 18162,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-solarpanel-sbs07.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-solarpanel-sbs08.webp": {
+    "file": "/static/forward/learn/903de34a90ee0cb3.webp",
+    "bytes": 11878,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-solarpanel-sbs08.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-solarpanel-sbs09.webp": {
+    "file": "/static/forward/learn/347daa0cd32f14d9.webp",
+    "bytes": 13694,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-solarpanel-sbs09.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-solarpanel-sbs10.webp": {
+    "file": "/static/forward/learn/f322340cc4425a32.webp",
+    "bytes": 8978,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-solarpanel-sbs10.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-solarpanel-sbs11.webp": {
+    "file": "/static/forward/learn/a692db46d4ae27e7.webp",
+    "bytes": 11966,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-solarpanel-sbs11.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-solarpanel-sbs12.webp": {
+    "file": "/static/forward/learn/c153e98e6bdcebcd.webp",
+    "bytes": 11094,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-solarpanel-sbs12.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-sumppump-render.webp": {
+    "file": "/static/forward/learn/57cf8d777c561414.webp",
+    "bytes": 22082,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-sumppump-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-turbidity-dirty-render.webp": {
+    "file": "/static/forward/learn/3d893bfcda29dcd4.webp",
+    "bytes": 32200,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-turbidity-dirty-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-turbidity-render.webp": {
+    "file": "/static/forward/learn/94c03daca1787171.webp",
+    "bytes": 18108,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-turbidity-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-turbidity-water-render.webp": {
+    "file": "/static/forward/learn/d2c128fd72a26c59.webp",
+    "bytes": 32630,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-turbidity-water-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-windsample-render.webp": {
+    "file": "/static/forward/learn/ebc2e7245e97feb0.webp",
+    "bytes": 22618,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-windsample-render.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-windsample-sbs01.webp": {
+    "file": "/static/forward/learn/ff62fb530c0049ee.webp",
+    "bytes": 7634,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-windsample-sbs01.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-windsample-sbs02.webp": {
+    "file": "/static/forward/learn/a9f55bfee331b133.webp",
+    "bytes": 8380,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-windsample-sbs02.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-windsample-sbs03.webp": {
+    "file": "/static/forward/learn/d12a3ac8213fc8c0.webp",
+    "bytes": 8156,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-windsample-sbs03.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-windsample-sbs04.webp": {
+    "file": "/static/forward/learn/8157cd95f3273463.webp",
+    "bytes": 15792,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-windsample-sbs04.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-windsample-sbs05.webp": {
+    "file": "/static/forward/learn/82bb2cba4f7f0db6.webp",
+    "bytes": 9660,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-windsample-sbs05.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-windsample-sbs06.webp": {
+    "file": "/static/forward/learn/6a533e536e7af75f.webp",
+    "bytes": 11702,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-windsample-sbs06.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-windsample-sbs07.webp": {
+    "file": "/static/forward/learn/19257844488d7cad.webp",
+    "bytes": 18218,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-windsample-sbs07.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-windsample-sbs08.webp": {
+    "file": "/static/forward/learn/761535d86772a86c.webp",
+    "bytes": 13310,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-windsample-sbs08.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-windsample-sbs09.webp": {
+    "file": "/static/forward/learn/981cf63a4d898522.webp",
+    "bytes": 9588,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-windsample-sbs09.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-windsample-sbs10.webp": {
+    "file": "/static/forward/learn/d9ad85beaee27472.webp",
+    "bytes": 9250,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/ms-windsample-sbs10.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/MyDataWalkthrough.webp": {
+    "file": "/static/forward/learn/ae169dcbc6d046bd.webp",
+    "bytes": 526848,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/MyDataWalkthrough.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/NTUsensor-cloudysample.png": {
+    "file": "/static/forward/learn/26fce1763ad5b7b0.webp",
+    "bytes": 9312,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/NTUsensor-cloudysample.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/pairmicrobitGIF.webp": {
+    "file": "/static/forward/learn/819d4b2292c9afb3.webp",
+    "bytes": 1665248,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/pairmicrobitGIF.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/pluganim.webp": {
+    "file": "/static/forward/learn/81632b29dd162dc6.webp",
+    "bytes": 1854232,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/pluganim.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/Project%20Render%20Forest%20Fires%20three%20quarter%20build.png": {
+    "file": "/static/forward/learn/86ccd5fa538b2d3d.webp",
+    "bytes": 23810,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/Project%20Render%20Forest%20Fires%20three%20quarter%20build.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/sodis-prototype.png": {
+    "file": "/static/forward/learn/e2d69f1f6e674fd9.webp",
+    "bytes": 18512,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/sodis-prototype.png"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/sodis-threebottles.webp": {
+    "file": "/static/forward/learn/2b9fefe13d0d9617.webp",
+    "bytes": 29892,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/sodis-threebottles.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/sodis-windowbottles.webp": {
+    "file": "/static/forward/learn/37e00fee2e7067ea.webp",
+    "bytes": 8444,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/sodis-windowbottles.webp"
+  },
+  "https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/tellmore_hintbox_gif.webp": {
+    "file": "/static/forward/learn/8b87a3b5e70a0531.webp",
+    "bytes": 559712,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-climate-action/2f4d29b0e45e488d0095010c33635a66ca611c3e/tutorial-assets/tellmore_hintbox_gif.webp"
+  },
+  "https://raw.githubusercontent.com/Forward-Education/pxt-coding-for-good/refs/heads/main/curriculum/general-assets/connect/download-code.webp": {
+    "file": "/static/forward/learn/d027079afd5f6a96.webp",
+    "bytes": 442352,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-coding-for-good/90b76379c36e69a4c97238d1f98021232ea1ee5e/curriculum/general-assets/connect/download-code.webp"
+  },
+  "https://raw.githubusercontent.com/Forward-Education/pxt-coding-for-good/refs/heads/main/curriculum/general-assets/connect/plugin-on.webp": {
+    "file": "/static/forward/learn/81632b29dd162dc6.webp",
+    "bytes": 1854232,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-coding-for-good/90b76379c36e69a4c97238d1f98021232ea1ee5e/curriculum/general-assets/connect/plugin-on.webp"
+  },
+  "https://raw.githubusercontent.com/Forward-Education/pxt-coding-for-good/refs/heads/main/curriculum/general-assets/connect/tutorial-drag.webp": {
+    "file": "/static/forward/learn/8b87a3b5e70a0531.webp",
+    "bytes": 559712,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-coding-for-good/90b76379c36e69a4c97238d1f98021232ea1ee5e/curriculum/general-assets/connect/tutorial-drag.webp"
+  },
+  "https://raw.githubusercontent.com/Forward-Education/pxt-robot-tour/main/curriculum/general-assets/pairmicrobitGIF.webp": {
+    "file": "/static/forward/learn/819d4b2292c9afb3.webp",
+    "bytes": 1665248,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-robot-tour/64e835362af64b2078ace29f22a68b02607a3f68/curriculum/general-assets/pairmicrobitGIF.webp"
+  },
+  "https://raw.githubusercontent.com/Forward-Education/pxt-robot-tour/main/curriculum/projects/robot-tour/render.webp": {
+    "file": "/static/forward/learn/1ac2ab3fdc285e11.webp",
+    "bytes": 17540,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-robot-tour/64e835362af64b2078ace29f22a68b02607a3f68/curriculum/projects/robot-tour/render.webp"
+  },
+  "https://raw.githubusercontent.com/Forward-Education/pxt-smart-solar/main/curriculum/general-assets/pairmicrobitGIF.webp": {
+    "file": "/static/forward/learn/819d4b2292c9afb3.webp",
+    "bytes": 1665248,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-smart-solar/f2ddfa91e4041b526fa03f426f096c6a6606d9a6/curriculum/general-assets/pairmicrobitGIF.webp"
+  },
+  "https://raw.githubusercontent.com/Forward-Education/pxt-smart-solar/main/curriculum/general-assets/pluganim.webp": {
+    "file": "/static/forward/learn/81632b29dd162dc6.webp",
+    "bytes": 1854232,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-smart-solar/f2ddfa91e4041b526fa03f426f096c6a6606d9a6/curriculum/general-assets/pluganim.webp"
+  },
+  "https://raw.githubusercontent.com/Forward-Education/pxt-smart-solar/main/curriculum/ms-solartracking/energysensor-simulator-demo.gif": {
+    "file": "/static/forward/learn/e546c00ee7320283.webp",
+    "bytes": 86734,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-smart-solar/f2ddfa91e4041b526fa03f426f096c6a6606d9a6/curriculum/ms-solartracking/energysensor-simulator-demo.gif"
+  },
+  "https://raw.githubusercontent.com/Forward-Education/pxt-smart-solar/main/curriculum/ms-solartracking/render-labeled.png": {
+    "file": "/static/forward/learn/e07bfd8fe299cd80.webp",
+    "bytes": 19796,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-smart-solar/f2ddfa91e4041b526fa03f426f096c6a6606d9a6/curriculum/ms-solartracking/render-labeled.png"
+  },
+  "https://raw.githubusercontent.com/Forward-Education/pxt-smart-solar/main/curriculum/ms-solartracking/render.png": {
+    "file": "/static/forward/learn/d62d0adb3b4a5674.webp",
+    "bytes": 10028,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-smart-solar/f2ddfa91e4041b526fa03f426f096c6a6606d9a6/curriculum/ms-solartracking/render.png"
+  },
+  "https://raw.githubusercontent.com/Forward-Education/pxt-smart-solar/main/curriculum/projects/current-monitor/render.png": {
+    "file": "/static/forward/learn/d1f7b25cae21e9a1.webp",
+    "bytes": 9620,
+    "pinned": "https://raw.githubusercontent.com/Forward-Education/pxt-smart-solar/f2ddfa91e4041b526fa03f426f096c6a6606d9a6/curriculum/projects/current-monitor/render.png"
+  }
+}

@@ -1,0 +1,649 @@
+{
+  "18751": {
+    "id": 18751,
+    "slug": "moisture-sensor",
+    "title": "Moisture Sensor",
+    "link": "https://learn.forwardedu.com/moisture-sensor/",
+    "modified": "2026-05-08T18:29:50",
+    "tags": [
+      "Climate Action Kit",
+      "Sensor"
+    ],
+    "excerpt": "How to connect and code with the Moisture Sensor using the breakout board and micro:bit V2.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2024/06/moisture-sensor-thumbnail.webp",
+    "image": "/static/forward/learn/06f6aa907612f6f4.webp"
+  },
+  "18779": {
+    "id": 18779,
+    "slug": "dial",
+    "title": "Rotary Dial",
+    "link": "https://learn.forwardedu.com/dial/",
+    "modified": "2026-05-08T18:29:52",
+    "tags": [
+      "Climate Action Kit",
+      "Sensor"
+    ],
+    "excerpt": "How to connect and code with the Rotary Dial using the breakout board and micro:bit V2.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2024/11/dial-sensor-thumbnail.webp",
+    "image": "/static/forward/learn/3ac172abf6abcfba.webp"
+  },
+  "18814": {
+    "id": 18814,
+    "slug": "line-sensor",
+    "title": "Line Sensor",
+    "link": "https://learn.forwardedu.com/line-sensor/",
+    "modified": "2026-05-08T18:29:53",
+    "tags": [
+      "Climate Action Kit",
+      "Sensor"
+    ],
+    "excerpt": "How to connect and code with the Line Sensor using the breakout board and micro:bit V2.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2024/11/line-sensor-thumbnail.webp",
+    "image": "/static/forward/learn/64a409d5cac13b15.webp"
+  },
+  "20560": {
+    "id": 20560,
+    "slug": "step-counter",
+    "title": "Step Counter with CHARGE Power Pack",
+    "link": "https://learn.forwardedu.com/step-counter/",
+    "modified": "2026-05-08T18:30:11",
+    "tags": [
+      "CHARGE for micro:bit",
+      "codectrl",
+      "Coding Activity",
+      "MicroCode"
+    ],
+    "excerpt": "Code your own step counter with MakeCode or MicroCode!",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2024/11/project-step-counter-thumbnail.webp",
+    "image": "/static/forward/learn/a56cec89cd174ac6.webp"
+  },
+  "20624": {
+    "id": 20624,
+    "slug": "compass",
+    "title": "Compass with CHARGE Power Pack",
+    "link": "https://learn.forwardedu.com/compass/",
+    "modified": "2026-05-08T18:30:12",
+    "tags": [
+      "CHARGE for micro:bit",
+      "Coding Activity"
+    ],
+    "excerpt": "Make a compass out of your micro:bit and use it conveniently with the CHARGE power pack.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2024/11/project-compass-thumbnail.webp",
+    "image": "/static/forward/learn/603d71184a610613.webp"
+  },
+  "20651": {
+    "id": 20651,
+    "slug": "water-bottle-signal",
+    "title": "Water Bottle Signal with CHARGE Power Pack",
+    "link": "https://learn.forwardedu.com/water-bottle-signal/",
+    "modified": "2026-05-08T18:30:15",
+    "tags": [
+      "CHARGE for micro:bit",
+      "Coding Activity"
+    ],
+    "excerpt": "Strap micro:bit and then CHARGE power pack to your water bottle and have it notify you if someone takes a drink.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2024/11/project-waterbottle-alert-thumbnail.webp",
+    "image": "/static/forward/learn/b70daedcecd0cf16.webp"
+  },
+  "20683": {
+    "id": 20683,
+    "slug": "rock-paper-scissors",
+    "title": "Rock-Paper-Scissors with CHARGE Power Pack",
+    "link": "https://learn.forwardedu.com/rock-paper-scissors/",
+    "modified": "2026-05-08T18:30:14",
+    "tags": [
+      "CHARGE for micro:bit",
+      "Coding Activity"
+    ],
+    "excerpt": "Play Rock-Paper-Scissors where your fate is left up to the micro:bit to decide! Use it conveniently with the CHARGE power pack.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2024/11/project-RPS-thumbnail.webp",
+    "image": "/static/forward/learn/806e567c18cbd41c.webp"
+  },
+  "20771": {
+    "id": 20771,
+    "slug": "kick-strength",
+    "title": "Kick Power Tracker with CHARGE Power Pack",
+    "link": "https://learn.forwardedu.com/kick-strength/",
+    "modified": "2026-05-08T18:30:15",
+    "tags": [
+      "CHARGE for micro:bit",
+      "Coding Activity"
+    ],
+    "excerpt": "Track your soccer ball kicking power with a micro:bit and the CHARGE power pack.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2024/11/project-kick-power-thumbnail.webp",
+    "image": "/static/forward/learn/02311837dc238f3f.webp"
+  },
+  "20969": {
+    "id": 20969,
+    "slug": "water-pump",
+    "title": "Submersible Water Pump",
+    "link": "https://learn.forwardedu.com/water-pump/",
+    "modified": "2026-05-12T21:21:49",
+    "tags": [
+      "Climate Action Kit"
+    ],
+    "excerpt": "Learn about how to use the Water Pump in the Climate Action Kit.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2024/11/water-pump-thumbnail.webp",
+    "image": "/static/forward/learn/0da3ec6d409d8d47.webp"
+  },
+  "21299": {
+    "id": 21299,
+    "slug": "hydration-alert",
+    "title": "Hydration Alert with CHARGE Power Pack",
+    "link": "https://learn.forwardedu.com/hydration-alert/",
+    "modified": "2026-05-08T18:30:12",
+    "tags": [
+      "CHARGE for micro:bit",
+      "Coding Activity"
+    ],
+    "excerpt": "Get reminded to drink water with this micro:bit interval alarm. Attach it to your water bottle easily with the CHARGE power pack.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2024/11/project-hydration-alert-thumbnail.webp",
+    "image": "/static/forward/learn/e4a3d6beb2ad1a65.webp"
+  },
+  "21496": {
+    "id": 21496,
+    "slug": "hot-and-cold-game",
+    "title": "Hot-Cold Game with CHARGE Power Pack",
+    "link": "https://learn.forwardedu.com/hot-and-cold-game/",
+    "modified": "2026-05-08T18:30:14",
+    "tags": [
+      "CHARGE for micro:bit",
+      "Coding Activity"
+    ],
+    "excerpt": "Play the Hot or Cold game using wireless micro:bits to communicate! Use it conveniently with the CHARGE power pack.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2024/11/project-hot-cold-game-thumbnail-1.webp",
+    "image": "/static/forward/learn/cad265373db34092.webp"
+  },
+  "21662": {
+    "id": 21662,
+    "slug": "thermometer",
+    "title": "Indoor-Outdoor Thermometer with CHARGE Power Pack",
+    "link": "https://learn.forwardedu.com/thermometer/",
+    "modified": "2026-05-08T18:30:13",
+    "tags": [
+      "CHARGE for micro:bit",
+      "Coding Activity"
+    ],
+    "excerpt": "Check the outside temperature remotely with 2 micro:bits and CHARGE power packs.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2024/11/project-thermometer-thumbnail-1.webp",
+    "image": "/static/forward/learn/a4de7f7936a413f2.webp"
+  },
+  "24792": {
+    "id": 24792,
+    "slug": "float-sensor",
+    "title": "Float Sensor",
+    "link": "https://learn.forwardedu.com/float-sensor/",
+    "modified": "2026-05-12T21:23:28",
+    "tags": [
+      "Hydroponics Kit",
+      "Sensor"
+    ],
+    "excerpt": "How to connect and code with the Float Sensor using the breakout board and micro:bit V2.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2025/09/float-switch-tutorial-thumbnail-1.jpg",
+    "image": "/static/forward/learn/9356ccd09a75483d.webp"
+  },
+  "24796": {
+    "id": 24796,
+    "slug": "coding-the-smart-solder-component",
+    "title": "Coding the Smart Solder Component",
+    "link": "https://learn.forwardedu.com/coding-the-smart-solder-component/",
+    "modified": "2026-05-12T21:24:36",
+    "tags": [
+      "Smart Soldering Kit"
+    ],
+    "excerpt": "How to connect and code with the smart solder component using the breakout board and micro:bit V2.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2025/06/Coding-Smart-Soldering-Component-Tutorial-Thumbnail_compressed-scaled.jpg",
+    "image": "/static/forward/learn/995168cbf19704c6.webp"
+  },
+  "24797": {
+    "id": 24797,
+    "slug": "temperature-probe",
+    "title": "Temperature Probe",
+    "link": "https://learn.forwardedu.com/temperature-probe/",
+    "modified": "2026-05-13T20:25:52",
+    "tags": [
+      "Sensor"
+    ],
+    "excerpt": "How to connect and code with the Temperature Probe using the breakout board and micro:bit V2",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2025/05/Temp-Probe-Tutorial-Thumbnail.jpg",
+    "image": "/static/forward/learn/f079a22fe20609e0.webp"
+  },
+  "24799": {
+    "id": 24799,
+    "slug": "led-lights",
+    "title": "LED Lights",
+    "link": "https://learn.forwardedu.com/led-lights/",
+    "modified": "2026-05-12T21:23:41",
+    "tags": [
+      "Hydroponics Kit",
+      "Sensor"
+    ],
+    "excerpt": "How to connect and code with the LED Lights using the breakout board and micro:bit V2.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2025/09/LED-light-tutorial-thumbnail.jpg",
+    "image": "/static/forward/learn/c1686ed440ecbb1a.webp"
+  },
+  "24801": {
+    "id": 24801,
+    "slug": "peristaltic-pump",
+    "title": "Peristaltic Water Pump",
+    "link": "https://learn.forwardedu.com/peristaltic-pump/",
+    "modified": "2026-05-12T21:18:38",
+    "tags": [
+      "Hydroponics Kit"
+    ],
+    "excerpt": "How to connect and code with the Peristaltic Water Pump using the breakout board and micro:bit V2.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2025/09/peristaltic-pump-tutorial-thumbnail.jpg",
+    "image": "/static/forward/learn/5b2633147d668787.webp"
+  },
+  "24802": {
+    "id": 24802,
+    "slug": "ph-probe",
+    "title": "pH Probe",
+    "link": "https://learn.forwardedu.com/ph-probe/",
+    "modified": "2026-05-12T21:23:52",
+    "tags": [
+      "Hydroponics Kit",
+      "MWEE Kit",
+      "Sensor"
+    ],
+    "excerpt": "How to connect and code with the pH probe using the breakout board and micro:bit V2.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2026/02/Tutorials-PH-Probe.jpg",
+    "image": "/static/forward/learn/f6a02cc76ad804e0.webp"
+  },
+  "24815": {
+    "id": 24815,
+    "slug": "water-recirculation-for-hydroponics",
+    "title": "Water Recirculation for Hydroponics",
+    "link": "https://learn.forwardedu.com/water-recirculation-for-hydroponics/",
+    "modified": "2026-05-08T18:30:08",
+    "tags": [
+      "Coding Activity",
+      "Hydroponics Kit",
+      "Intermediate"
+    ],
+    "excerpt": "Circulate water to keep plant nutrients healthy with the Smart Hydroponics Kit.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2025/08/water-recirculation-project-thumbnail.jpg",
+    "image": "/static/forward/learn/50d4305559b849e7.webp"
+  },
+  "24816": {
+    "id": 24816,
+    "slug": "dimming-lights-for-hydroponics",
+    "title": "Dimming Lights for Hydroponics",
+    "link": "https://learn.forwardedu.com/dimming-lights-for-hydroponics/",
+    "modified": "2026-05-08T18:30:06",
+    "tags": [
+      "Beginner",
+      "Coding Activity",
+      "Hydroponics Kit"
+    ],
+    "excerpt": "Create a light cycle to help plants grow with the Smart Hydroponics Kit.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2026/02/Chuck-a-Duck-Thumbnail-04.jpg",
+    "image": "/static/forward/learn/1dd5757a964732bf.webp"
+  },
+  "24817": {
+    "id": 24817,
+    "slug": "simple-ph-monitoring",
+    "title": "Simple pH Monitoring",
+    "link": "https://learn.forwardedu.com/simple-ph-monitoring/",
+    "modified": "2026-05-08T18:30:03",
+    "tags": [
+      "Beginner",
+      "Coding Activity",
+      "Hydroponics Kit",
+      "MWEE Kit",
+      "Science Activity"
+    ],
+    "excerpt": "Adjust pH for healthy plant growth with the Smart Hydroponics Kit.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2026/02/Simple-pH-Monitoring-07.jpg",
+    "image": "/static/forward/learn/4893f802a7c71213.webp"
+  },
+  "24818": {
+    "id": 24818,
+    "slug": "automatic-light-timer-for-hydroponics",
+    "title": "Automatic Light Timer for Hydroponics",
+    "link": "https://learn.forwardedu.com/automatic-light-timer-for-hydroponics/",
+    "modified": "2026-05-08T18:30:07",
+    "tags": [
+      "Beginner",
+      "Coding Activity",
+      "Hydroponics Kit"
+    ],
+    "excerpt": "Create a cycle to simulate day and night with the Smart Hydroponics Kit.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2026/02/Project-Automatic-Light-Timer-for-Hydroponics-05.jpg",
+    "image": "/static/forward/learn/6fdeb5ae4a982e5b.webp"
+  },
+  "25418": {
+    "id": 25418,
+    "slug": "traffic-lights-with-smart-soldering-kit",
+    "title": "Traffic Lights with Smart Soldering Kit",
+    "link": "https://learn.forwardedu.com/traffic-lights-with-smart-soldering-kit/",
+    "modified": "2026-05-08T18:29:55",
+    "tags": [
+      "Beginner",
+      "Climate Action Kit",
+      "Coding Activity",
+      "Smart Soldering Kit"
+    ],
+    "excerpt": "Create a traffic light model with the Smart Solder component.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2025/06/TrafficLight-Project-Thumbnail-1-scaled.jpg",
+    "image": "/static/forward/learn/c07027e21e51d842.webp"
+  },
+  "25419": {
+    "id": 25419,
+    "slug": "smart-crosswalk-with-smart-soldering-kit",
+    "title": "Smart Crosswalk with Smart Soldering Kit",
+    "link": "https://learn.forwardedu.com/smart-crosswalk-with-smart-soldering-kit/",
+    "modified": "2026-05-08T18:29:54",
+    "tags": [
+      "Climate Action Kit",
+      "Coding Activity",
+      "Intermediate",
+      "Smart Soldering Kit"
+    ],
+    "excerpt": "Create a smart crosswalk model with the Smart Solder component.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2025/06/Crosswalk-Project-Thumbnail_compressed.jpg",
+    "image": "/static/forward/learn/e2e465a11f14f54c.webp"
+  },
+  "25497": {
+    "id": 25497,
+    "slug": "energy-sensor",
+    "title": "Energy Sensor",
+    "link": "https://learn.forwardedu.com/energy-sensor/",
+    "modified": "2026-05-12T21:24:48",
+    "tags": [
+      "Sensor",
+      "Smart Solar Energy Kit"
+    ],
+    "excerpt": "How to connect and code with the Energy Sensor using the breakout board and micro:bit V2.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2025/06/Components-Thumbnails-EnergySensor-scaled.jpg",
+    "image": "/static/forward/learn/c8e6c3f1e3fbf50a.webp"
+  },
+  "25526": {
+    "id": 25526,
+    "slug": "turbine-speed-indicator-with-smart-soldering-kit",
+    "title": "Turbine Speed Indicator With Smart Soldering Kit",
+    "link": "https://learn.forwardedu.com/turbine-speed-indicator-with-smart-soldering-kit/",
+    "modified": "2026-05-08T18:30:02",
+    "tags": [
+      "Beginner",
+      "Climate Action Kit",
+      "Coding Activity",
+      "Smart Soldering Kit"
+    ],
+    "excerpt": "Create a wind turbine speed indicator for the Powerful Force of the Wind Lesson using the Smart Solder component.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2025/06/Trubine-Speed-Indicator-Project-Thumbnail-1-scaled.jpg",
+    "image": "/static/forward/learn/cb034bc597f7948c.webp"
+  },
+  "25531": {
+    "id": 25531,
+    "slug": "monitoring-the-hashan",
+    "title": "Monitoring the Ha:shañ",
+    "link": "https://learn.forwardedu.com/monitoring-the-hashan/",
+    "modified": "2026-05-08T18:30:10",
+    "tags": [
+      "AISES",
+      "Beginner",
+      "Climate Action Kit",
+      "Coding Activity"
+    ],
+    "excerpt": "Understand the impact of extreme heat in the desert with this FIIRE Indigenous Perspectives project.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2025/06/monitoring-hashan-project-thumbnail-FIIRE.jpg",
+    "image": "/static/forward/learn/e527c3eea5a4710d.webp"
+  },
+  "25564": {
+    "id": 25564,
+    "slug": "solar-data-logger",
+    "title": "Solar Data Logger",
+    "link": "https://learn.forwardedu.com/solar-data-logger/",
+    "modified": "2026-05-08T18:30:00",
+    "tags": [
+      "Climate Action Kit",
+      "Coding Activity",
+      "Intermediate",
+      "Smart Solar Energy Kit"
+    ],
+    "excerpt": "Build a data logger to track your solar panel’s performance over time and in response to different variables using the Smart Solar Energy kit.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2025/07/Solar-Data-Logger-Project-Thumbnail-scaled.jpg",
+    "image": "/static/forward/learn/0e5e3727ddac4eb0.webp"
+  },
+  "25754": {
+    "id": 25754,
+    "slug": "guitar-with-charge-power-pack",
+    "title": "Guitar with CHARGE Power Pack",
+    "link": "https://learn.forwardedu.com/guitar-with-charge-power-pack/",
+    "modified": "2026-05-08T18:30:16",
+    "tags": [
+      "Beginner",
+      "CHARGE for micro:bit",
+      "Design Activity",
+      "Laser Cut"
+    ],
+    "excerpt": "Create and code a guitar with the with the CHARGE for micro:bit",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2025/06/Guitar-Project-Thumbnail-copy_compressed.jpg",
+    "image": "/static/forward/learn/facce26c338de0ab.webp"
+  },
+  "26191": {
+    "id": 26191,
+    "slug": "tracking-seedlings-with-plant-stakes",
+    "title": "Tracking Seedlings with Plant Stakes",
+    "link": "https://learn.forwardedu.com/tracking-seedlings-with-plant-stakes/",
+    "modified": "2026-06-18T23:36:32",
+    "tags": [
+      "Beginner",
+      "Design Activity",
+      "Laser Cut"
+    ],
+    "excerpt": "Create a plant stake to personalize smart agricultural projects using a laser cutter.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2025/08/plant-stakes-project-thumbnail.jpg",
+    "image": "/static/forward/learn/176bac1b4ef4a0c7.webp"
+  },
+  "26293": {
+    "id": 26293,
+    "slug": "wampum-belt",
+    "title": "Design a Wampum Belt",
+    "link": "https://learn.forwardedu.com/wampum-belt/",
+    "modified": "2026-05-08T18:37:45",
+    "tags": [
+      "AISES",
+      "Beginner",
+      "Climate Action Kit",
+      "Coding Activity",
+      "Coding for Good Kit",
+      "Design Activity"
+    ],
+    "excerpt": "Design and create a Wampum Belt with this FIIRE Indigenous Perspectives project.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2025/07/wampum-belt-project-thumbnail-FIIRE.jpg",
+    "image": "/static/forward/learn/8c61ec254a912269.webp"
+  },
+  "26458": {
+    "id": 26458,
+    "slug": "auto-refill-hydroponics-reservoir",
+    "title": "Auto-Refill Hydroponics Reservoir",
+    "link": "https://learn.forwardedu.com/auto-refill-hydroponics-reservoir/",
+    "modified": "2026-05-08T18:30:09",
+    "tags": [
+      "Coding Activity",
+      "Hydroponics Kit",
+      "Intermediate"
+    ],
+    "excerpt": "Automatically refill your reservoir using the Smart Hydroponics Kit.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2025/08/auto-refill-project-thumbnail.jpg",
+    "image": "/static/forward/learn/f6c1adcfbc0a8157.webp"
+  },
+  "26469": {
+    "id": 26469,
+    "slug": "low-water-alarm-for-hydroponics",
+    "title": "Low-Water Alarm for Hydroponics",
+    "link": "https://learn.forwardedu.com/low-water-alarm-for-hydroponics/",
+    "modified": "2026-05-08T18:30:08",
+    "tags": [
+      "Beginner",
+      "Coding Activity",
+      "Hydroponics Kit"
+    ],
+    "excerpt": "Set up an alarm to detect when water levels are low using the Smart Hydroponics Kit.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2025/08/water-alarm-project-thumbnail.jpg",
+    "image": "/static/forward/learn/119001e6aa1e4302.webp"
+  },
+  "26491": {
+    "id": 26491,
+    "slug": "visualize-electricity-flow-with-a-current-monitor",
+    "title": "Visualize Electricity Flow with a Current Monitor",
+    "link": "https://learn.forwardedu.com/visualize-electricity-flow-with-a-current-monitor/",
+    "modified": "2026-05-08T18:29:56",
+    "tags": [
+      "Beginner",
+      "Climate Action Kit",
+      "Coding Activity",
+      "Smart Solar Energy Kit"
+    ],
+    "excerpt": "Build a monitor for your solar panel to see how much current is being generated in real-time!",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2025/07/Visualizing-Electricity-Flow-Project-Thumbnail-copy-2.jpg",
+    "image": "/static/forward/learn/245b9e0ccb518fd2.webp"
+  },
+  "26593": {
+    "id": 26593,
+    "slug": "robot-tour",
+    "title": "Robot Tour",
+    "link": "https://learn.forwardedu.com/robot-tour/",
+    "modified": "2026-05-08T18:30:20",
+    "tags": [
+      "Coding Activity",
+      "Intermediate"
+    ],
+    "excerpt": "Build and program a tour vehicle to navigate a unique path.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2025/08/robot-tour-project-thumbnail.jpg",
+    "image": "/static/forward/learn/bf6ac11cc16b834f.webp"
+  },
+  "26807": {
+    "id": 26807,
+    "slug": "calibrate-log-ph",
+    "title": "Calibrate & Log pH",
+    "link": "https://learn.forwardedu.com/calibrate-log-ph/",
+    "modified": "2026-05-08T18:30:03",
+    "tags": [
+      "Coding Activity",
+      "Hydroponics Kit",
+      "Intermediate",
+      "Science Activity"
+    ],
+    "excerpt": "Calibrate your pH probe and log your hydroponics pH levels.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2026/02/Calibrate-Log-pH-06.jpg",
+    "image": "/static/forward/learn/8dfab710e7ba34f5.webp"
+  },
+  "28941": {
+    "id": 28941,
+    "slug": "pir-sensor",
+    "title": "PIR (Motion) Sensor",
+    "link": "https://learn.forwardedu.com/pir-sensor/",
+    "modified": "2026-05-13T20:31:10",
+    "tags": [],
+    "excerpt": "How to connect and code with the PIR motion sensor using the breakout board and micro:bit V2.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2026/05/PIR-Tutorial-Thumbnail.jpg",
+    "image": "/static/forward/learn/d7496e0916d75568.webp"
+  },
+  "28987": {
+    "id": 28987,
+    "slug": "lcd-screen",
+    "title": "LCD Screen",
+    "link": "https://learn.forwardedu.com/lcd-screen/",
+    "modified": "2026-05-13T19:19:35",
+    "tags": [],
+    "excerpt": "How to connect and code with the LCD screen using the breakout board and micro:bit V2.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2026/05/LCD-Tutorial-Thumbnail.jpg",
+    "image": "/static/forward/learn/d75e6c60545b2e05.webp"
+  },
+  "29045": {
+    "id": 29045,
+    "slug": "color-sensor",
+    "title": "Color Sensor",
+    "link": "https://learn.forwardedu.com/color-sensor/",
+    "modified": "2026-05-13T20:26:15",
+    "tags": [],
+    "excerpt": "How to connect and code with the Color sensor using the breakout board and micro:bit V2",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2026/05/Color-Sensor-Tutorial-Thumbnail.jpg",
+    "image": "/static/forward/learn/586c39e8b511d9fc.webp"
+  },
+  "29854": {
+    "id": 29854,
+    "slug": "artemis-ii-hello-moon-with-microbit",
+    "title": "Artemis II – Hello Moon with micro:bit",
+    "link": "https://learn.forwardedu.com/artemis-ii-hello-moon-with-microbit/",
+    "modified": "2026-06-08T14:39:12",
+    "tags": [
+      "CHARGE for micro:bit",
+      "Climate Action Kit",
+      "Coding Activity"
+    ],
+    "excerpt": "Artemis II Challenge 1 of 3: Use two micro:bits to communicate wirelessly between the Artemis II crew and Mission Control!",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2026/04/artemis-ii-hello-moon-thumbnail-outlined.jpg",
+    "image": "/static/forward/learn/0dadc57093c4482e.webp"
+  },
+  "29923": {
+    "id": 29923,
+    "slug": "artemis-ii-lunar-rover-exploration",
+    "title": "Artemis II – Lunar Rover Design",
+    "link": "https://learn.forwardedu.com/artemis-ii-lunar-rover-exploration/",
+    "modified": "2026-06-08T14:38:33",
+    "tags": [
+      "Climate Action Kit",
+      "Coding Activity",
+      "Coding for Good Kit",
+      "Intermediate"
+    ],
+    "excerpt": "Artemis II Challenge 2 of 3: Design and code your own Moon Rover using motors and a line-sensor to follow a path on the Moon.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2026/04/artemis-ii-lunar-rover-exploration-thumbnail-outlined.jpg",
+    "image": "/static/forward/learn/8cbd133f064f9818.webp"
+  },
+  "29925": {
+    "id": 29925,
+    "slug": "artemis-ii-mission-to-the-moon",
+    "title": "Artemis II – Mission to the Moon with micro:bit",
+    "link": "https://learn.forwardedu.com/artemis-ii-mission-to-the-moon/",
+    "modified": "2026-06-08T14:38:17",
+    "tags": [
+      "Climate Action Kit",
+      "Coding Activity",
+      "Coding for Good Kit",
+      "Intermediate"
+    ],
+    "excerpt": "Artemis II Challenge 3 of 3: Use the sonar sensor to help your Moon Rover navigate the surface of the moon.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2026/04/artemis-ii-mission-to-the-moon-thumbnail-1.jpg",
+    "image": "/static/forward/learn/b8ef3efd06000122.webp"
+  },
+  "30491": {
+    "id": 30491,
+    "slug": "soil-temperature-testing",
+    "title": "Soil Temperature Testing",
+    "link": "https://learn.forwardedu.com/soil-temperature-testing/",
+    "modified": "2026-05-11T18:36:56",
+    "tags": [],
+    "excerpt": "Use the temperature probe to check the soil temperature at root depth before planting seedlings outdoors.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2026/05/Soil-Monitoring.webp",
+    "image": "/static/forward/learn/ffea88e54b086025.webp"
+  },
+  "30697": {
+    "id": 30697,
+    "slug": "entry-alert",
+    "title": "Entry Alert",
+    "link": "https://learn.forwardedu.com/entry-alert/",
+    "modified": "2026-05-11T18:35:27",
+    "tags": [
+      "Coding Activity"
+    ],
+    "excerpt": "Increase accessibility for those with limited mobility or hearing by using the PIR sensor to send an alert when someone enters a room.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2026/05/Entry-Alert.webp",
+    "image": "/static/forward/learn/eb063eb4c64fd386.webp"
+  },
+  "30701": {
+    "id": 30701,
+    "slug": "motion-sensing-lights",
+    "title": "Motion Sensing Lights",
+    "link": "https://learn.forwardedu.com/motion-sensing-lights/",
+    "modified": "2026-05-11T18:37:41",
+    "tags": [],
+    "excerpt": "Reduce electricity waste and carbon footprints by using the PIR sensor to put classroom lights on a timer.",
+    "featuredImage": "https://learn.forwardedu.com/wp-content/uploads/2026/05/Auto-Lights.webp",
+    "image": "/static/forward/learn/0d50f214721348b3.webp"
+  }
+}

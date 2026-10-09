@@ -1,0 +1,13 @@
+{
+  "fetched": "2026-10-08",
+  "from": [
+    "learn.forwardedu.com/wp-json/wp/v2 (public, read-only)",
+    "makecode.com/api/<share id>",
+    "api.github.com at each pinned tag"
+  ],
+  "posts": 45,
+  "shares": 75,
+  "tutorials": 111,
+  "images": 452,
+  "imageMB": 10.4
+}

@@ -42,5 +42,14 @@
         },
         "extensionsToolboxDisallowDelete": []
     },
-    "galleries": {}
+    "galleries": {
+        "Climate Action Kit": "forward/home/climate-action-kit",
+        "Coding for Good Kit": "forward/home/coding-for-good-kit",
+        "Smart Hydroponics": "forward/home/smart-hydroponics",
+        "CHARGE for micro:bit": "forward/home/charge-for-micro-bit",
+        "Smart Sensors": "forward/home/smart-sensors",
+        "Smart Solar": "forward/home/smart-solar",
+        "Smart Soldering": "forward/home/smart-soldering",
+        "Robot Tour": "forward/home/robot-tour"
+    }
 }

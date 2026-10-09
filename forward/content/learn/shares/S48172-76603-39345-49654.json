@@ -1,0 +1,12 @@
+{
+  "id": "S48172-76603-39345-49654",
+  "name": "step counter",
+  "target": "microbit",
+  "created": "2025-06-02T20:18:02.000Z",
+  "files": {
+    "README.md": "",
+    "main.blocks": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><variables><variable id=\"_oHcDr[*/Dg8{Q`b_bXm\">steps</variable></variables><block type=\"pxt-on-start\" x=\"-255\" y=\"3\"><statement name=\"HANDLER\"><block type=\"variables_set\"><field name=\"VAR\" id=\"_oHcDr[*/Dg8{Q`b_bXm\">steps</field><value name=\"VALUE\"><shadow type=\"math_number\"><field name=\"NUM\">0</field></shadow></value></block></statement></block><block type=\"device_gesture_event\" x=\"0\" y=\"0\"><field name=\"NAME\">Gesture.Shake</field><statement name=\"HANDLER\"><block type=\"variables_change\"><field name=\"VAR\" id=\"_oHcDr[*/Dg8{Q`b_bXm\">steps</field><value name=\"VALUE\"><shadow type=\"math_number\"><field name=\"NUM\">1</field></shadow></value><next><block type=\"device_show_number\"><value name=\"number\"><shadow type=\"math_number\"><field name=\"NUM\">0</field></shadow><block type=\"variables_get\"><field name=\"VAR\" id=\"_oHcDr[*/Dg8{Q`b_bXm\">steps</field></block></value></block></next></block></statement></block></xml>",
+    "main.ts": "input.onGesture(Gesture.Shake, function () {\n    steps += 1\n    basic.showNumber(steps)\n})\nlet steps = 0\nsteps = 0\n",
+    "pxt.json": "{\n    \"name\": \"step counter\",\n    \"description\": \"\",\n    \"dependencies\": {\n        \"core\": \"*\",\n        \"radio\": \"*\",\n        \"microphone\": \"*\"\n    },\n    \"files\": [\n        \"main.blocks\",\n        \"main.ts\",\n        \"README.md\"\n    ],\n    \"targetVersions\": {\n        \"branch\": \"v7.0.61\",\n        \"tag\": \"v7.0.61\",\n        \"commits\": \"https://github.com/microsoft/pxt-microbit/commits/1bb8145a013b8c3718bf6c82138e87e3ecb5514d\",\n        \"target\": \"7.0.61\",\n        \"pxt\": \"11.1.14\"\n    },\n    \"preferredEditor\": \"blocksprj\"\n}\n"
+  }
+}

@@ -1,0 +1,945 @@
+{
+    "$comment": [
+        "Which learn.forwardedu.com content appears on the editor home page, and in what order (Brian, 2026-10-08).",
+        "One category is one row of cards. An item is either a post share link (post id + MakeCode share id; converted into a self-contained tutorial under docs/forward/projects/) or a tutorial already in a Forward extension, served from the snapshot at its pinned tag.",
+        "tutorial items: \"tag\" is the release the markdown is taken from (the latest, which carries the fixes); the card opens it at the version its own package block pins, so the project depends on a single version of the extension.",
+        "hidden: kept in the snapshot but left off the home page, with the reason. forward/content/learn/inventory.csv lists everything on the site and why the rest is out.",
+        "Edit this file, then run: node forward/build/learn-fetch.js (network) and node forward/build/learn-gallery.js (offline).",
+        "extensions: what a converted share project depends on. Each share link is re-pinned to the current release of its extension (keyed by owner/repo, lower case), so it opens on makecode.microbit.org too and downloads with a pre-built native image (forward/native-combos.json). \"replace\" moves a retired extension to its successor; \"drop\" removes a dependency the successor already brings in.",
+        "tutorialRepins: extension tutorials whose package block pins a release that pulls pxt-jacdac 1.9.38 or 1.9.40, which has no pre-built native image, so Download would fail. Our served copy pins the given release instead (pxt-jacdac 1.9.41). Each tutorial's final program was compiled under both pins with identical results (2026-10-08). pxt-robot-tour is not listed: even its latest release (v1.0.4) uses pxt-jacdac 1.9.38.",
+        "image (per category): picture for cards whose content has none, from the site's media library."
+    ],
+    "extensions": {
+        "forward-education/pxt-all-fwd-blocks": {
+            "name": "all-fwd-blocks",
+            "spec": "github:Forward-Education/pxt-all-fwd-blocks#v2.1.2"
+        },
+        "forward-education/pxt-coding-for-good": {
+            "name": "fwd-coding-for-good",
+            "spec": "github:Forward-Education/pxt-coding-for-good#v1.1.4"
+        },
+        "forward-education/pxt-climate-action": {
+            "name": "fwd-climate-action",
+            "spec": "github:Forward-Education/pxt-climate-action#v2.0.3"
+        },
+        "forward-education/pxt-smart-hydroponics": {
+            "name": "fwd-smart-hydroponics",
+            "spec": "github:Forward-Education/pxt-smart-hydroponics#v1.2.3"
+        },
+        "forward-education/pxt-smart-soldering": {
+            "name": "fwd-smart-soldering",
+            "spec": "github:Forward-Education/pxt-smart-soldering#v1.2.3"
+        },
+        "forward-education/pxt-smart-solar": {
+            "name": "fwd-smart-solar",
+            "spec": "github:Forward-Education/pxt-smart-solar#v2.0.3"
+        },
+        "forward-education/pxt-robot-tour": {
+            "name": "fwd-robot-tour",
+            "spec": "github:Forward-Education/pxt-robot-tour#v1.0.4"
+        },
+        "climate-action-kits/pxt-fwd-edu": {
+            "replace": "forward-education/pxt-climate-action"
+        },
+        "forward-education/pxt-fwd-all": {
+            "replace": "forward-education/pxt-all-fwd-blocks"
+        },
+        "microsoft/pxt-jacdac": {
+            "drop": true
+        },
+        "jacdac/pxt-jacdac": {
+            "drop": true
+        }
+    },
+    "tutorialRepins": {
+        "forward-education/pxt-coding-for-good": "v1.1.4",
+        "forward-education/pxt-smart-solar": "v2.0.3"
+    },
+    "categories": [
+        {
+            "id": "climate-action-kit",
+            "title": "Climate Action Kit",
+            "items": [
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/es-compost-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 3-5"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/es-compost-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 3-5"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/es-coralreef-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 3-5"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/es-coralreef-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 3-5"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/es-landbridge-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 3-5"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/es-landbridge-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 3-5"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/es-risingfloodalarm-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 3-5"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/es-risingfloodalarm-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 3-5"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/es-seaweedfarm-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 3-5"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/es-seaweedfarm-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 3-5"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/es-streetlight-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 3-5"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/es-streetlight-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 3-5"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/gr3-forcewind-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 3-5"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/gr3-forcewind-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 3-5"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/gr4-bee-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 3-5"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/gr4-bee-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 3-5"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/gr6-glaciers-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/gr6-glaciers-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/gr68-turtles-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/gr68-turtles-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/gr7-wildfire-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8",
+                    "hidden": "driving blocks rewritten to drive(left, right, 1000 ms) without hardware calibration (pxt-climate-action MIGRATION.md)"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/gr7-wildfire-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8",
+                    "hidden": "driving blocks rewritten to drive(left, right, 1000 ms) without hardware calibration (pxt-climate-action MIGRATION.md)"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/gr8-smartfarming-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/gr8-smartfarming-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/ms-aquaticgarbage-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/ms-aquaticgarbage-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/ms-habitatmonitoring-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/ms-habitatmonitoring-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/ms-heatislands-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/ms-heatislands-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/ms-risingsea-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/ms-risingsea-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/ms-smartbin-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/ms-smartbin-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/ms-smarthome-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/ms-smarthome-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/ms-sodis-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/ms-sodis-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/ms-solarpanel-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/ms-solarpanel-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/ms-sumppump-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/ms-sumppump-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/ms-turbiditymeter-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/ms-turbiditymeter-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/ms-windbattery-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/ms-windbattery-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 6-8"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/gr9-treeSeeder-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 9-10",
+                    "hidden": "driving blocks rewritten to drive(left, right, 1000 ms) without hardware calibration (pxt-climate-action MIGRATION.md)"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/gr9-treeSeeder-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 9-10",
+                    "hidden": "driving blocks rewritten to drive(left, right, 1000 ms) without hardware calibration (pxt-climate-action MIGRATION.md)"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/gr9-verticalfarm-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 9-10"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/gr9-verticalfarm-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 9-10"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/hs-autodelivery-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 9-12",
+                    "hidden": "driving blocks rewritten to drive(left, right, 1000 ms) without hardware calibration (pxt-climate-action MIGRATION.md)"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/hs-autodelivery-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 9-12",
+                    "hidden": "driving blocks rewritten to drive(left, right, 1000 ms) without hardware calibration (pxt-climate-action MIGRATION.md)"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/hs-fishways-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 9-12"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/hs-fishways-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 9-12"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/hs-hopespots-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 9-12"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/hs-hopespots-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 9-12"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/hs-mobileirrigation-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 9-12",
+                    "hidden": "driving blocks rewritten to drive(left, right, 1000 ms) without hardware calibration (pxt-climate-action MIGRATION.md)"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/hs-mobileirrigation-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 9-12",
+                    "hidden": "driving blocks rewritten to drive(left, right, 1000 ms) without hardware calibration (pxt-climate-action MIGRATION.md)"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/gr11-electriccar-use",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 11-12",
+                    "hidden": "driving blocks rewritten to drive(left, right, 1000 ms) without hardware calibration (pxt-climate-action MIGRATION.md)"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/gr11-electriccar-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Grade 11-12",
+                    "hidden": "driving blocks rewritten to drive(left, right, 1000 ms) without hardware calibration (pxt-climate-action MIGRATION.md)"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-climate-action/curriculum/pd-stepcounter-modify",
+                    "tag": "v2.0.3",
+                    "grade": "Educator"
+                },
+                {
+                    "post": 29925,
+                    "share": "S89570-64988-69068-85683"
+                },
+                {
+                    "post": 29923,
+                    "share": "S65517-75437-76015-37900"
+                },
+                {
+                    "post": 29854,
+                    "share": "S66016-49986-07546-16011"
+                },
+                {
+                    "post": 26293,
+                    "share": "S69448-51434-01574-98251"
+                },
+                {
+                    "post": 26293,
+                    "share": "S56265-71458-72987-78246"
+                },
+                {
+                    "post": 25531,
+                    "share": "S15736-76550-71528-60320"
+                },
+                {
+                    "post": 26191,
+                    "share": "S16061-74845-13429-98095"
+                },
+                {
+                    "post": 20969,
+                    "share": "S34388-57933-60743-18536"
+                },
+                {
+                    "post": 20969,
+                    "share": "S15758-90103-33948-46661"
+                },
+                {
+                    "post": 20969,
+                    "share": "S76133-45531-74126-47858"
+                },
+                {
+                    "post": 18779,
+                    "share": "_MAu1vz6LM3vW"
+                },
+                {
+                    "post": 18814,
+                    "share": "_2wU1TKC73cFk"
+                },
+                {
+                    "post": 18751,
+                    "share": "_J6eLDw9biKve"
+                }
+            ]
+        },
+        {
+            "id": "coding-for-good-kit",
+            "title": "Coding for Good Kit",
+            "image": "https://learn.forwardedu.com/wp-content/uploads/2026/10/cfg-hero-open-kit.jpg",
+            "items": [
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/ai-water-conditions/use-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/ai-water-conditions/modify-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/ai-wind-conditions/use-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/ai-wind-conditions/modify-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/avalanche-beacon/use-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/avalanche-beacon/modify-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/beat-loops/use-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/beat-loops/modify-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/breathing-light/use-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/breathing-light/modify-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/composting-conditions/use-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/composting-conditions/modify-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/earthquake-detector/use-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/earthquake-detector/modify-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/echo-locator/use-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/echo-locator/modify-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/field-station/use-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/field-station/modify-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/fire-alarm/use-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/fire-alarm/modify-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/frost-warning/use-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/frost-warning/modify-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/home-energy-monitor/use-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/home-energy-monitor/modify-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/machine-safety-switch/use-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/machine-safety-switch/modify-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/mood-light/use-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/mood-light/modify-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/plaza-comfort-dashboard/use-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/plaza-comfort-dashboard/modify-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/plaza-crowd-control/use-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/plaza-crowd-control/modify-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/sorting-ramp/use-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/sorting-ramp/modify-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/storm-warning/use-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/storm-warning/modify-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/structure-stress-test/use-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/structure-stress-test/modify-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/tempo-test/use-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/tempo-test/modify-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/thermal-transfer/use-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/thermal-transfer/modify-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/weather-patterns/use-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/weather-patterns/modify-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/wireless-data/use-tutorial",
+                    "tag": "v1.1.4"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-coding-for-good/curriculum/lessons/wireless-data/modify-tutorial",
+                    "tag": "v1.1.4"
+                }
+            ]
+        },
+        {
+            "id": "smart-hydroponics",
+            "title": "Smart Hydroponics",
+            "items": [
+                {
+                    "post": 26807,
+                    "share": "S38176-65549-90187-99484"
+                },
+                {
+                    "post": 24817,
+                    "share": "S84580-61809-88604-10923"
+                },
+                {
+                    "post": 24802,
+                    "share": "S86927-23136-27837-78128"
+                },
+                {
+                    "post": 24802,
+                    "share": "S19620-59854-04749-93060"
+                },
+                {
+                    "post": 24802,
+                    "share": "S48420-35983-71301-79480"
+                },
+                {
+                    "post": 24816,
+                    "share": "S00002-60075-12901-37437"
+                },
+                {
+                    "post": 24818,
+                    "share": "S51781-30199-69061-11049"
+                },
+                {
+                    "post": 26469,
+                    "share": "S47515-68203-49655-81848"
+                },
+                {
+                    "post": 24815,
+                    "share": "S19886-25639-88145-36973"
+                },
+                {
+                    "post": 24815,
+                    "share": "S20129-10615-46780-11719"
+                },
+                {
+                    "post": 24799,
+                    "share": "S94614-53602-20264-50659"
+                },
+                {
+                    "post": 24799,
+                    "share": "S38882-20415-60178-04925"
+                },
+                {
+                    "post": 26458,
+                    "share": "S46563-42145-89523-10471"
+                },
+                {
+                    "post": 24792,
+                    "share": "S89155-06824-00458-10707"
+                },
+                {
+                    "post": 24792,
+                    "share": "S07774-16855-93816-55157"
+                },
+                {
+                    "post": 24792,
+                    "share": "S42338-46319-53384-64467"
+                },
+                {
+                    "post": 24801,
+                    "share": "S34388-57933-60743-18536"
+                },
+                {
+                    "post": 24801,
+                    "share": "S15758-90103-33948-46661"
+                },
+                {
+                    "post": 24801,
+                    "share": "S76133-45531-74126-47858"
+                }
+            ]
+        },
+        {
+            "id": "charge-for-micro-bit",
+            "title": "CHARGE for micro:bit",
+            "items": [
+                {
+                    "post": 25754,
+                    "share": "S33343-87413-09370-34032"
+                },
+                {
+                    "post": 21662,
+                    "share": "_dF4Hu7ag6a89"
+                },
+                {
+                    "post": 21662,
+                    "share": "_JaveavKMHPkg"
+                },
+                {
+                    "post": 21496,
+                    "share": "_U2fHML0aUaRR"
+                },
+                {
+                    "post": 21496,
+                    "share": "_aPE3upLLMX4A",
+                    "hidden": "the Hot-Cold Game post links the Rock-Paper-Scissors program as its second share; that program has its own card"
+                },
+                {
+                    "post": 21299,
+                    "share": "_L943LJEjEiWU"
+                },
+                {
+                    "post": 21299,
+                    "share": "_FUjdKXHy6bFR"
+                },
+                {
+                    "post": 20771,
+                    "share": "_cakT8Cgb4FTD"
+                },
+                {
+                    "post": 20771,
+                    "share": "_dTKeXEAP9AwX"
+                },
+                {
+                    "post": 20683,
+                    "share": "_aPE3upLLMX4A"
+                },
+                {
+                    "post": 20651,
+                    "share": "_cJyXssJRKDw4"
+                },
+                {
+                    "post": 20624,
+                    "share": "_18xUqXUjfbY9"
+                },
+                {
+                    "post": 20560,
+                    "share": "S48172-76603-39345-49654"
+                }
+            ]
+        },
+        {
+            "id": "smart-sensors",
+            "title": "Smart Sensors",
+            "items": [
+                {
+                    "post": 28941,
+                    "share": "S64503-07664-65576-44668"
+                },
+                {
+                    "post": 28941,
+                    "share": "S08366-75683-00458-78428"
+                },
+                {
+                    "post": 28987,
+                    "share": "S04017-31259-79796-08258"
+                },
+                {
+                    "post": 28987,
+                    "share": "S21992-76190-71798-47880"
+                },
+                {
+                    "post": 28987,
+                    "share": "S32896-18730-27374-42946"
+                },
+                {
+                    "post": 28987,
+                    "share": "S61763-59304-45972-95305"
+                },
+                {
+                    "post": 28987,
+                    "share": "S07213-33270-05063-76358"
+                },
+                {
+                    "post": 28987,
+                    "share": "S89203-12939-67722-70166"
+                },
+                {
+                    "post": 24797,
+                    "share": "S68479-51875-72395-29711"
+                },
+                {
+                    "post": 24797,
+                    "share": "S75097-03422-31722-08799"
+                },
+                {
+                    "post": 29045,
+                    "share": "S38561-71325-79226-65099"
+                },
+                {
+                    "post": 29045,
+                    "share": "S66693-58362-90227-05389"
+                },
+                {
+                    "post": 29045,
+                    "share": "S72450-40562-24108-61555"
+                },
+                {
+                    "post": 29045,
+                    "share": "S88034-64238-10499-91486"
+                },
+                {
+                    "post": 30697,
+                    "share": "S91642-05521-95883-51875"
+                },
+                {
+                    "post": 30701,
+                    "share": "S87555-21707-75054-94172"
+                },
+                {
+                    "post": 30491,
+                    "share": "S46252-28344-71135-01628"
+                }
+            ]
+        },
+        {
+            "id": "smart-solar",
+            "title": "Smart Solar",
+            "items": [
+                {
+                    "tutorial": "Forward-Education/pxt-smart-solar/curriculum/ms-solartracking/modify",
+                    "tag": "v2.0.3"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-smart-solar/curriculum/ms-solartracking/use",
+                    "tag": "v2.0.3"
+                },
+                {
+                    "tutorial": "Forward-Education/pxt-smart-solar/curriculum/projects/current-monitor/tutorial-v2",
+                    "tag": "v2.0.3"
+                },
+                {
+                    "post": 25564,
+                    "share": "S76416-30278-25069-92860"
+                },
+                {
+                    "post": 26491,
+                    "share": "S20524-13133-43912-11955"
+                },
+                {
+                    "post": 25497,
+                    "share": "S96595-31703-98435-81472"
+                },
+                {
+                    "post": 25497,
+                    "share": "S65025-88443-76550-42568"
+                },
+                {
+                    "post": 25497,
+                    "share": "S25811-58917-88611-45476"
+                },
+                {
+                    "post": 25497,
+                    "share": "S75545-59075-10162-40465"
+                }
+            ]
+        },
+        {
+            "id": "smart-soldering",
+            "title": "Smart Soldering",
+            "items": [
+                {
+                    "post": 25526,
+                    "share": "S70922-58753-98576-05933"
+                },
+                {
+                    "post": 25526,
+                    "share": "S77670-17632-02787-52126"
+                },
+                {
+                    "post": 24796,
+                    "share": "S02011-23057-00069-38528"
+                },
+                {
+                    "post": 24796,
+                    "share": "S26853-33015-90489-36250"
+                },
+                {
+                    "post": 24796,
+                    "share": "S70124-44422-31815-57512"
+                },
+                {
+                    "post": 24796,
+                    "share": "S01483-89696-03829-67623"
+                },
+                {
+                    "post": 24796,
+                    "share": "S55002-12230-99448-97305"
+                },
+                {
+                    "post": 25419,
+                    "share": "S27974-17419-81633-41786"
+                },
+                {
+                    "post": 25419,
+                    "share": "S95853-17037-32353-35494"
+                },
+                {
+                    "post": 25418,
+                    "share": "S38991-52316-63687-93628"
+                },
+                {
+                    "post": 25418,
+                    "share": "S23111-84859-73063-53675"
+                }
+            ]
+        },
+        {
+            "id": "robot-tour",
+            "title": "Robot Tour",
+            "items": [
+                {
+                    "tutorial": "Forward-Education/pxt-robot-tour/curriculum/projects/robot-tour/tutorial",
+                    "tag": "v1.0.4"
+                },
+                {
+                    "post": 26593,
+                    "share": "S89570-64988-69068-85683"
+                }
+            ]
+        }
+    ]
+}

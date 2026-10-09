@@ -1,0 +1,36 @@
+{
+    "name": "fwd-smart-solar",
+    "version": "2.0.3",
+    "description": "Forward Education's Smart Solar Kit extension, micro:bit V2 only.",
+    "license": "MIT",
+    "dependencies": {
+        "fwd-energy": "github:Forward-Education/pxt-fwd-modules/fwd-energy#v1.1.11",
+        "fwd-servo-positional": "github:Forward-Education/pxt-fwd-modules/fwd-servo-positional#v1.1.11"
+    },
+    "files": [
+        "README.md",
+        "curriculum/general-assets/blank-solar-project.md",
+        "curriculum/ms-solartracking/use.md",
+        "curriculum/ms-solartracking/modify.md",
+        "curriculum/projects/current-monitor/tutorial.md",
+        "curriculum/projects/current-monitor/tutorial-v2.md",
+        "tutorial-info-cache.json",
+        "_locales/fr/curriculum/general-assets/blank-solar-project.md",
+        "_locales/fr/curriculum/ms-solartracking/modify.md",
+        "_locales/fr/curriculum/ms-solartracking/use.md",
+        "_locales/fr/curriculum/projects/current-monitor/tutorial-v2.md",
+        "_locales/fr/curriculum/projects/current-monitor/tutorial.md"
+    ],
+    "testFiles": [
+        "tests/test.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "9.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}

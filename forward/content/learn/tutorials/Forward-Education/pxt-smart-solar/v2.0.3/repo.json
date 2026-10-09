@@ -1,0 +1,14 @@
+{
+  "repo": "Forward-Education/pxt-smart-solar",
+  "tag": "v2.0.3",
+  "sha": "f2ddfa91e4041b526fa03f426f096c6a6606d9a6",
+  "files": [
+    "_locales/fr/curriculum/ms-solartracking/modify.md",
+    "_locales/fr/curriculum/ms-solartracking/use.md",
+    "_locales/fr/curriculum/projects/current-monitor/tutorial-v2.md",
+    "curriculum/ms-solartracking/modify.md",
+    "curriculum/ms-solartracking/use.md",
+    "curriculum/projects/current-monitor/tutorial-v2.md",
+    "pxt.json"
+  ]
+}

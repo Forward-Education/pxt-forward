@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Builds the Forward editor in a separate build copy:
-#   pristine check, overlay, npm install, invariants, then pxt staticpkg.
+#   pristine check, home galleries check, overlay, npm install, invariants, then pxt staticpkg.
 #
 #   bash forward/scripts/build.sh [extra staticpkg flags]
 #
@@ -14,6 +14,8 @@ STRICT=()
 if [ "${FWD_STRICT:-0}" = "1" ]; then STRICT=(--strict); fi
 
 node "$ROOT/forward/scripts/check-pristine.js"
+# The home galleries are generated from forward/content/learn; the committed output must be current.
+node "$ROOT/forward/build/learn-gallery.js" --check
 node "$ROOT/forward/build/apply-overlay.js" --out "$OUT"
 
 # pxt-microbit pins pxt-core and pxt-common-packages to exact versions but ships no lockfile.
@@ -33,5 +35,9 @@ node "$ROOT/forward/build/jacdac-sim.js" "$OUT/built/packaged"
 
 # Forward's extensions as a static GitHub-proxy snapshot under /api/gh (forward/extensions.json).
 node "$ROOT/forward/build/gh-snapshot.js" "$OUT/built/packaged"
+
+# The home-gallery tutorials that live in Forward's extensions, answered at /ghtutorial/... the way
+# makecode.com would (forward/content/learn).
+node "$ROOT/forward/build/learn-gallery.js" --site "$OUT/built/packaged"
 
 echo "build.sh: static editor at $OUT/built/packaged"

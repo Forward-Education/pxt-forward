@@ -1,0 +1,9 @@
+{
+  "repo": "Forward-Education/pxt-robot-tour",
+  "tag": "v1.0.4",
+  "sha": "64e835362af64b2078ace29f22a68b02607a3f68",
+  "files": [
+    "curriculum/projects/robot-tour/tutorial.md",
+    "pxt.json"
+  ]
+}

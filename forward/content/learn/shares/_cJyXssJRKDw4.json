@@ -1,0 +1,12 @@
+{
+  "id": "_cJyXssJRKDw4",
+  "name": "Water Bottle Signal",
+  "target": "microbit",
+  "created": "2024-09-26T20:14:25.000Z",
+  "files": {
+    "README.md": "",
+    "main.blocks": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><variables></variables><block type=\"pxt-on-start\" x=\"35\" y=\"64\"><statement name=\"HANDLER\"><block type=\"basic_show_icon\"><field name=\"i\">IconNames.Duck</field></block></statement></block><block type=\"device_gesture_event\" x=\"249\" y=\"64\"><field name=\"NAME\">Gesture.ScreenDown</field><statement name=\"HANDLER\"><block type=\"basic_show_icon\"><field name=\"i\">IconNames.No</field></block></statement></block><block type=\"device_button_event\" x=\"33\" y=\"231\"><field name=\"NAME\">Button.AB</field><statement name=\"HANDLER\"><block type=\"basic_show_icon\"><field name=\"i\">IconNames.Duck</field></block></statement></block></xml>",
+    "main.ts": "input.onGesture(Gesture.ScreenDown, function () {\n    basic.showIcon(IconNames.No)\n})\ninput.onButtonPressed(Button.AB, function () {\n    basic.showIcon(IconNames.Duck)\n})\nbasic.showIcon(IconNames.Duck)\n",
+    "pxt.json": "{\n    \"name\": \"Water Bottle Signal\",\n    \"description\": \"\",\n    \"dependencies\": {\n        \"core\": \"*\",\n        \"radio\": \"*\",\n        \"microphone\": \"*\"\n    },\n    \"files\": [\n        \"main.blocks\",\n        \"main.ts\",\n        \"README.md\"\n    ],\n    \"targetVersions\": {\n        \"branch\": \"v7.0.42\",\n        \"tag\": \"v7.0.42\",\n        \"commits\": \"https://github.com/microsoft/pxt-microbit/commits/a8ca1804c23ae470eec9e54b4284fcf730baa956\",\n        \"target\": \"7.0.42\",\n        \"pxt\": \"10.2.39\"\n    },\n    \"preferredEditor\": \"blocksprj\"\n}\n"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "_L943LJEjEiWU",
+  "name": "Hydration Alert - Constant",
+  "target": "microbit",
+  "created": "2024-10-24T15:54:33.000Z",
+  "files": {
+    "README.md": "",
+    "main.blocks": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><variables><variable id=\"2w_MkKZtI9C@q-b2c:mY\">Timer</variable></variables><block type=\"every_interval\" x=\"39\" y=\"56\"><value name=\"interval\"><shadow type=\"longTimePicker\"><field name=\"ms\">600000</field></shadow></value><statement name=\"HANDLER\"><block type=\"device_show_leds\"><field name=\"LEDS\">`\n        . . # . . \n        . # # # . \n        # # # # # \n        # # # # # \n        . # # # .\n        `</field><next><block type=\"music_playable_play\"><field name=\"playbackMode\">music.PlaybackMode.UntilDone</field><value name=\"toPlay\"><shadow type=\"music_tone_playable\"><value name=\"note\"><shadow type=\"device_note\"><field name=\"name\">262</field></shadow></value><value name=\"duration\"><shadow type=\"device_beat\"><field name=\"fraction\">BeatFraction.Whole</field></shadow></value></shadow></value><next><block type=\"device_clear_display\"></block></next></block></next></block></statement></block></xml>",
+    "main.ts": "loops.everyInterval(600000, function () {\n    basic.showLeds(`\n        . . # . .\n        . # # # .\n        # # # # #\n        # # # # #\n        . # # # .\n        `)\n    music.play(music.tonePlayable(262, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)\n    basic.clearScreen()\n})\n",
+    "pxt.json": "{\n    \"name\": \"Hydration Alert - Constant\",\n    \"description\": \"\",\n    \"dependencies\": {\n        \"core\": \"*\",\n        \"radio\": \"*\",\n        \"microphone\": \"*\"\n    },\n    \"files\": [\n        \"main.blocks\",\n        \"main.ts\",\n        \"README.md\"\n    ],\n    \"targetVersions\": {\n        \"branch\": \"v7.0.51\",\n        \"tag\": \"v7.0.51\",\n        \"commits\": \"https://github.com/microsoft/pxt-microbit/commits/c3819f016bd720d0eb86efea9a84dcd4fc7b2e1f\",\n        \"target\": \"7.0.51\",\n        \"pxt\": \"11.1.5\"\n    },\n    \"preferredEditor\": \"blocksprj\"\n}\n"
+  }
+}

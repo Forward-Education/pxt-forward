@@ -1,0 +1,12 @@
+{
+  "id": "_dF4Hu7ag6a89",
+  "name": "Outside Thermometer",
+  "target": "microbit",
+  "created": "2024-11-12T14:52:55.000Z",
+  "files": {
+    "README.md": "",
+    "main.blocks": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><variables></variables><block type=\"pxt-on-start\" x=\"39\" y=\"51\"><statement name=\"HANDLER\"><block type=\"radio_set_group\"><value name=\"ID\"><shadow type=\"math_number_minmax\"><mutation min=\"0\" max=\"255\" label=\"Id\" precision=\"0\"></mutation><field name=\"SLIDER\">5</field></shadow></value></block></statement></block><block type=\"device_forever\" x=\"271\" y=\"53\"><statement name=\"HANDLER\"><block type=\"radio_datagram_send\"><value name=\"value\"><shadow type=\"math_number\"><field name=\"NUM\">0</field></shadow><block type=\"device_temperature\"></block></value><next><block type=\"device_pause\"><value name=\"pause\"><shadow type=\"timePicker\"><field name=\"ms\">10000</field></shadow></value></block></next></block></statement></block></xml>",
+    "main.ts": "radio.setGroup(5)\nbasic.forever(function () {\n    radio.sendNumber(input.temperature())\n    basic.pause(10000)\n})\n",
+    "pxt.json": "{\n    \"name\": \"Outside Thermometer\",\n    \"description\": \"\",\n    \"dependencies\": {\n        \"core\": \"*\",\n        \"radio\": \"*\",\n        \"microphone\": \"*\"\n    },\n    \"files\": [\n        \"main.blocks\",\n        \"main.ts\",\n        \"README.md\"\n    ],\n    \"targetVersions\": {\n        \"branch\": \"v7.0.51\",\n        \"tag\": \"v7.0.51\",\n        \"commits\": \"https://github.com/microsoft/pxt-microbit/commits/c3819f016bd720d0eb86efea9a84dcd4fc7b2e1f\",\n        \"target\": \"7.0.51\",\n        \"pxt\": \"11.1.5\"\n    },\n    \"preferredEditor\": \"blocksprj\"\n}\n"
+  }
+}

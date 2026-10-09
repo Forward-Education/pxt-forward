@@ -12,7 +12,9 @@
 // Pages rewrites map those paths onto the files (rules in api/redirects.txt, merged into
 // _redirects by prepare-pages.sh). Shapes match makecode.com's proxy (checked 2026-10-07).
 //
-// Starts from forward/extensions.json and follows every github: and file: dependency. Needs a
+// Starts from forward/extensions.json ("roots", which extension search offers, and
+// "tutorialDependencies", the versions the home-gallery tutorials pin) and follows every github:
+// and file: dependency. Needs a
 // GitHub token: GITHUB_TOKEN, or `gh auth token` locally. Responses are cached by commit in
 // forward/.build/gh-cache/.
 "use strict";
@@ -70,7 +72,8 @@ function parseGithub(spec) {
 const slugOf = p => `${p.owner}/${p.repo}`.toLowerCase();
 const repos = new Map();     // slug -> { owner, repo, spellings:Set, tags: Map(tag -> sha) }
 const packages = new Map();  // slug#tag/sub -> files
-const queue = config.roots.map(spec => parseGithub(spec) || fail(`bad root ${spec}`));
+const queue = [...config.roots, ...(config.tutorialDependencies || [])]
+    .map(spec => parseGithub(spec) || fail(`bad root ${spec}`));
 
 async function resolveTag(p) {
     if (p.tag) return p.tag;
