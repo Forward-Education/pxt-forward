@@ -6,7 +6,7 @@
 #
 #   FWD_BUILD_DIR   build copy location (default: forward/.build)
 #   FWD_STRICT=1    invariant findings fail the build, not just errors
-#   FWD_BOARDS=1    add the device switcher's extra boards (forward/docs/device-switcher.md)
+#   FWD_BOARDS=1    add the device picker's extra boards (forward/docs/device-picker.md)
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
@@ -27,7 +27,7 @@ node "$ROOT/forward/build/check-invariants.js" --build "$OUT" ${STRICT[@]+"${STR
 # Always the target's own pxt-core, never a globally installed pxt.
 (cd "$OUT" && node node_modules/pxt-core/built/pxt.js staticpkg "$@")
 
-# Device switcher boards (FWD_BOARDS=1 only; forward/docs/device-switcher.md).
+# Device picker boards (FWD_BOARDS=1 only; forward/docs/device-picker.md).
 node "$ROOT/forward/build/inject-boards.js" "$OUT" "$OUT/built/packaged"
 
 # Native images for Forward's extension combinations (forward/native-combos.json), so Download

@@ -13,10 +13,10 @@
 //   5. delete the paths listed in forward/overlay/exclude.txt
 //   6. write forward-build.json describing what was built
 //
-// With FWD_BOARDS=1, the extra boards of the device switcher are added too
-// (forward/docs/device-switcher.md): forward/overlay/boards/pxtarget.patch.json is merged after the
+// With FWD_BOARDS=1, the extra boards of the device picker are added too
+// (forward/docs/device-picker.md): forward/overlay/boards/pxtarget.patch.json is merged after the
 // main patch, each forward/overlay/boards/libs/<board> is copied in, and so is
-// forward/overlay/boards/files/** (the device switcher, the simulator's board views). Board packages
+// forward/overlay/boards/files/** (the device picker, the simulator's board views). Board packages
 // are not added to bundleddirs:
 // forward/build/inject-boards.js bundles them after staticpkg (it explains why).
 //
@@ -208,7 +208,7 @@ const main = copyTree(path.join(OVERLAY, "files"), "forward/overlay/files", repl
 const overlayFiles = main.files;
 const replaced = main.replaced;
 
-// Board packages and the device switcher (FWD_BOARDS=1 only). forward/overlay/boards/files has its
+// Board packages and the device picker (FWD_BOARDS=1 only). forward/overlay/boards/files has its
 // own ledger section, "replacedWithBoards", so the default build never carries those changes.
 for (const d of boardLibs)
     execFileSync("rsync", ["-a", "--delete", `${path.join(BOARDS, "libs", d)}/`, `${path.join(OUT, "libs", d)}/`], { stdio: "inherit" });

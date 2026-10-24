@@ -1,0 +1,19 @@
+{
+    "name": "board-microrgb",
+    "description": "Forward MicroRGB (RP2040), running the micro:bit blocks through Forward's CODAL layer",
+    "core": true,
+    "compileServiceVariant": "fwdrp2040",
+    "disablesVariants": [
+        "mbdal",
+        "mbcodal"
+    ],
+    "dependencies": {
+        "core": "file:../core"
+    },
+    "files": [
+        "README.md",
+        "board.json",
+        "board.svg"
+    ],
+    "public": true
+}

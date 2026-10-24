@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// Adds the device switcher's board packages (forward/overlay/boards/libs/<board>) to a built
-// editor. Only runs for builds with FWD_BOARDS=1 (forward/docs/device-switcher.md).
+// Adds the device picker's board packages (forward/overlay/boards/libs/<board>) to a built
+// editor. Only runs for builds with FWD_BOARDS=1 (forward/docs/device-picker.md).
 //
 //   node forward/build/inject-boards.js <build dir> <site dir>
 //
@@ -55,7 +55,7 @@ for (const name of ["target.json", "target.js"]) {
     const json = JSON.stringify(bundle, null, 4);
     fs.writeFileSync(p, isJs ? PREFIX + json : json);
 }
-// The device switcher must be in the editor bundle, or nobody can switch boards.
-if (!fs.readFileSync(path.join(SITE, "editor.js"), "utf8").includes("fwd-board-switcher"))
-    throw new Error("editor.js has no device switcher (forward/overlay/boards/files/editor/fwd-boards.ts)");
-console.log(`inject-boards: bundled ${boards.join(", ")}; device switcher in editor.js`);
+// The device picker must be in the editor bundle, or nobody can start a project on these boards.
+if (!fs.readFileSync(path.join(SITE, "editor.js"), "utf8").includes("fwd-device-picker"))
+    throw new Error("editor.js has no device picker (forward/overlay/boards/files/editor/fwd-boards.ts)");
+console.log(`inject-boards: bundled ${boards.join(", ")}; device picker in editor.js`);

@@ -39,15 +39,8 @@
     ],
     "spiPins": {},
     "boardName": "Raspberry Pi Pico",
-    "fwdLacks": [
-        "the 5x5 LED display",
-        "buttons A and B",
-        "motion sensing and the compass",
-        "the microphone and speaker",
-        "radio and Bluetooth",
-        "touch pins and the touch logo"
-    ],
     "fwdDownloads": false,
-    "$comment": "Picture and layout from pxt-maker libs/rpi-pico (MIT, Microsoft). fwdShortName, fwdLacks and fwdDownloads are read by Forward's device switcher (editor/fwd-boards.ts); the hidden blocks are pxt's toolboxFilter in pxt.json.",
-    "fwdShortName": "Pico"
+    "$comment": "Picture and layout from pxt-maker libs/rpi-pico (MIT, Microsoft). fwdShortName, fwdSummary and fwdDownloads are read by Forward's device picker (editor/fwd-boards.ts); the hidden blocks are pxt's toolboxFilter in pxt.json.",
+    "fwdShortName": "Pico",
+    "fwdSummary": "Raspberry Pi Pico. No display, buttons, motion sensing or radio: pins, music on a pin, temperature, serial and Jacdac."
 }

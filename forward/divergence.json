@@ -4,7 +4,7 @@
         "replaced: upstream pxt-microbit files that forward/overlay/files replaces. apply-overlay.js fails if the upstream file's SHA-256 no longer matches, so someone re-checks the replacement.",
         "overridden: pxt-core files (from the npm package) that a same-named file in the target's docfiles/ overrides. check-invariants.js checks them after npm install.",
         "Hashes are for pxt-microbit v9.0.12 and pxt-core 13.0.9.",
-        "replacedWithBoards: like replaced, for forward/overlay/boards/files, which only builds with FWD_BOARDS=1 (forward/docs/device-switcher.md)."
+        "replacedWithBoards: like replaced, for forward/overlay/boards/files, which only builds with FWD_BOARDS=1 (forward/docs/device-picker.md)."
     ],
     "replaced": {
         "docfiles/apptrackingweb.html": {

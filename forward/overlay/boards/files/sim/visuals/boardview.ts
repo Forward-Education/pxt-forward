@@ -1,9 +1,11 @@
 namespace pxsim.visuals {
-    // Forward (device switcher, forward/docs/device-switcher.md): a board whose board.json carries
-    // its own picture (visual is an object) is drawn with pxtsim's generic board view, as pxt-maker
-    // does. micro:bit keeps upstream's view.
+    // Forward (device picker, forward/docs/device-picker.md): a board whose board.json carries its own
+    // picture (visual is an object) is drawn with pxtsim's generic board view, as pxt-maker does,
+    // unless it asks for the micro:bit view with "fwdSimView": "microbit" (a micro:bit-compatible
+    // board without its own simulator artwork yet). micro:bit keeps upstream's view.
     mkBoardView = (opts: BoardViewOptions): BoardView => {
-        if (opts.visual && typeof opts.visual === "object") {
+        const def = opts.boardDef as any;
+        if (opts.visual && typeof opts.visual === "object" && !(def && def.fwdSimView === "microbit")) {
             return new visuals.GenericBoardSvg({
                 visualDef: opts.visual as BoardImageDefinition,
                 boardDef: opts.boardDef,
