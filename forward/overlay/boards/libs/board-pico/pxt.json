@@ -1,0 +1,18 @@
+{
+    "name": "board-pico",
+    "description": "Raspberry Pi Pico (RP2040), running the micro:bit blocks through Forward's CODAL layer",
+    "core": true,
+    "compileServiceVariant": "fwdpico",
+    "disablesVariants": [
+        "mbdal",
+        "mbcodal"
+    ],
+    "dependencies": {
+        "core": "file:../core"
+    },
+    "files": [
+        "README.md",
+        "board.json"
+    ],
+    "public": true
+}

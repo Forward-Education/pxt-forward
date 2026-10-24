@@ -82,7 +82,7 @@ All of these are Forward files in the overlay. Points 3 and 4 are the first deli
 
 | # | Phase | Depends on | Estimate | Done when |
 |---|---|---|---|---|
-| 1 | **Switching plumbing**: board packages and variants, the reload-on-switch fix, a placeholder Pico image (a blink built from `codal-forward-brain`) | nothing | about 1.5 pw | Switching between micro:bit and Pico changes the board name, the variant and the file type; micro:bit images keep identical fingerprints; switching back gives a universal hex |
+| 1 | **Switching plumbing**: board packages and variants behind `FWD_BOARDS=1` | nothing | about 1.5 pw | Switching between micro:bit and Pico changes the board name, the variant and the file type; micro:bit images keep identical fingerprints; switching back gives a universal hex. **Done 2026-10-24**, see below. |
 | 2 | **The dropdown** above the simulator, with the hardware warning and a smoke test | 1 | about 1 pw | Works in Chrome and Edge; survives reload; projects reopen on their board |
 | 3 | **Simulator board views**: the generic path, Pico artwork, brain artwork reusing micro:bit state | 1 | 1.5 to 2 pw | Each board draws, and blocks for missing hardware are flagged |
 | 4 | **Pico compiles for real**: build image, pre-built natives, drag-and-drop download | M7 CODAL layer reaching "scroll text, buttons, tone" | 1.5 to 2 pw, beyond the firmware itself | A micro:bit blocks project runs on a Pico from the editor |
@@ -91,6 +91,33 @@ All of these are Forward files in the overlay. Points 3 and 4 are the first deli
 - **Phases 1 to 3** are editor work and could start now.
 - **Phases 4 and 5** wait on the firmware. The CODAL layer is the bulk of the cost and is M7's question.
 - **Shipping:** nothing reaches students until a second board really works. Until then the dropdown stays behind a flag, or lists only the micro:bit.
+
+## Phase 1 results (2026-10-24)
+
+**What was built:**
+- **The Pico board package:** `forward/overlay/boards/libs/board-pico`, with `board.json`, the `fwdpico` variant, and no code.
+- **The flag:** `forward/overlay/boards/pxtarget.patch.json` applies only with `FWD_BOARDS=1`.
+  - `apply-overlay.js` copies the board packages in.
+  - `forward/build/inject-boards.js` bundles them after `staticpkg`.
+- **Without the flag** the effective `pxtarget.json` is byte-identical to before, and no board package is built.
+
+**Checked with `FWD_BOARDS=1`,** in a local build in the Pages emulator:
+
+| Check | Result |
+|---|---|
+| micro:bit native images (`/hexcache`) | Same 24 files, byte-identical to the build without the flag |
+| New micro:bit project, Download | Universal `.hex` (1.3 MB), both images (V1 `949fbd03`, V2 `354b97da`) served from `/hexcache` |
+| Download menu, "Choose Hardware", pick the Pico | The project gains one dependency, `"board-pico": "*"`. The editor shows board "Raspberry Pi Pico", drive RPI-RP2, variant `fwdpico`, output `binary.uf2`, UF2 family `0xe48bff56`, no WebUSB. |
+| Pico download | Fails as expected: `/hexcache/<sha>.hex` 404, then `/api/compile/extension` (no service). All requests stay on our origin. **The student sees no error message.** |
+| Remove the Pico dependency, no reload | Still `fwdpico` and `.uf2`: the stuck-variant bug, confirmed |
+| Then reload | micro:bit, no variant, universal `.hex` again |
+
+**What phase 1 taught us:**
+- **No placeholder Pico image is possible.** Any Pico image is built from `codal-forward-brain`, so Pico downloads wait for the M7 firmware layer. The earlier draft of this plan promised a placeholder; that was wrong.
+- **staticpkg can't build board packages yet.** With `dynamicBoardDefinition`, staticpkg test-compiles every `"core": true` package as a project, which needs that board's native image. Board packages therefore carry no code and are bundled after the build. Once Forward builds RP2040 images, they can move back into `bundleddirs`.
+- **pxt's board dialog can't switch back to micro:bit.** It lists only board packages, and micro:bit deliberately has none: a dependency on a `board-microbit` package would stop projects opening on makecode.microbit.org. Phase 2's dropdown handles "micro:bit" by removing the board package, then reloading.
+- **Phase 2 also needs a clear message** when a board has no native image yet ("Pico downloads aren't available yet").
+- **Hidden blocks:** the Pico still shows every micro:bit category (Radio, LED, ...). Hiding blocks for missing hardware is phase 3.
 
 ## Decisions for Brian
 

@@ -1,0 +1,36 @@
+{
+    "$comment": [
+        "Merged over the effective pxtarget.json only when the build runs with FWD_BOARDS=1 (forward/docs/device-switcher.md, phase 1). Without the flag the build is exactly the micro:bit editor.",
+        "apply-overlay.js copies each forward/overlay/boards/libs/<board> into the build, and forward/build/inject-boards.js bundles it after staticpkg.",
+        "dynamicBoardDefinition: a project's core board package (\"core\": true) supplies board.json and the compile variant. micro:bit projects have no board package, so they keep today's universal hex and stay openable on makecode.microbit.org.",
+        "fwdpico: placeholder until codal-forward-brain builds for the Pico (plan M7). The service id and docker image name the Forward build that will make those images; no image exists yet, so Pico projects can't download."
+    ],
+    "simulator": {
+        "dynamicBoardDefinition": true
+    },
+    "variants": {
+        "fwdpico": {
+            "compile": {
+                "useUF2": true,
+                "webUSB": false,
+                "uf2Family": "0xe48bff56",
+                "flashCodeAlign": 256,
+                "flashUsableEnd": 2097152,
+                "flashEnd": 2097152,
+                "flashChecksumAddr": 0
+            },
+            "compileService": {
+                "buildEngine": "codal",
+                "codalTarget": {
+                    "name": "codal-forward-brain",
+                    "url": "https://github.com/Forward-Education/codal-forward-brain",
+                    "branch": "main",
+                    "type": "git"
+                },
+                "codalBinary": "PI-PICO",
+                "serviceId": "fwdpico",
+                "dockerImage": "ghcr.io/forward-education/fwd-rp2040:placeholder"
+            }
+        }
+    }
+}

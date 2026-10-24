@@ -13,6 +13,11 @@
 //   5. delete the paths listed in forward/overlay/exclude.txt
 //   6. write forward-build.json describing what was built
 //
+// With FWD_BOARDS=1, the extra boards of the device switcher are added too
+// (forward/docs/device-switcher.md): forward/overlay/boards/pxtarget.patch.json is merged after the
+// main patch, and each forward/overlay/boards/libs/<board> is copied in. They are not added to
+// bundleddirs: forward/build/inject-boards.js bundles them after staticpkg (it explains why).
+//
 // ${brand.<key>} placeholders in the overlay JSON are filled from forward/brand.json.
 "use strict";
 
@@ -24,6 +29,8 @@ const { execFileSync } = require("child_process");
 const ROOT = path.resolve(__dirname, "..", "..");
 const FWD = path.join(ROOT, "forward");
 const OVERLAY = path.join(FWD, "overlay");
+const BOARDS = path.join(OVERLAY, "boards");
+const WITH_BOARDS = process.env.FWD_BOARDS === "1";
 
 const argv = process.argv.slice(2);
 const outIdx = argv.indexOf("--out");
@@ -148,7 +155,15 @@ execFileSync("rsync", [
 const target = mergePatch(
     readJson(path.join(ROOT, "pxtarget.json")),
     fillBrand(stripMeta(readJson(path.join(OVERLAY, "pxtarget.patch.json"))), brand));
-writeJson(path.join(OUT, "pxtarget.json"), target);
+const boardLibs = WITH_BOARDS ? fs.readdirSync(path.join(BOARDS, "libs")).filter(d => !d.startsWith(".")).sort() : [];
+let effectiveTarget = target;
+if (WITH_BOARDS) {
+    effectiveTarget = mergePatch(target, fillBrand(stripMeta(readJson(path.join(BOARDS, "pxtarget.patch.json"))), brand));
+    for (const d of boardLibs) {
+        if (fs.existsSync(path.join(ROOT, "libs", d))) fail(`forward/overlay/boards/libs/${d} would replace an upstream library`);
+    }
+}
+writeJson(path.join(OUT, "pxtarget.json"), effectiveTarget);
 
 // 3. targetconfig.json
 const upstreamConfig = readJson(path.join(ROOT, "targetconfig.json"));
@@ -185,6 +200,10 @@ for (const rel of overlayFiles) {
 for (const rel of Object.keys(replacedLedger))
     if (!overlayFiles.includes(rel)) fail(`forward/divergence.json lists ${rel}, but forward/overlay/files/${rel} does not exist`);
 
+// Board packages (FWD_BOARDS=1 only). Always new directories, never upstream files.
+for (const d of boardLibs)
+    execFileSync("rsync", ["-a", "--delete", `${path.join(BOARDS, "libs", d)}/`, `${path.join(OUT, "libs", d)}/`], { stdio: "inherit" });
+
 // 5. Excluded upstream paths.
 const excluded = [];
 const excludeFile = path.join(OVERLAY, "exclude.txt");
@@ -208,6 +227,7 @@ writeJson(path.join(OUT, "forward-build.json"), {
     dirty: (git("status", "--porcelain") || "") !== "",
     productName: brand.productName,
     domain: brand.domain,
+    boards: boardLibs,
     overlay: {
         replaced,
         added: overlayFiles.filter(f => !replaced.includes(f)),
@@ -217,3 +237,4 @@ writeJson(path.join(OUT, "forward-build.json"), {
 
 console.log(`apply-overlay: build copy ready at ${OUT}`);
 console.log(`  files replaced ${replaced.length}, added ${overlayFiles.length - replaced.length}, excluded ${excluded.length}`);
+if (WITH_BOARDS) console.log(`  boards (FWD_BOARDS=1): ${boardLibs.join(", ")}`);
