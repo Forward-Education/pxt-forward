@@ -15,6 +15,11 @@ Steps of `deploy-staging`:
    - `404.html`: a real 404 for unknown paths
 3. Uploads the site with Wrangler as the `main` (production) deployment of the staging project.
 
+**Staging includes the device picker's extra boards** (`FWD_BOARDS=1` in `fwd-build.yml`, since
+2026-10-24; `forward/docs/device-picker.md`). New Project asks for the device (micro:bit, MicroRGB,
+Raspberry Pi Pico). Only micro:bit downloads so far. Production must build without the flag until a
+second device downloads.
+
 The build is about 3,500 files and 230 MB, with no file over 5 MiB. That's well inside Pages'
 limits of 20,000 files and 25 MiB per file.
 

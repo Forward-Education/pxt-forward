@@ -44,6 +44,10 @@ jobs:
           FWD_BUILD_DIR: ${{ runner.temp }}/fwd-build
           # Read-only access to public repos for the extension snapshot (gh-snapshot.js).
           GITHUB_TOKEN: ${{ github.token }}
+          # The device picker's extra boards (forward/docs/device-picker.md), on for staging since
+          # 2026-10-24. This artifact is what staging deploys; a production build must leave it off
+          # until a second device downloads.
+          FWD_BOARDS: "1"
         run: bash forward/scripts/build.sh
 
       - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
