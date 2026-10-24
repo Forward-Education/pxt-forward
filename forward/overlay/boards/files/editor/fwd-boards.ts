@@ -266,7 +266,7 @@ namespace fwdboards {
 #root.miniSim #${LABEL_ID} { display: none !important; }
 #${LABEL_ID} { display: block !important; padding: 0.4em 0.2em; }
 #${LABEL_ID} .fwd-device-note { font-size: 0.85em; opacity: 0.8; margin-top: 0.2em; }
-.ui.card.file .${BADGE_CLASS} { position: absolute; top: 0.4em; right: 0.4em; z-index: 1; padding: 0.15em 0.5em; border-radius: 1em; font-size: 0.75em; font-weight: 600; line-height: 1.4; background: #e8e8e8; color: #222; pointer-events: none; }
+.ui.card.file .${BADGE_CLASS} { position: absolute; bottom: 0.6em; left: 0.6em; z-index: 1; padding: 0.15em 0.5em; border-radius: 1em; font-size: 0.75em; font-weight: 600; line-height: 1.4; background: #e8e8e8; color: #222; pointer-events: none; }
 .ui.card.file .${BADGE_CLASS}.forward { background: #157f4a; color: #fff; }
 #${PICKER_ID} { position: fixed; inset: 0; z-index: 2000; background: rgba(0,0,0,0.55); display: flex; align-items: center; justify-content: center; padding: 16px; }
 #${PICKER_ID} .fwd-picker-panel { background: #fff; color: #222; border-radius: 0.6em; padding: 1.2em 1.4em; max-width: 46em; width: 100%; max-height: 100%; overflow: auto; }

@@ -1,8 +1,8 @@
 {
     "name": "board-microrgb",
-    "description": "Forward MicroRGB (RP2040), running the micro:bit blocks through Forward's CODAL layer",
+    "description": "Forward MicroRGB (nRF52833), running the micro:bit blocks through its own CODAL target",
     "core": true,
-    "compileServiceVariant": "fwdrp2040",
+    "compileServiceVariant": "fwdmicrorgb",
     "disablesVariants": [
         "mbdal",
         "mbcodal"

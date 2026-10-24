@@ -8,7 +8,7 @@ default build is unchanged: without the flag it's exactly the micro:bit editor.
 - **Device first.** New Project asks "Choose your device" (micro:bit, MicroRGB, Raspberry Pi Pico), then pxt's own name dialog. The project is created on that device.
 - **The device is fixed for the life of the project.** There's no switching inside a project (see "Ideas for later" for "Duplicate as...").
 - **Above the simulator:** "Device: <name>", read-only, plus "Downloads aren't available for this device yet" while a device has no native images.
-- **My Projects:** each project card has a small corner label with its device (grey "micro:bit", green for Forward's boards).
+- **My Projects:** each project card has a small label in its bottom-left corner with its device (grey "micro:bit", green for Forward's boards).
 - **Opening a project for a different device** than the page is set up for reloads the page once, straight back into the project. This works around a pxt bug (below).
 - **Each device's simulator and blocks:** the Pico has its own picture and hides the blocks for hardware it lacks. MicroRGB uses the micro:bit simulator view and all the blocks for now.
 - **micro:bit only:** when micro:bit is the only device, the picker never shows and nothing changes. That's every build without `FWD_BOARDS=1`, which includes production today.
@@ -20,12 +20,17 @@ Decided 2026-10-24 (Brian): device first, fixed per project. This replaced the d
 | Device | Package | Variant | Simulator | Blocks | Downloads |
 |---|---|---|---|---|---|
 | micro:bit (V1, V2) | none (on purpose) | universal `.hex` (`mbdal` + `mbcodal`) | micro:bit | all | yes, as today |
-| MicroRGB (`hw-breakoutv3`, working name) | `board-microrgb` | `fwdrp2040` | micro:bit view (`fwdSimView`) until it has its own artwork | all, until its hardware list is confirmed | after M7 (`codal-forward-brain`) |
+| MicroRGB (`hw-microbit-clone`, nRF52833, working name) | `board-microrgb` | `fwdmicrorgb` | micro:bit view (`fwdSimView`): same edge connector and on-board parts | all | once its own CODAL target exists |
 | Raspberry Pi Pico | `board-pico` | `fwdpico` | Pico picture (pxt-maker, MIT) | missing hardware hidden (`toolboxFilter`) | after M7 |
-| Hybrid breakout, standalone mode | later | `fwdrp2040` or its own | later | later | later |
+| Forward Brain (`hw-breakoutv3`, RP2040) and the hybrid breakout's standalone mode | later | an RP2040 variant like `fwdpico` | later | later | after M7 |
 
 - **Why micro:bit has no board package:** a project depending on a `board-microbit` package wouldn't open on makecode.microbit.org. So "no board package" means micro:bit.
-- **MicroRGB is assumed to be the hw-breakoutv3 board:** RP2040, 5x5 RGB matrix, A/B buttons, motion, sound, radio and battery. Its `board.svg` is a placeholder for the picker and the project cards. Confirm its hardware list (for example the touch logo) with the hardware session before hiding any blocks.
+- **MicroRGB** (confirmed with the hw-microbit-clone session, 2026-10-24): Forward's micro:bit-compatible board on the nRF52833, the micro:bit V2's chip, with no interface chip. REV_A is in layout; no hardware or firmware yet.
+  - **Same as a micro:bit V2 for students:** the edge connector pinout, buttons A and B, touch logo, microphone, speaker, radio (works with real micro:bits), Bluetooth, temperature and the 2 x AAA battery socket. So it uses the micro:bit simulator view and all the blocks.
+  - **Different underneath:** a 5x5 RGB NeoPixel display, a separate light sensor, a different accelerometer (SC7A20H) and compass (MMC5603NJ), and different chip pins behind the edge connector. It therefore needs its own CODAL target forked from `codal-microbit-v2`, which the hw-microbit-clone session estimates at 4 to 7 person-months (`docs/firmware-plan.md` there).
+  - **Downloads:** a UF2 drive on the chip's native USB, plus WebUSB/HF2 from the runtime. There's no DAPLink, so the editor's micro:bit WebUSB flasher doesn't apply. The Jacdac bridge must go through HF2, because pxt-microbit's reads RAM over the debug port, which MicroRGB doesn't expose over USB.
+  - **Open there:** USB VID/PID, drive name, Bluetooth name and the product name, which must not contain "micro:bit".
+  - Its `board.svg` is a placeholder for the picker and the project cards.
 
 ## Tutorials on every device
 
@@ -44,7 +49,7 @@ Decided 2026-10-24 (Brian): device first, fixed per project. This replaced the d
 2. **Device-neutral tutorials:** a tutorial marked as device-neutral (for example a metadata line such as `### @fwdAnyDevice`, to be designed) asks "Choose your device" when started, then adds that board package. Starting a tutorial doesn't go through New Project, so this needs its own hook.
 3. **A browser smoke test in CI.** It would create a project on each device, check the label and the simulator, and open a project for another device. Today the build only checks that the picker code is in `editor.js`. This fits the smoke-test port planned for M1.
 4. **Pico pins in the simulator,** once `codal-forward-brain` decides which Pico GPIO each micro:bit pin name (P0 to P20) maps to.
-5. **MicroRGB artwork** for the simulator, replacing the micro:bit view.
+5. **MicroRGB artwork** for the simulator, replacing the micro:bit view, and **colour blocks** for its RGB display.
 6. **Review the hidden-block lists** with someone who teaches with the micro:bit blocks.
 7. **Edge and Chromebook testing.**
 8. **An upstream pxt PR** for the stuck compile variant (`pxtlib/package.ts`, below), which would remove the reload.
@@ -67,7 +72,7 @@ Everything is in `forward/overlay/boards/` and only applies with `FWD_BOARDS=1`:
 
 | File | What it does |
 |---|---|
-| `pxtarget.patch.json` | `dynamicBoardDefinition`, plus the `fwdpico` and `fwdrp2040` variants (placeholders until Forward builds RP2040 images) |
+| `pxtarget.patch.json` | `dynamicBoardDefinition`, plus the `fwdpico` and `fwdmicrorgb` variants (placeholders until their CODAL targets build) |
 | `libs/board-pico/`, `libs/board-microrgb/` | Board packages: `pxt.json` (variant, hidden blocks), `board.json` (simulator definition plus Forward's `fwdShortName`, `fwdSummary`, `fwdDownloads`, `fwdSimView`), `board.svg` |
 | `files/editor/fwd-boards.ts` | Device picker, device label, project card labels, reload. It runs next to upstream's `editor/extension.tsx` without changing it. |
 | `files/sim/visuals/boardview.ts` | Replaces upstream's: a board with its own picture gets pxtsim's generic board view, unless `fwdSimView` asks for the micro:bit view. Ledger: `replacedWithBoards` in `forward/divergence.json`. |
@@ -77,8 +82,8 @@ Everything is in `forward/overlay/boards/` and only applies with `FWD_BOARDS=1`:
 
 ## Same blocks on every board
 
-- **micro:bit blocks everywhere.** Teachers and lessons move between devices, and "Duplicate as..." (later) relies on it. So the Pico and MicroRGB run micro:bit blocks through Forward's CODAL layer (`codal-forward-brain`). The Pico runs micro:bit blocks through Forward's CODAL layer (`codal-forward-brain`), It does not use Maker's different Pico blocks.
-- **The Pico is the development board.** M7's proof of concept already targets a Pico with a 5x5 NeoPixel grid. So the Pico can stand in while MicroRGB hardware is scarce, and the picker, simulator and compile pipeline can be built and tested before MicroRGB ships.
+- **micro:bit blocks everywhere.** Teachers and lessons move between devices, and "Duplicate as..." (later) relies on it. So every device runs the micro:bit blocks: MicroRGB through its own CODAL target forked from `codal-microbit-v2`, and Pico boards through Forward's RP2040 CODAL layer (`codal-forward-brain`). The Pico does not use Maker's different Pico blocks.
+- **The Pico is the development board.** M7's proof of concept already targets a Pico with a 5x5 NeoPixel grid. So the Pico can stand in for Forward's RP2040 boards, and the picker, simulator and compile pipeline can be built and tested before they ship.
 - **Hidden blocks:** each board package hides the blocks for hardware it lacks, with pxt's `toolboxFilter`. Hiding happens per device, so a project never mixes devices.
 
 ## Compiling and downloading
@@ -87,10 +92,12 @@ Everything is in `forward/overlay/boards/` and only applies with `FWD_BOARDS=1`:
 |---|---|---|---|
 | micro:bit | universal `.hex` | WebUSB (DAPLink) or drag to MICROBIT | Unchanged |
 | Pico | `.uf2`, ROM family `0xe48bff56`, linked at the start of flash | Drag to the RPI-RP2 drive (hold BOOTSEL when plugging in) | No WebUSB in v1; the ROM speaks PICOBOOT, not HF2 |
-| MicroRGB | `.uf2`, Forward family (open decision 23 in hw-breakoutv3), linked at `0x10010000` | Drag to the FORWARD drive, or WebUSB through HF2 to staging | USB ID `0x2E8A:0x115C`. Whether pxt's HF2 flasher works unchanged is M7 deliverable 4. |
+| MicroRGB | `.uf2`, nRF52833 family `0x621e937a`, flash layout to match its UF2 bootloader | Drag to its USB drive, or WebUSB through HF2 | No DAPLink. USB VID/PID and drive name not decided yet. |
+| Forward Brain (RP2040) | `.uf2`, Forward family (open decision 23 in hw-breakoutv3), linked at `0x10010000` | Drag to the FORWARD drive, or WebUSB through HF2 to staging | USB ID `0x2E8A:0x115C`. Whether pxt's HF2 flasher works unchanged is M7 deliverable 4. |
 
 - **Native images:** each RP2040 board needs its own. Forward has no compile service yet, so the base combinations (plain, plus Jacdac) must be pre-built like today's micro:bit ones. That means:
-  - a `fwd-rp2040` build image with `codal-forward-brain`
+  - for Pico boards, a `fwd-rp2040` build image with `codal-forward-brain`
+  - for MicroRGB, its CODAL target in the same `fwd-codal` image as micro:bit V2 (same chip and toolchain)
   - new entries in `native-combos.json`
   - extending `prebuild-natives.js` to UF2
 
@@ -105,17 +112,18 @@ Everything is in `forward/overlay/boards/` and only applies with `FWD_BOARDS=1`:
 | 2 | Choosing the device: the dropdown (done, then replaced), now the device picker at New Project | Done 2026-10-24 (Chrome) |
 | 3 | Simulator views and hidden blocks: Pico done; MicroRGB uses the micro:bit view until its artwork | Done 2026-10-24 for the Pico |
 | 4 | **Pico compiles for real:** build image, pre-built native images, drag-and-drop download | Waits for the M7 CODAL layer ("scroll text, buttons, tone"); about 1.5 to 2 pw beyond the firmware |
-| 5 | **MicroRGB:** native images, HF2 WebUSB download, battery and logging blocks, its own artwork | Waits for M7 GO and MicroRGB hardware; about 1.5 pw beyond the firmware |
+| 5 | **MicroRGB:** native images from its CODAL target, UF2 and HF2 WebUSB download, colour blocks, its own artwork | Waits for MicroRGB's CODAL target (hw-microbit-clone, 4 to 7 person-months) and REV_A boards; about 1.5 pw beyond the firmware |
+| 6 | **Forward Brain (RP2040):** its own board package and variant | Waits for M7 GO |
 
 **Shipping:** nothing reaches students until a second device really downloads. Until then the boards stay behind `FWD_BOARDS=1`.
 
 ## Decisions
 
-1. **Pico and MicroRGB run micro:bit blocks** through Forward's CODAL layer, not Maker's Pico blocks (2026-10-24).
+1. **Every device runs micro:bit blocks:** MicroRGB through its own CODAL target, Pico boards through `codal-forward-brain`, not Maker's Pico blocks (2026-10-24).
 2. **Device first, fixed per project,** chosen at New Project (2026-10-24). This replaced switching in place.
 3. **Pico downloads by drag and drop only** in v1. WebUSB to the Pico ROM would need a new flasher.
 4. **The picker is hidden while micro:bit is the only device.**
-5. **The Forward micro:bit clone is called MicroRGB** for now (2026-10-24).
+5. **The Forward micro:bit clone is called MicroRGB** for now (2026-10-24). It's the nRF52833 board from hw-microbit-clone, not an RP2040 board. Pico boards are part of the strategy too.
 
 ## Risks
 
@@ -130,7 +138,7 @@ Everything is in `forward/overlay/boards/` and only applies with `FWD_BOARDS=1`:
 | Check | Result |
 |---|---|
 | New Project | "Choose your device" with micro:bit, MicroRGB and Raspberry Pi Pico, each with its picture and summary |
-| Choose MicroRGB, name it | Project created with `board-microrgb`; micro:bit simulator view, all blocks, `fwdrp2040`, `.uf2`; "Device: MicroRGB" and the downloads note above the simulator |
+| Choose MicroRGB, name it | Project created with `board-microrgb`; micro:bit simulator view, all blocks, `.uf2`; "Device: MicroRGB" and the downloads note above the simulator. (Tested with an RP2040 variant before MicroRGB was confirmed as nRF52833; the variant is now `fwdmicrorgb`.) |
 | My Projects | MicroRGB, Pico and micro:bit labels on the right cards |
 | Cancel (button, Escape, or a click outside) | No project created, no name dialog |
 | Keyboard | Enter on New Project opens the picker with focus on the first device; Escape closes it and focus returns to New Project |

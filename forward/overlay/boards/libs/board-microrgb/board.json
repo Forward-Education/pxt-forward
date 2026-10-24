@@ -1,5 +1,5 @@
 {
-    "$comment": "Forward MicroRGB (hw-breakoutv3, RP2040). Pins and parts as the micro:bit's; the simulator uses the micro:bit view (fwdSimView) until MicroRGB has its own artwork. board.svg is a placeholder for the device picker and project cards. fwdShortName, fwdSummary and fwdDownloads are read by Forward's device picker (editor/fwd-boards.ts).",
+    "$comment": "Forward MicroRGB (hw-microbit-clone: nRF52833, its own CODAL target, native USB with a UF2 drive and WebUSB/HF2; working name). Same edge connector and on-board parts as a micro:bit V2, so the simulator uses the micro:bit view (fwdSimView) until MicroRGB has its own artwork. board.svg is a placeholder for the device picker and project cards. driveDisplayName is a placeholder (drive name not decided). fwdShortName, fwdSummary and fwdDownloads are read by Forward's device picker (editor/fwd-boards.ts).",
     "visual": {
         "image": "pkg://board.svg",
         "width": 252,
@@ -94,6 +94,7 @@
         "compass",
         "builtinspeaker",
         "microphone",
+        "logotouch",
         "flashlog",
         "v2"
     ],
@@ -111,9 +112,9 @@
         0
     ],
     "boardName": "MicroRGB",
-    "driveDisplayName": "FORWARD",
+    "driveDisplayName": "MICRORGB",
     "fwdSimView": "microbit",
     "fwdShortName": "MicroRGB",
-    "fwdSummary": "Forward's micro:bit-compatible board: 5x5 RGB display, buttons A and B, motion sensing, sound, radio and a battery.",
+    "fwdSummary": "Forward's micro:bit-compatible board: the same edge connector, a 5x5 RGB display, buttons A and B, touch logo, motion, sound, radio and Bluetooth.",
     "fwdDownloads": false
 }

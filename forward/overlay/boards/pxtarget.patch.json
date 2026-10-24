@@ -4,7 +4,7 @@
         "apply-overlay.js copies each forward/overlay/boards/libs/<board> into the build, and forward/build/inject-boards.js bundles it after staticpkg.",
         "dynamicBoardDefinition: a project's core board package (\"core\": true) supplies board.json and the compile variant. micro:bit projects have no board package, so they keep today's universal hex and stay openable on makecode.microbit.org.",
         "fwdpico: placeholder until codal-forward-brain builds for the Pico (plan M7). The service id and docker image name the Forward build that will make those images; no image exists yet, so Pico projects can't download.",
-        "fwdrp2040 (MicroRGB): placeholder like fwdpico. Its UF2 family id is open decision 23 in hw-breakoutv3, so none is set; the program region is provisional (4 MB at 0x10010000, after the 64 KB Forward boot stage). WebUSB (HF2 to the board's staging region, USB 0x2E8A:0x115C) comes with M7 deliverable 4."
+        "fwdmicrorgb (MicroRGB, hw-microbit-clone, nRF52833): placeholder until Forward's CODAL target for it exists (forked from codal-microbit-v2; the repository name here is provisional). UF2 family 0x621e937a is the registered nRF52833 family (the board uses a UF2 bootloader on native USB); the flash limits are copied from mbcodal and must be re-checked against the bootloader's layout. WebUSB (HF2 in the runtime) and the USB VID/PID come later. It builds with the same toolchain as micro:bit V2 (the fwd-codal image)."
     ],
     "simulator": {
         "dynamicBoardDefinition": true
@@ -33,26 +33,29 @@
                 "dockerImage": "ghcr.io/forward-education/fwd-rp2040:placeholder"
             }
         },
-        "fwdrp2040": {
+        "fwdmicrorgb": {
             "compile": {
                 "useUF2": true,
                 "webUSB": false,
-                "flashCodeAlign": 256,
-                "flashUsableEnd": 4259840,
-                "flashEnd": 4259840,
-                "flashChecksumAddr": 0
+                "uf2Family": "0x621e937a",
+                "flashCodeAlign": 4096,
+                "flashUsableEnd": 471040,
+                "flashEnd": 524288
             },
             "compileService": {
                 "buildEngine": "codal",
                 "codalTarget": {
-                    "name": "codal-forward-brain",
-                    "url": "https://github.com/Forward-Education/codal-forward-brain",
+                    "name": "codal-forward-microrgb",
+                    "url": "https://github.com/Forward-Education/codal-forward-microrgb",
                     "branch": "main",
                     "type": "git"
                 },
-                "codalBinary": "FORWARD-BRAIN",
-                "serviceId": "fwdrp2040",
-                "dockerImage": "ghcr.io/forward-education/fwd-rp2040:placeholder"
+                "codalBinary": "MICRORGB",
+                "githubCorePackage": "lancaster-university/microbit-v2-samples",
+                "gittag": "v0.2.13",
+                "serviceId": "fwdmicrorgb",
+                "dockerImage": "ghcr.io/forward-education/fwd-codal:placeholder",
+                "yottaConfigCompatibility": true
             }
         }
     }
