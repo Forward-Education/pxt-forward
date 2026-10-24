@@ -15,8 +15,9 @@
 //
 // With FWD_BOARDS=1, the extra boards of the device switcher are added too
 // (forward/docs/device-switcher.md): forward/overlay/boards/pxtarget.patch.json is merged after the
-// main patch, and each forward/overlay/boards/libs/<board> is copied in. They are not added to
-// bundleddirs: forward/build/inject-boards.js bundles them after staticpkg (it explains why).
+// main patch, each forward/overlay/boards/libs/<board> is copied in, and so is the device switcher
+// (forward/overlay/boards/editor/*, into editor/). Board packages are not added to bundleddirs:
+// forward/build/inject-boards.js bundles them after staticpkg (it explains why).
 //
 // ${brand.<key>} placeholders in the overlay JSON are filled from forward/brand.json.
 "use strict";
@@ -200,9 +201,15 @@ for (const rel of overlayFiles) {
 for (const rel of Object.keys(replacedLedger))
     if (!overlayFiles.includes(rel)) fail(`forward/divergence.json lists ${rel}, but forward/overlay/files/${rel} does not exist`);
 
-// Board packages (FWD_BOARDS=1 only). Always new directories, never upstream files.
+// Board packages and the device switcher (FWD_BOARDS=1 only). Always new files, never upstream ones.
 for (const d of boardLibs)
     execFileSync("rsync", ["-a", "--delete", `${path.join(BOARDS, "libs", d)}/`, `${path.join(OUT, "libs", d)}/`], { stdio: "inherit" });
+const boardEditorFiles = WITH_BOARDS ? listFiles(path.join(BOARDS, "editor")) : [];
+for (const rel of boardEditorFiles) {
+    if (fs.existsSync(path.join(ROOT, "editor", rel))) fail(`forward/overlay/boards/editor/${rel} would replace an upstream editor file`);
+    fs.mkdirSync(path.dirname(path.join(OUT, "editor", rel)), { recursive: true });
+    fs.copyFileSync(path.join(BOARDS, "editor", rel), path.join(OUT, "editor", rel));
+}
 
 // 5. Excluded upstream paths.
 const excluded = [];

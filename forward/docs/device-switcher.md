@@ -83,7 +83,7 @@ All of these are Forward files in the overlay. Points 3 and 4 are the first deli
 | # | Phase | Depends on | Estimate | Done when |
 |---|---|---|---|---|
 | 1 | **Switching plumbing**: board packages and variants behind `FWD_BOARDS=1` | nothing | about 1.5 pw | Switching between micro:bit and Pico changes the board name, the variant and the file type; micro:bit images keep identical fingerprints; switching back gives a universal hex. **Done 2026-10-24**, see below. |
-| 2 | **The dropdown** above the simulator, with the hardware warning and a smoke test | 1 | about 1 pw | Works in Chrome and Edge; survives reload; projects reopen on their board |
+| 2 | **The dropdown** above the simulator, with the hardware warning and a smoke test | 1 | about 1 pw | Works in Chrome and Edge; survives reload; projects reopen on their board. **Done 2026-10-24** (Chrome), see below. |
 | 3 | **Simulator board views**: the generic path, Pico artwork, brain artwork reusing micro:bit state | 1 | 1.5 to 2 pw | Each board draws, and blocks for missing hardware are flagged |
 | 4 | **Pico compiles for real**: build image, pre-built natives, drag-and-drop download | M7 CODAL layer reaching "scroll text, buttons, tone" | 1.5 to 2 pw, beyond the firmware itself | A micro:bit blocks project runs on a Pico from the editor |
 | 5 | **Forward Brain**: its variant, HF2 WebUSB download, battery and logging blocks | M7 GO and brain hardware | about 1.5 pw, beyond the firmware itself | The checklist passes on a brain |
@@ -118,6 +118,37 @@ All of these are Forward files in the overlay. Points 3 and 4 are the first deli
 - **pxt's board dialog can't switch back to micro:bit.** It lists only board packages, and micro:bit deliberately has none: a dependency on a `board-microbit` package would stop projects opening on makecode.microbit.org. Phase 2's dropdown handles "micro:bit" by removing the board package, then reloading.
 - **Phase 2 also needs a clear message** when a board has no native image yet ("Pico downloads aren't available yet").
 - **Hidden blocks:** the Pico still shows every micro:bit category (Radio, LED, ...). Hiding blocks for missing hardware is phase 3.
+
+## Phase 2 results (2026-10-24)
+
+**What was built:** `forward/overlay/boards/editor/fwd-boards.ts`. With `FWD_BOARDS=1`, `apply-overlay.js` copies it into `editor/`.
+- **How it's loaded:** pxt bundles every file in the target's editor folder, so it runs next to upstream's `extension.tsx` without changing it. It wraps `pxt.editor.initExtensionsAsync`.
+- **The dropdown:** "Device", above `#boardview` in the simulator panel. It lists micro:bit plus every bundled `"core": true` package that has a `board.json`.
+- **Switching:**
+  - A confirmation names what the board lacks (`fwdLacks` in its `board.json`) and whether downloads work yet (`fwdDownloads`).
+  - It then rewrites the project's `pxt.json` dependencies through `projectView.updateFileAsync`, saves, and reloads.
+  - **micro:bit** means no board package at all.
+- **Under the dropdown:** "Downloads aren't available for this device yet" when `fwdDownloads` is false.
+- **Opening a project from the home screen** whose board differs from the page's also reloads the page once. The reload is limited to once per project in 10 seconds.
+- **Narrow screens:** hidden where pxt floats a small simulator over the code (`#root.miniSim`).
+- **Build check:** `inject-boards.js` fails the build if `editor.js` lacks the switcher.
+- **pxt internals used:** it reads `pxt.json` through `window.E.pkg`, which pxt exposes for console use (`webapp/src/app.tsx`). It mounts next to `#boardview` inside `.simPanel`. Both are pxt internals to re-check on every pxt-core upgrade. If `window.E` disappears, the dropdown stays hidden (it can't read the project) rather than breaking the editor.
+
+**Checked in Chrome,** in the Pages emulator with `FWD_BOARDS=1`:
+
+| Check | Result |
+|---|---|
+| Dropdown on a micro:bit project | Shows "micro:bit" above the simulator |
+| Pick the Pico, then Cancel | Nothing changes; the dropdown shows micro:bit again |
+| Pick the Pico, then Switch | Reloads; board Raspberry Pi Pico, variant `fwdpico`, `.uf2`, with the note under the dropdown |
+| Pick micro:bit, then Switch | Reloads; no variant, `.hex` |
+| Pico project, then a new micro:bit project from the home screen | One automatic reload (logged); micro:bit, `.hex` |
+| Phone width (375 px) | Dropdown hidden with the floating simulator |
+
+**Still to do:**
+- **Edge:** not tested yet.
+- **A browser smoke test** that fails CI when the dropdown is missing. Today the build only checks that the code is in `editor.js`. This fits the smoke-test port planned for M1.
+- **Phone users can't switch boards.** That's acceptable while only the Pico exists.
 
 ## Decisions for Brian
 

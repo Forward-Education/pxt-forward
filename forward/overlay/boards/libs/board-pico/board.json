@@ -89,5 +89,14 @@
         0
     ],
     "boardName": "Raspberry Pi Pico",
-    "driveDisplayName": "RPI-RP2"
+    "driveDisplayName": "RPI-RP2",
+    "fwdLacks": [
+        "the 5x5 LED display",
+        "buttons A and B",
+        "motion sensing and the compass",
+        "the microphone and speaker",
+        "radio and Bluetooth",
+        "the touch logo"
+    ],
+    "fwdDownloads": false
 }
