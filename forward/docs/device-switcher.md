@@ -84,7 +84,7 @@ All of these are Forward files in the overlay. Points 3 and 4 are the first deli
 |---|---|---|---|---|
 | 1 | **Switching plumbing**: board packages and variants behind `FWD_BOARDS=1` | nothing | about 1.5 pw | Switching between micro:bit and Pico changes the board name, the variant and the file type; micro:bit images keep identical fingerprints; switching back gives a universal hex. **Done 2026-10-24**, see below. |
 | 2 | **The dropdown** above the simulator, with the hardware warning and a smoke test | 1 | about 1 pw | Works in Chrome and Edge; survives reload; projects reopen on their board. **Done 2026-10-24** (Chrome), see below. |
-| 3 | **Simulator board views**: the generic path, Pico artwork, brain artwork reusing micro:bit state | 1 | 1.5 to 2 pw | Each board draws, and blocks for missing hardware are flagged |
+| 3 | **Simulator board views**: the generic path, Pico artwork, brain artwork reusing micro:bit state | 1 | 1.5 to 2 pw | Each board draws, and blocks for missing hardware are flagged. **Pico done 2026-10-24**, see below; brain artwork waits for the board's design. |
 | 4 | **Pico compiles for real**: build image, pre-built natives, drag-and-drop download | M7 CODAL layer reaching "scroll text, buttons, tone" | 1.5 to 2 pw, beyond the firmware itself | A micro:bit blocks project runs on a Pico from the editor |
 | 5 | **Forward Brain**: its variant, HF2 WebUSB download, battery and logging blocks | M7 GO and brain hardware | about 1.5 pw, beyond the firmware itself | The checklist passes on a brain |
 
@@ -121,7 +121,7 @@ All of these are Forward files in the overlay. Points 3 and 4 are the first deli
 
 ## Phase 2 results (2026-10-24)
 
-**What was built:** `forward/overlay/boards/editor/fwd-boards.ts`. With `FWD_BOARDS=1`, `apply-overlay.js` copies it into `editor/`.
+**What was built:** `forward/overlay/boards/files/editor/fwd-boards.ts`. With `FWD_BOARDS=1`, `apply-overlay.js` copies it into `editor/`.
 - **How it's loaded:** pxt bundles every file in the target's editor folder, so it runs next to upstream's `extension.tsx` without changing it. It wraps `pxt.editor.initExtensionsAsync`.
 - **The dropdown:** "Device", above `#boardview` in the simulator panel. It lists micro:bit plus every bundled `"core": true` package that has a `board.json`.
 - **Switching:**
@@ -149,6 +149,39 @@ All of these are Forward files in the overlay. Points 3 and 4 are the first deli
 - **Edge:** not tested yet.
 - **A browser smoke test** that fails CI when the dropdown is missing. Today the build only checks that the code is in `editor.js`. This fits the smoke-test port planned for M1.
 - **Phone users can't switch boards.** That's acceptable while only the Pico exists.
+
+## Phase 3 results (2026-10-24, Pico)
+
+**What was built:**
+- **Simulator:** `forward/overlay/boards/files/sim/visuals/boardview.ts` replaces upstream's. A board whose `board.json` has its own picture (`visual` is an object) is drawn with pxtsim's `GenericBoardSvg`, as pxt-maker does. micro:bit keeps `MicrobitBoardSvg`.
+  - This is the fork's first deliberate edit to upstream code.
+  - It's in the ledger under `replacedWithBoards` in `forward/divergence.json`, and `forward/overlay/boards/files/**` is only applied with `FWD_BOARDS=1`.
+  - The simulator is JavaScript, so native images are unaffected: still byte-identical.
+- **Pico picture:** `board.svg` and its layout come from pxt-maker's `libs/rpi-pico` (MIT, Microsoft), credited in the board's README.
+- **Hidden blocks:** pxt's own `toolboxFilter` in the board package's `pxt.json`. It's a supported package option (`localtypings/pxtpackage.d.ts`), merged by the editor from every dependency.
+  - **Hidden on the Pico:** the LED, Radio, Images, Game and Bluetooth categories, plus the display, button, gesture, motion, compass, light, sound, touch and built-in speaker blocks.
+  - **Still shown:** forever, on start, pause, temperature, pins, music on pins, serial, Loops, Logic, Variables, Math and Extensions.
+  - **Tutorials:** a tutorial's own filters take precedence.
+- **My Projects labels:** each project card gets a small corner label ("micro:bit" grey, Forward boards green, `fwdShortName` in `board.json`).
+  - pxt records a project's board package on its header when the project saves, and shows that board's picture on the card. The label reads the board from that picture, so it needs no extra storage.
+  - A project with no board package is a micro:bit project.
+- **Reload fix:** reloading for a project opened from the home screen now switches the address to `#editor` first. Before, the student landed back on the home screen.
+
+**Checked in Chrome,** in the Pages emulator with `FWD_BOARDS=1`:
+
+| Check | Result |
+|---|---|
+| Pico project | Pico picture in the simulator; toolbox as listed above; Variables and Extensions present |
+| Program with pins, temperature, serial and a tone, on the Pico | Runs. Console: "Unable to find coord for pin: P0", because the Pico picture has no pins for the micro:bit pin names yet. |
+| micro:bit project | micro:bit picture and the full toolbox |
+| My Projects | "micro:bit" and "Pico" labels on the right cards; a new Pico project is labelled straight away |
+| Pico project, then a micro:bit project from the home screen | One reload, straight into the micro:bit project |
+
+**Still open:**
+- **Pico pins in the simulator.** Drawing the pins and mapping the micro:bit pin names (P0 to P20) onto the Pico's GPIOs is a firmware-layer decision (`codal-forward-brain`), so it waits for M7. Until then pin blocks run without showing on the picture.
+- **Forward Brain artwork,** once the board's design settles.
+- **Hidden-block list:** worth a review by someone who teaches with the micro:bit blocks.
+- **Edge:** not tested yet.
 
 ## Decisions for Brian
 

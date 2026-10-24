@@ -15,8 +15,9 @@
 //
 // With FWD_BOARDS=1, the extra boards of the device switcher are added too
 // (forward/docs/device-switcher.md): forward/overlay/boards/pxtarget.patch.json is merged after the
-// main patch, each forward/overlay/boards/libs/<board> is copied in, and so is the device switcher
-// (forward/overlay/boards/editor/*, into editor/). Board packages are not added to bundleddirs:
+// main patch, each forward/overlay/boards/libs/<board> is copied in, and so is
+// forward/overlay/boards/files/** (the device switcher, the simulator's board views). Board packages
+// are not added to bundleddirs:
 // forward/build/inject-boards.js bundles them after staticpkg (it explains why).
 //
 // ${brand.<key>} placeholders in the overlay JSON are filled from forward/brand.json.
@@ -182,34 +183,38 @@ writeJson(path.join(OUT, "targetconfig.json"), config);
 //    version it was written against, so an upstream change gets a human review.
 const ledger = stripMeta(readJson(path.join(FWD, "divergence.json")));
 const replacedLedger = ledger.replaced || {};
-const filesDir = path.join(OVERLAY, "files");
-const overlayFiles = listFiles(filesDir);
-const replaced = [];
-for (const rel of overlayFiles) {
-    const upstreamFile = path.join(ROOT, rel);
-    if (fs.existsSync(upstreamFile)) {
-        const entry = replacedLedger[rel];
-        if (!entry) fail(`forward/overlay/files/${rel} replaces an upstream file, but forward/divergence.json has no "replaced" entry for it`);
-        const now = sha256(upstreamFile);
-        if (entry.upstreamSha256 !== now)
-            fail(`upstream ${rel} changed (ledger ${String(entry.upstreamSha256).slice(0, 12)}, now ${now.slice(0, 12)}); re-check forward/overlay/files/${rel} and update the ledger`);
-        replaced.push(rel);
+// copyTree copies one overlay tree; each file that replaces an upstream file needs a ledger entry.
+function copyTree(dir, label, ledgerSection) {
+    const files = listFiles(dir);
+    const replacedHere = [];
+    for (const rel of files) {
+        const upstreamFile = path.join(ROOT, rel);
+        if (fs.existsSync(upstreamFile)) {
+            const entry = ledgerSection[rel];
+            if (!entry) fail(`${label}/${rel} replaces an upstream file, but forward/divergence.json has no entry for it`);
+            const now = sha256(upstreamFile);
+            if (entry.upstreamSha256 !== now)
+                fail(`upstream ${rel} changed (ledger ${String(entry.upstreamSha256).slice(0, 12)}, now ${now.slice(0, 12)}); re-check ${label}/${rel} and update the ledger`);
+            replacedHere.push(rel);
+        }
+        fs.mkdirSync(path.dirname(path.join(OUT, rel)), { recursive: true });
+        fs.copyFileSync(path.join(dir, rel), path.join(OUT, rel));
     }
-    fs.mkdirSync(path.dirname(path.join(OUT, rel)), { recursive: true });
-    fs.copyFileSync(path.join(filesDir, rel), path.join(OUT, rel));
+    for (const rel of Object.keys(ledgerSection))
+        if (!files.includes(rel)) fail(`forward/divergence.json lists ${rel}, but ${label}/${rel} does not exist`);
+    return { files, replaced: replacedHere };
 }
-for (const rel of Object.keys(replacedLedger))
-    if (!overlayFiles.includes(rel)) fail(`forward/divergence.json lists ${rel}, but forward/overlay/files/${rel} does not exist`);
+const main = copyTree(path.join(OVERLAY, "files"), "forward/overlay/files", replacedLedger);
+const overlayFiles = main.files;
+const replaced = main.replaced;
 
-// Board packages and the device switcher (FWD_BOARDS=1 only). Always new files, never upstream ones.
+// Board packages and the device switcher (FWD_BOARDS=1 only). forward/overlay/boards/files has its
+// own ledger section, "replacedWithBoards", so the default build never carries those changes.
 for (const d of boardLibs)
     execFileSync("rsync", ["-a", "--delete", `${path.join(BOARDS, "libs", d)}/`, `${path.join(OUT, "libs", d)}/`], { stdio: "inherit" });
-const boardEditorFiles = WITH_BOARDS ? listFiles(path.join(BOARDS, "editor")) : [];
-for (const rel of boardEditorFiles) {
-    if (fs.existsSync(path.join(ROOT, "editor", rel))) fail(`forward/overlay/boards/editor/${rel} would replace an upstream editor file`);
-    fs.mkdirSync(path.dirname(path.join(OUT, "editor", rel)), { recursive: true });
-    fs.copyFileSync(path.join(BOARDS, "editor", rel), path.join(OUT, "editor", rel));
-}
+const boardFiles = WITH_BOARDS
+    ? copyTree(path.join(BOARDS, "files"), "forward/overlay/boards/files", ledger.replacedWithBoards || {})
+    : { files: [], replaced: [] };
 
 // 5. Excluded upstream paths.
 const excluded = [];
@@ -235,6 +240,7 @@ writeJson(path.join(OUT, "forward-build.json"), {
     productName: brand.productName,
     domain: brand.domain,
     boards: boardLibs,
+    boardFiles: { replaced: boardFiles.replaced, added: boardFiles.files.filter(f => !boardFiles.replaced.includes(f)) },
     overlay: {
         replaced,
         added: overlayFiles.filter(f => !replaced.includes(f)),

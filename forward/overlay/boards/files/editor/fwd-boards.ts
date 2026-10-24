@@ -3,7 +3,7 @@
 /// <reference path="../node_modules/pxt-core/localtypings/pxteditor.d.ts" />
 
 // Forward's device switcher: a "Device" dropdown above the simulator (forward/docs/device-switcher.md,
-// phase 2). Only in builds with FWD_BOARDS=1; apply-overlay.js copies this file into editor/.
+// phase 2). Only in builds with FWD_BOARDS=1; apply-overlay.js copies this file into editor/ (forward/overlay/boards/files).
 //
 // pxt builds every .js in built/editor into editor.js, so this file runs next to upstream's
 // extension.tsx without changing it. It wraps pxt.editor.initExtensionsAsync whichever of the two
@@ -23,6 +23,7 @@ namespace fwdboards {
     interface Board {
         id: string;
         name: string;
+        shortName: string;
         variant?: string;
         lacks: string[];
         downloads: boolean;
@@ -51,6 +52,7 @@ namespace fwdboards {
         const out: Board[] = [{
             id: MICROBIT,
             name: "micro:bit",
+            shortName: "micro:bit",
             lacks: [],
             downloads: true,
         }];
@@ -63,6 +65,7 @@ namespace fwdboards {
             out.push({
                 id,
                 name: def.boardName || id,
+                shortName: def.fwdShortName || def.boardName || id,
                 variant: cfg.compileServiceVariant,
                 lacks: def.fwdLacks || [],
                 downloads: def.fwdDownloads !== false,
@@ -96,6 +99,9 @@ namespace fwdboards {
         } catch (e) {
             // No session storage (private mode): reload anyway; the board check only reloads on a mismatch.
         }
+        // A project opened from the home screen can still have the home address; #editor reopens the
+        // most recently used project, which is this one.
+        window.history.replaceState(window.history.state, "", window.location.pathname + window.location.search + "#editor");
         window.location.reload();
     }
 
@@ -204,6 +210,34 @@ namespace fwdboards {
         render(root, projectBoard);
     }
 
+    // My Projects: a small label in each project card's corner with the project's board. pxt marks the
+    // card of a project with a board package as "file board" and shows pxt.bundledSvg(board) as its
+    // image (webapp/src/projects.tsx, workspace.ts sets header.board on save), so the image says
+    // which board it is; a project card without one is a micro:bit project.
+    const BADGE_CLASS = "fwd-board-badge";
+    function labelProjectCards() {
+        const cards = document.querySelectorAll(".ui.card.file");
+        for (let i = 0; i < cards.length; i++) {
+            const card = cards[i] as HTMLElement;
+            let board = boards[0];
+            if (card.classList.contains("board")) {
+                const img = card.querySelector(".fileimage");
+                const src = img && (img.getAttribute("data-src") || (img as HTMLElement).style.backgroundImage);
+                board = boards.find(b => b.id != MICROBIT && src && src.indexOf(pxt.bundledSvg(b.id)) >= 0) || board;
+            }
+            let badge = card.querySelector("." + BADGE_CLASS) as HTMLElement;
+            if (badge && badge.textContent == board.shortName) continue;
+            if (!badge) {
+                badge = document.createElement("div");
+                badge.className = BADGE_CLASS;
+                card.appendChild(badge);
+            }
+            badge.textContent = board.shortName;
+            badge.title = board.name;
+            badge.classList.toggle("forward", board.id != MICROBIT);
+        }
+    }
+
     function start(opts: pxt.editor.ExtensionOptions, res: pxt.editor.ExtensionResult) {
         boards = loadBoards();
         if (boards.length < 2) return; // nothing to switch between
@@ -212,7 +246,9 @@ namespace fwdboards {
         // On narrow screens pxt floats a small simulator over the code (#root.miniSim); the dropdown
         // would float with it, so it only shows with the full simulator panel.
         const style = document.createElement("style");
-        style.textContent = `#root.miniSim #${ROOT_ID} { display: none !important; }`;
+        style.textContent = `#root.miniSim #${ROOT_ID} { display: none !important; }
+.ui.card.file .${BADGE_CLASS} { position: absolute; top: 0.4em; right: 0.4em; z-index: 1; padding: 0.15em 0.5em; border-radius: 1em; font-size: 0.75em; font-weight: 600; line-height: 1.4; background: #e8e8e8; color: #222; pointer-events: none; }
+.ui.card.file .${BADGE_CLASS}.forward { background: #157f4a; color: #fff; }`;
         document.head.appendChild(style);
 
         const upstreamInit = res.initAsync;
@@ -227,6 +263,7 @@ namespace fwdboards {
             queued = true;
             window.requestAnimationFrame(() => {
                 queued = false;
+                labelProjectCards();
                 refresh();
             });
         }).observe(document.body, { childList: true, subtree: true });

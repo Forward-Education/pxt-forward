@@ -57,5 +57,5 @@ for (const name of ["target.json", "target.js"]) {
 }
 // The device switcher must be in the editor bundle, or nobody can switch boards.
 if (!fs.readFileSync(path.join(SITE, "editor.js"), "utf8").includes("fwd-board-switcher"))
-    throw new Error("editor.js has no device switcher (forward/overlay/boards/editor/fwd-boards.ts)");
+    throw new Error("editor.js has no device switcher (forward/overlay/boards/files/editor/fwd-boards.ts)");
 console.log(`inject-boards: bundled ${boards.join(", ")}; device switcher in editor.js`);

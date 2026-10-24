@@ -1,102 +1,53 @@
 {
-    "visual": "microbit",
-    "gpioPinBlocks": [
-        [
-            "P0"
+    "driveDisplayName": "RPI-RP2",
+    "visual": {
+        "image": "pkg://board.svg",
+        "useCrocClips": false,
+        "width": 208.3,
+        "height": 118.4,
+        "pinDist": 15,
+        "pinBlocks": [],
+        "leds": [
+            {
+                "x": 92.0207047046369,
+                "y": 38.39268871460768,
+                "w": 11.120971341395725,
+                "h": 10.030683027224555,
+                "color": "neopixel",
+                "label": "NEOPIXEL"
+            }
         ],
-        [
-            "P1"
-        ],
-        [
-            "P2"
-        ],
-        [
-            "P3"
-        ],
-        [
-            "P4",
-            "P5",
-            "P6",
-            "P7"
-        ],
-        [
-            "P8",
-            "P9",
-            "P10",
-            "P11",
-            "P12"
-        ],
-        [
-            "P16"
-        ]
-    ],
-    "gpioPinMap": {
-        "P0": "P0",
-        "P1": "P1",
-        "P2": "P2",
-        "P3": "P3",
-        "P4": "P4",
-        "P5": "P5",
-        "P6": "P6",
-        "P7": "P7",
-        "P8": "P8",
-        "P9": "P9",
-        "P10": "P10",
-        "P11": "P11",
-        "P12": "P12",
-        "P13": "P13",
-        "P14": "P14",
-        "P15": "P15",
-        "P16": "P16",
-        "P19": "P19",
-        "P20": "P20"
+        "touchPads": [],
+        "buttons": [],
+        "reset": {
+            "x": 17.83250718937794,
+            "y": 45.50404575993516,
+            "w": 13.596367783800709,
+            "h": 13.596390332336691
+        }
     },
-    "spiPins": {
-        "MOSI": "P15",
-        "MISO": "P14",
-        "SCK": "P13"
-    },
-    "i2cPins": {
-        "SDA": "P20",
-        "SCL": "P19"
-    },
-    "analogInPins": [
-        "P0",
-        "P1",
-        "P2",
-        "P3",
-        "P10"
-    ],
-    "groundPins": [
-        "GND"
-    ],
-    "threeVoltPins": [
-        "+3v3"
-    ],
-    "attachPowerOnRight": true,
+    "gpioPinMap": {},
+    "groundPins": [],
+    "threeVoltPins": [],
+    "i2cPins": {},
     "onboardComponents": [],
-    "pinStyles": {
-        "P0": "croc",
-        "P1": "croc",
-        "P2": "croc",
-        "GND": "croc",
-        "+3v3": "croc"
-    },
     "marginWhenBreadboarding": [
         0,
         0,
         80,
         0
     ],
+    "spiPins": {},
     "boardName": "Raspberry Pi Pico",
-    "driveDisplayName": "RPI-RP2",
     "fwdLacks": [
         "the 5x5 LED display",
         "buttons A and B",
         "motion sensing and the compass",
         "the microphone and speaker",
         "radio and Bluetooth",
-        "the touch logo"
+        "touch pins and the touch logo"
     ],
-    "fwdDownloads": false
+    "fwdDownloads": false,
+    "$comment": "Picture and layout from pxt-maker libs/rpi-pico (MIT, Microsoft). fwdShortName, fwdLacks and fwdDownloads are read by Forward's device switcher (editor/fwd-boards.ts); the hidden blocks are pxt's toolboxFilter in pxt.json.",
+    "fwdShortName": "Pico"
 }

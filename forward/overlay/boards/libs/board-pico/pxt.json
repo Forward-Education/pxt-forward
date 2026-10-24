@@ -12,7 +12,46 @@
     },
     "files": [
         "README.md",
-        "board.json"
+        "board.json",
+        "board.svg"
     ],
-    "public": true
+    "public": true,
+    "toolboxFilter": {
+        "namespaces": {
+            "led": "hidden",
+            "radio": "hidden",
+            "images": "hidden",
+            "game": "hidden",
+            "bluetooth": "hidden"
+        },
+        "blocks": {
+            "device_show_number": "hidden",
+            "device_show_leds": "hidden",
+            "basic_show_icon": "hidden",
+            "basic_show_arrow": "hidden",
+            "device_print_message": "hidden",
+            "device_clear_display": "hidden",
+            "device_show_image_offset": "hidden",
+            "device_button_event": "hidden",
+            "device_get_button2": "hidden",
+            "device_gesture_event": "hidden",
+            "deviceisgesture": "hidden",
+            "device_acceleration": "hidden",
+            "device_heading": "hidden",
+            "device_get_rotation": "hidden",
+            "device_get_magnetic_force": "hidden",
+            "device_set_accelerometer_range": "hidden",
+            "device_get_light_level": "hidden",
+            "device_get_sound_level": "hidden",
+            "input_on_sound": "hidden",
+            "input_set_sound_threshold": "hidden",
+            "input_logo_event": "hidden",
+            "input_logo_is_pressed": "hidden",
+            "device_pin_event": "hidden",
+            "device_pin_is_pressed": "hidden",
+            "device_pin_released": "hidden",
+            "device_touch_set_type": "hidden",
+            "music_set_built_in_speaker_enable": "hidden"
+        }
+    }
 }

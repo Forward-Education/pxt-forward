@@ -3,7 +3,8 @@
         "Ledger of every place Forward's build differs from upstream file content.",
         "replaced: upstream pxt-microbit files that forward/overlay/files replaces. apply-overlay.js fails if the upstream file's SHA-256 no longer matches, so someone re-checks the replacement.",
         "overridden: pxt-core files (from the npm package) that a same-named file in the target's docfiles/ overrides. check-invariants.js checks them after npm install.",
-        "Hashes are for pxt-microbit v9.0.12 and pxt-core 13.0.9."
+        "Hashes are for pxt-microbit v9.0.12 and pxt-core 13.0.9.",
+        "replacedWithBoards: like replaced, for forward/overlay/boards/files, which only builds with FWD_BOARDS=1 (forward/docs/device-switcher.md)."
     ],
     "replaced": {
         "docfiles/apptrackingweb.html": {
@@ -27,6 +28,13 @@
             "source": "pxt-core",
             "upstreamSha256": "1b99193c55be268e24f8ea2f90feba6a5100bca8178ff68dfe23bc5b100207fe",
             "why": "Stops the once-a-second poll for Application Insights."
+        }
+    },
+    "replacedWithBoards": {
+        "sim/visuals/boardview.ts": {
+            "source": "pxt-microbit",
+            "upstreamSha256": "205b03fc5d827fed4c4b9ab72fb4a418077cb6c67dc03fce84c52e465d5f45f0",
+            "why": "Draws boards whose board.json has its own picture with pxtsim's generic board view; micro:bit unchanged."
         }
     }
 }
